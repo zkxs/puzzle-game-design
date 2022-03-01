@@ -10,7 +10,7 @@ function foo() {
 
 <script>
 function setupSvg(id) {
-    var element = $(id);
+    var element = document.getElementById(id);
     var guaranteedCallbackRan = false;
     var guaranteedCallback = function () {
         if (guaranteedCallbackRan) {
@@ -33,14 +33,14 @@ function setupSvg(id) {
         console.log("Ran setup for " + id);
     }
     var timeout = setTimeout(function(){guaranteedCallback("timeout")}, 100);
-    element.load(function () {
+    $("#" + id).load(function () {
         cleartimeout(timeout);
         guaranteedCallback("load");
     });
     console.log("Registered setup callback for " + id);
 }
 
-var ids = ['#svg-outer-wilds'];
+var ids = ['svg-outer-wilds'];
 document.addEventListener('DOMContentLoaded', function() {
     ids.forEach(id => setupSvg(id));
 }, false);
