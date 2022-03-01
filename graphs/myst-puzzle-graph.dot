@@ -1,0 +1,303 @@
+digraph myst_progression {
+    graph [
+        layout = dot
+        rankdir = TB
+        nodesep = 0.35 // minimum space between two adjacent nodes in the same rank, in inches
+        ranksep = 0.75 // minimum rank separation, in inches
+        bgcolor = gray12
+        pencolor = red // cluster border color
+        fontcolor = red
+        fontname = "Helvetica-bold"
+        fontsize = 24
+        labeljust = "c"
+        labelloc = "t"
+        newrank = true
+    ]
+    edge [
+        color = gray85
+        fontcolor = gray90
+    ]
+    node [
+        color = gray85
+        fontcolor = gray90
+        fontname = "Helvetica"
+        shape = box
+        style = rounded
+    ]
+
+    // special nodes
+    subgraph starts {
+        graph [
+            rank = source
+        ]
+        node [
+            style = "rounded,filled"
+            fillcolor = "#005000"
+        ]
+        start [label = "Start"]
+    }
+
+    subgraph endings {
+        graph [
+            rank = sink // has the potential to cause more problems than it solves
+        ]
+        node [
+            style = "rounded,filled"
+            fillcolor = "#500000"
+            group = "endings" // appears to do nothing?
+        ]
+        ending_trapped_atrus [label = "Trapped with Atrus"]
+        ending_free_brother [label = "You freed a brother,\nbut at what cost?"]
+        ending_good [label = "Good Ending"]
+    }
+
+    subgraph age_access {
+        graph [
+            rank = "same"
+        ]
+        stoneship_access [label = "Boat is unsunk"]
+        mechanical_access [label = "Open the big gear", style = "rounded,filled", fillcolor = "#280060"]
+        selenetic_access [label = "Book appears on spaceship screen"]
+        channelwood_access [label = "Find secret room under the big tree", style = "rounded,filled", fillcolor = "#280060"]
+    }
+
+    // early game nodes
+    tower_rotation [label = "A button that rotates the tower"]
+    read_books [label = "Library books bestow\nknowledge upon you", style = "rounded,filled", fillcolor = "#280060"]
+    basic_marker_switches [label = <All the marker switches<br/>enabled <i>except </i>the clock tower>]
+    breaker_switches [label = "Switches on the electrical\ntowers reset the generator"]
+    tower_access [label = "Library painting\ngrants tower access"]
+    tower_aligned [label = "Align the tower to receive clues", style = "rounded,filled", fillcolor = "#280060"]
+    stoneship_clue [label = "Stoneship clue"]
+    mechanical_clue [label = "Mechanical clue"]
+    selenetic_clue [label = "Selenetic clue"]
+    channelwood_clue [label = "Channelwood clue"]
+    all_marker_switches [label = "All marker switches enabled"]
+
+    // our desired order is: stoneship, channelwood, mechanical, selenetic
+
+    // selenetic entry nodes
+    voltage_set [label = "Perform math to achieve\nthe perfect voltage", style = "rounded,filled", fillcolor = "#280060"]
+    tones_matched [label = "Perform an incredible piano solo", style = "rounded,filled", fillcolor = "#280060"]
+
+    // mechanical entry nodes
+    clocktower_bridge_raised [label = "Raise the bridge to the clock tower", style = "rounded,filled", fillcolor = "#280060"]
+    clocktower_marker_switch [label = "Enable the clock tower marker switch"]
+
+    // stoneship entry nodes
+    date_star_mapping [label = "Use the spooky chair to get stars"]
+    star_constellation_mapping [label = "Learn star/constellation\nmapping from book"]
+    constellation_known [label = "Double mapping code entry", style = "rounded,filled", fillcolor = "#280060"]
+
+    // channelwood entry nodes
+    furnace_manipulation [label = "Get matches. Light furnace."]
+
+    subgraph ages { // making this a cluster will smush all the ages together horzontally and prevent edges
+        // selenetic nodes
+        subgraph cluster_selenetic {
+            graph [
+                label = "Selenetic Age"
+            ]
+            selenetic_entered [label = "Enter the Selenetic age"]
+            selenetic_page_found [label = "Find a page just lying\naround the outdoors"]
+            activate_microphones [label = "Find and activate\nfive microphones", style = "rounded,filled", fillcolor = "#280060"]
+            align_microphones [label = "Find the microphone controls"]
+            door_code [label = "Learn the door code", style = "rounded,filled", fillcolor = "#280060"]
+            selenetic_exit_unlocked [label = "Navigate the Fucko Maze", style = "rounded,filled", fillcolor = "#280060"]
+            selenetic_complete [label = "Selenetic age completed"]
+        }
+
+        // mechanical nodes
+        subgraph cluster_mechanical {
+            graph [
+                label = "Mechanical Age"
+            ]
+            mechanical_entered [label = "Enter the Mechanical Age"]
+            mechanical_page_found [label = "Find a page in a secret room", style = "rounded,filled", fillcolor = "#280060"]
+            cardinal_sounds_learned [label = "Learn cardinal direction\nsounds from the simulator", style = "rounded,filled", fillcolor = "#280060"]
+            mechanical_controls_found [label = "Find your way upstairs,\nand juke the elevator", style = "rounded,filled", fillcolor = "#280060"]
+            fortress_rotation [label = "Rotate the fortress", style = "rounded,filled", fillcolor = "#280060"]
+            mechanical_code_2 [label = "Learn 2nd half of the exit code"]
+            mechanical_code_1 [label = "Learn 1st half of the exit code"]
+            mechanical_exit_unlocked [label = "Unlock the mechanical age exit", style = "rounded,filled", fillcolor = "#280060"]
+            mechanical_complete [label = "Mechanical age completed"]
+        }
+
+        // stoneship nodes
+        subgraph cluster_stoneship {
+            graph [
+                label = "Stoneship Age"
+            ]
+            stoneship_entered [label = "Enter the Stoneship age"]
+            understand_pump [label = "The three buttons\nare for pumping water", style = "rounded,filled", fillcolor = "#280060"]
+            stoneship_page_found [label = "Find a page in the brothers' rooms"]
+            torn_paper_stoneship [label = "Find half of a torn page\nin Acenar's room"]
+            manipulate_chest [label = "Solve the lighthouse chest,\nunlocking the top floor", style = "rounded,filled", fillcolor = "#280060"]
+            power_lighthouse [label = "Charge the battery"]
+            find_secret_compass_room [label = "Find a secret compass room", style = "rounded,filled", fillcolor = "#280060"]
+            observe_lighthouse_bearing [label = "Observe the lighthouse's bearing", style = "rounded,filled", fillcolor = "#280060"]
+            stoneship_exit_unlocked [label = "Illuminate the dark room,\nand find your way out", style = "rounded,filled", fillcolor = "#280060"]
+            stoneship_complete [label = "Stoneship age completed"]
+        }
+
+        // channelwood nodes
+        subgraph cluster_channelwood {
+            graph [
+                label = "Channelwood"
+            ]
+            channelwood_entered [label = "Enter Channelwood"]
+            windmill_manipulated [label = "Get water flowing from the windmill", style = "rounded,filled", fillcolor = "#280060"]
+            channelwood_bridge_raised [label = "Raise the hidden bridge", style = "rounded,filled", fillcolor = "#280060"]
+            channelwood_exit_unlocked [label = "Extend the pipe to power the exit elevator", style = "rounded,filled", fillcolor = "#280060"]
+            channelwood_second_level [label = "Power the elevator to the second level", style = "rounded,filled", fillcolor = "#280060"]
+            channelwood_door_opened [label = "Pull the well-hidden lever\nto open the staircase door", style = "rounded,filled", fillcolor = "#280060"]
+            channelwood_door_found [label = "Use staircase door to bypass the elevator"]
+            channelwood_third_level [label = "Power elevator to third level"]
+            torn_paper_channelwood [label = "Find half of a torn page\nin Sirrus's room"] // sirrus's room, in a drawer
+            channelwood_page_found [label = "Find a page in the brothers' rooms"]
+            channelwood_complete [label = "Channelwood age completed"]
+        }
+
+        graph [
+            penwidth = 0
+        ]
+    }
+
+    // endgame nodes
+    subgraph endgame {
+        // this subgraph exists to test clustering out, but it doesn't work well layout-wise
+
+        learn_fireplace_page_number [label = "Given five pages, a brother\ntells you how to use the fireplace"]
+        fireplace_entered [label = "Pass through the fireplace\nby using the code"]
+        white_page_obtained [label = "Obtain the white page"]
+        sixth_page_found [label = "The sixth red/blue page"]
+        learn_marker_switch_secret [label = "Learn the secret of the marker switches", style = "rounded,filled", fillcolor = "#280060"]
+
+        // multiple graph membership is allowed!?
+        ending_trapped_atrus
+        ending_free_brother
+        ending_good
+    }
+
+    // optional edges
+    subgraph optional {
+        edge [
+            style = dashed
+            #constraint = false // setting this to false is wild, it makes it give no shits about direction or distance. This is VERY bad.
+            weight = 0.9 // setting this makes it give *less* shits about direction, but still some shits. This may be bad.
+        ]
+        breaker_switches -> voltage_set [tooltip = "If you never fail you don't need to reset"]
+        cardinal_sounds_learned -> selenetic_exit_unlocked [tooltip = "You can skip this via brute force or big brain"]
+        read_books -> channelwood_door_opened [tooltip = "You can find the lever via dumb luck"]
+    }
+
+    // early game edges
+    start -> tower_access
+    start -> tower_rotation
+    start -> read_books [tailport = e]
+    start -> basic_marker_switches
+    start -> breaker_switches [tailport = w]
+    tower_access -> tower_aligned
+    tower_rotation -> tower_aligned
+    basic_marker_switches -> tower_aligned
+    tower_aligned -> stoneship_clue
+    tower_aligned -> mechanical_clue
+    tower_aligned -> selenetic_clue
+    tower_aligned -> channelwood_clue
+
+    // stoneship entry edges
+    stoneship_clue -> date_star_mapping
+    read_books -> star_constellation_mapping
+    star_constellation_mapping -> constellation_known
+    date_star_mapping -> constellation_known
+    constellation_known -> stoneship_access
+    stoneship_access -> stoneship_entered
+
+    // stoneship edges
+    stoneship_entered -> understand_pump
+    understand_pump -> stoneship_page_found
+    understand_pump -> torn_paper_stoneship
+    understand_pump -> manipulate_chest
+    manipulate_chest -> power_lighthouse
+    power_lighthouse -> find_secret_compass_room
+    power_lighthouse -> observe_lighthouse_bearing
+    find_secret_compass_room -> stoneship_exit_unlocked
+    observe_lighthouse_bearing -> stoneship_exit_unlocked
+
+    // mechanical entry edges
+    mechanical_clue -> clocktower_bridge_raised
+    clocktower_bridge_raised -> clocktower_marker_switch
+    clocktower_bridge_raised -> mechanical_access
+    mechanical_access -> mechanical_entered
+
+    // mechanical edges
+    mechanical_entered -> mechanical_page_found
+    mechanical_entered -> cardinal_sounds_learned
+    mechanical_entered -> mechanical_controls_found
+    mechanical_controls_found -> fortress_rotation
+    cardinal_sounds_learned -> fortress_rotation
+    fortress_rotation -> mechanical_code_1
+    fortress_rotation -> mechanical_code_2
+    mechanical_code_1 -> mechanical_exit_unlocked
+    mechanical_code_2 -> mechanical_exit_unlocked
+
+    // selenetic entry edges
+    selenetic_clue -> voltage_set
+    voltage_set -> tones_matched
+    read_books -> tones_matched
+    tones_matched -> selenetic_access
+    selenetic_access -> selenetic_entered
+
+    // selenetic edges
+    selenetic_entered -> selenetic_page_found
+    selenetic_entered -> activate_microphones
+    activate_microphones -> align_microphones
+    align_microphones -> door_code
+    door_code -> selenetic_exit_unlocked
+
+    // channelwood entry edges
+    channelwood_clue -> furnace_manipulation
+    furnace_manipulation -> channelwood_access
+    channelwood_access -> channelwood_entered
+
+    // channelwood edges
+    channelwood_entered -> windmill_manipulated
+    windmill_manipulated -> channelwood_bridge_raised
+    channelwood_bridge_raised -> channelwood_exit_unlocked
+    windmill_manipulated -> channelwood_second_level
+    channelwood_second_level -> channelwood_door_opened
+    channelwood_second_level -> channelwood_door_found
+    channelwood_door_opened -> channelwood_third_level
+    channelwood_door_found -> channelwood_third_level
+    channelwood_third_level -> torn_paper_channelwood
+    channelwood_third_level -> channelwood_page_found
+
+    // age completion edges
+    stoneship_page_found -> stoneship_complete
+    stoneship_exit_unlocked -> stoneship_complete
+    mechanical_page_found -> mechanical_complete
+    mechanical_exit_unlocked -> mechanical_complete
+    selenetic_page_found -> selenetic_complete
+    selenetic_exit_unlocked -> selenetic_complete
+    channelwood_page_found -> channelwood_complete
+    channelwood_exit_unlocked -> channelwood_complete
+
+    // endgame edges
+    stoneship_complete -> learn_fireplace_page_number
+    mechanical_complete -> learn_fireplace_page_number
+    selenetic_complete -> learn_fireplace_page_number
+    channelwood_complete -> learn_fireplace_page_number
+    learn_fireplace_page_number -> fireplace_entered
+    fireplace_entered -> white_page_obtained
+    fireplace_entered -> ending_trapped_atrus
+    fireplace_entered -> sixth_page_found
+    sixth_page_found -> ending_free_brother
+    torn_paper_channelwood -> learn_marker_switch_secret [weight = 1]
+    torn_paper_stoneship -> learn_marker_switch_secret [weight = 1]
+    learn_marker_switch_secret -> white_page_obtained [weight = 2]
+    clocktower_marker_switch -> all_marker_switches
+    basic_marker_switches -> all_marker_switches
+    all_marker_switches -> white_page_obtained
+    white_page_obtained -> ending_good
+
+}

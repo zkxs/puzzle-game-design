@@ -1,0 +1,251 @@
+digraph riven_progression {
+    graph [
+        layout = dot
+        rankdir = TB
+        nodesep = 0.35 // minimum space between two adjacent nodes in the same rank, in inches
+        ranksep = 0.75 // minimum rank separation, in inches
+        bgcolor = gray12
+        pencolor = red // cluster border color, used for debugging
+        #style = invis // don't render cluster borders
+    ]
+    edge [
+        color = gray85
+        fontcolor = gray90
+    ]
+    node [
+        color = gray85
+        fontcolor = gray90
+        fontname = "Helvetica"
+        shape = box
+        style = rounded
+    ]
+
+    // special nodes
+    subgraph starts {
+        graph [
+            rank = source
+        ]
+        node [
+            style = "rounded,filled"
+            fillcolor = "#005000"
+        ]
+        start [label = "Start"]
+    }
+
+    subgraph endings {
+        graph [
+            #rank = max // causes more problems than it solves
+        ]
+        node [
+            style = "rounded,filled"
+            fillcolor = "#500000"
+            group = "endings" // appears to do nothing?
+        ]
+        ending_atrus_shot [label = "Atrus shot by dad"]
+        ending_free_gehn [label = "Free Gehn"]
+        ending_good [label = "Good Ending"]
+        ending_impossible [label = "Impossible Ending"]
+        ending_no_wife [label = "Where's my wife?"]
+        ending_player_shot [label = "Shot by Gehn"]
+        ending_trapped [label = "One of several trapped in own trap endings"]
+    }
+
+    subgraph orbs {
+        graph [
+            #rank = same // this makes the nodes naturally cluster, but makes edges cross in stupid ways
+        ]
+        node [
+            group = "orbs" // appears to do nothing?
+        ]
+
+        // fiddling with the ordering of these nodes can fix edge crossings
+        orb_whark [label = "The whark orb"]
+        orb_beetle [label = "The beetle orb"]
+        orb_frog [label = "The frog orb"]
+        orb_sunner [label = "The sunner orb"]
+        orb_fish [label = "The fish orb"]
+    }
+
+    subgraph important {
+        node [
+            style = "rounded,filled"
+            fillcolor = "#280060"
+        ]
+        big_dome_elevator_understood [label = "Weird elevator shenanigans"]
+        big_dome_power_button_found [label = "Oh, that's a button?"]
+        big_dome_upper_stairs_lever_found [label = "Easy to miss lever"]
+        boiler_solved [label = "Open the boiler drain"]
+        dni_numbers_1_10 [label = "Learn numbers 1-10"]
+        dni_numbers_11_24 [label = "Deduce numbers 11-24"]
+        dome_coordinates_learned [label = "Learn Baby Dome Coordinates"]
+        frog_hall_door_secret [label = "BEHIND THE FUCKING DOOR"]
+        gehn_trapped [label = "Trap Gehn"]
+        island_colors_learned [label = "Learn Island Colors"]
+        map_island_maglev_rotated [label = "Turn the fucking maglev around"]
+        orb_all [label = "All 5 orbs learned"]
+        rotating_room_complete [label = "Rotating Room 100%"]
+        rotating_room_shit_door [label = "Crawl under shit door"]
+        submarine_lever_room_solved [label = "Figure out lever room"]
+        telescope_stop [label = "Learn Telescope Stop"]
+        village_island_animal_room_access [label = "Find secret animal room"]
+    }
+
+    // normal nodes
+    submarine_found [label = "Find submarine"]
+    frog_caught [label = "Frog caught"]
+    frog_hall_access [label = "Frog hall Access"]
+    big_dome_access_basic [label = "Basic dome access"]
+    big_dome_access_full [label = "Full Dome Access"]
+    big_dome_access_upper [label = "Upper Dome Access"]
+    big_dome_backdoor_bridge_power [label = "Power Dome Backdoor Bridge"]
+    big_dome_needs_coordinates [label = "Realize you need coordinates"]
+    big_dome_upper_stairs_power [label = "Power Upper Dome Stairs"]
+    boiler_island_dome_door_secret [label = "behind the OTHER door"]
+    boiler_island_vent_fan_off [label = "turn off the AC"]
+    catherine_journal [label = "Catherine's Journal"]
+    dni_colors_learned [label = "Learn D'ni colors"]
+    dome_access [label = "Get inside baby domes"]
+    dome_code [label = "Learn dome code"]
+    dome_power [label = "Power Baby Domes"]
+    food_chain_learned [label = "Learn the Food Chain"]
+    free_catherine [label = "Free Catherine"]
+    gehn_age_access [label = "Gehn's Age"]
+    gehn_bothered_x3 [label = "Bother Gehn"]
+    gehn_journal [label = "Gehn's Journal"]
+    gehn_ringtone_learned [label = "Gehn's ringtone"]
+    gehn_workshop_access [label = "Gehn's workshop access"]
+    island_color_boiler [label = "find boiler island dome symbol"]
+    island_color_map [label = "find map island dome symbol"]
+    island_color_temple [label = "find temple island dome symbol"]
+    island_color_village [label = "find village island dome symbol"]
+    maglev_call_understood [label = "Blue button calls maglev"]
+    map_island_basement_access [label = "Map island basement"]
+    map_island_explored [label = "Explore Map Island"]
+    rotating_room_partial [label = "Rotating Room 50%"]
+    signal_atrus [label = "Signal Atrus"]
+    tay_visited [label = "Moiety Age Fieldtrip"]
+    telescope_code [label = "Learn Telescope Code"]
+    telescope_hatch_brute_forced [label = "Brute force trap door code early"]
+    telescope_hatch_open [label = "Open telescope hatch"]
+    telescope_power [label = "Power Telescope"]
+    temple_door_opened [label = "Open temple door"]
+    village_island_catwalks [label = "catwalks above forest"]
+    village_island_execution_platform_access [label = "Reach execution platform"]
+    village_island_execution_platform_floor_closed [label = "Execution platform floor"]
+    village_island_explored [label = "Explore Village Island"]
+    village_island_jail [label = "Gay baby jail"]
+    village_island_school_access [label = "School house"]
+
+    // special edges
+    subgraph optional {
+        edge [
+            style = dashed
+            #constraint = false // setting this to false is wild, it makes it give no shits about direction. This is VERY bad.
+            weight = 0.1 // setting this makes it give *less* shits about direction, but still some shits. This may be bad.
+        ]
+        boiler_island_dome_door_secret -> island_color_boiler [tooltip = "optionally read the symbol without motion blur"]
+        frog_caught -> orb_frog [tooltip = "optionally crossref the frog sound"]
+        map_island_basement_access -> orb_fish [tooltip = "optionally see the fish shape"]
+    }
+
+    // normal edges, a few are weighted to make the beginning more compact
+    big_dome_access_basic -> big_dome_backdoor_bridge_power
+    big_dome_access_basic -> big_dome_upper_stairs_lever_found
+    big_dome_access_basic -> big_dome_upper_stairs_power
+    big_dome_access_full -> big_dome_access_upper
+    big_dome_access_full -> big_dome_elevator_understood
+    big_dome_access_upper -> big_dome_needs_coordinates
+    big_dome_access_upper -> big_dome_power_button_found
+    big_dome_backdoor_bridge_power -> big_dome_access_full
+    big_dome_elevator_understood -> island_color_temple
+    big_dome_needs_coordinates -> dome_coordinates_learned
+    big_dome_power_button_found -> dome_power
+    big_dome_upper_stairs_lever_found -> big_dome_access_upper
+    big_dome_upper_stairs_power -> big_dome_access_upper
+    boiler_island_vent_fan_off -> gehn_workshop_access
+    boiler_solved -> frog_hall_access
+    catherine_journal -> telescope_code
+    catherine_journal -> telescope_stop
+    dni_colors_learned -> island_colors_learned
+    dni_numbers_1_10 -> dni_numbers_11_24
+    dni_numbers_1_10 -> food_chain_learned
+    dni_numbers_1_10 -> telescope_hatch_open
+    dni_numbers_11_24 -> dome_access
+    dome_access -> gehn_age_access
+    dome_code -> dome_access
+    dome_coordinates_learned -> dome_power
+    dome_power -> gehn_age_access
+    food_chain_learned -> tay_visited
+    free_catherine -> ending_good
+    frog_hall_access -> frog_caught
+    frog_hall_access -> frog_hall_door_secret
+    frog_hall_door_secret -> big_dome_access_full
+    frog_hall_door_secret -> boiler_island_dome_door_secret
+    frog_hall_door_secret -> boiler_island_vent_fan_off
+    frog_hall_door_secret -> island_color_boiler
+    gehn_age_access -> gehn_bothered_x3
+    gehn_age_access -> gehn_trapped
+    gehn_bothered_x3 -> ending_player_shot
+    gehn_journal -> dome_code
+    gehn_ringtone_learned -> free_catherine
+    gehn_trapped -> ending_free_gehn
+    gehn_trapped -> ending_good
+    gehn_trapped -> ending_no_wife
+    gehn_trapped -> gehn_ringtone_learned
+    gehn_workshop_access -> gehn_journal
+    gehn_workshop_access -> maglev_call_understood
+    gehn_workshop_access -> orb_fish
+    island_color_boiler -> island_colors_learned
+    island_color_map -> island_colors_learned
+    island_color_temple -> island_colors_learned
+    island_color_village -> island_colors_learned
+    island_colors_learned -> dome_power
+    maglev_call_understood -> map_island_explored
+    map_island_basement_access -> dni_colors_learned
+    map_island_basement_access -> village_island_catwalks
+    map_island_explored -> dome_coordinates_learned
+    map_island_explored -> island_color_map
+    map_island_explored -> map_island_maglev_rotated
+    map_island_maglev_rotated -> map_island_basement_access
+    orb_all -> food_chain_learned
+    orb_beetle -> orb_all
+    orb_fish -> orb_all
+    orb_frog -> orb_all
+    orb_sunner -> orb_all
+    orb_whark -> orb_all
+    rotating_room_complete -> big_dome_access_basic
+    rotating_room_partial -> rotating_room_complete
+    rotating_room_partial -> telescope_power
+    rotating_room_shit_door -> rotating_room_partial
+    signal_atrus -> ending_atrus_shot
+    signal_atrus -> ending_good
+    signal_atrus -> ending_no_wife
+    start -> rotating_room_shit_door [weight = 4]
+    start -> telescope_hatch_brute_forced
+    start -> temple_door_opened [weight = 4]
+    submarine_found -> submarine_lever_room_solved
+    submarine_lever_room_solved -> village_island_execution_platform_access
+    submarine_lever_room_solved -> village_island_school_access
+    tay_visited -> catherine_journal
+    tay_visited -> ending_trapped
+    tay_visited -> gehn_trapped
+    telescope_code -> telescope_hatch_open
+    telescope_hatch_brute_forced -> ending_impossible [weight = 10]
+    telescope_hatch_open -> signal_atrus
+    telescope_power -> signal_atrus
+    telescope_stop -> signal_atrus
+    temple_door_opened -> village_island_explored [weight = 3]
+    village_island_animal_room_access -> tay_visited
+    village_island_catwalks -> island_color_village
+    village_island_catwalks -> village_island_execution_platform_floor_closed
+    village_island_execution_platform_access -> village_island_jail
+    village_island_execution_platform_floor_closed -> village_island_jail
+    village_island_explored -> boiler_solved
+    village_island_explored -> orb_beetle
+    village_island_explored -> orb_frog
+    village_island_explored -> orb_sunner
+    village_island_explored -> orb_whark
+    village_island_explored -> submarine_found
+    village_island_jail -> village_island_animal_room_access
+    village_island_school_access -> dni_numbers_1_10
+}

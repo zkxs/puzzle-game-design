@@ -1,12 +1,11 @@
-# Ignore raster image types from SVG directory
-#TODO: specify SVG directory
+# Ignore raster image types
 *.xcf
 *.png
 
-#TODO: fix project structure
-/*.md
-!/puzzle-game-design.md
-/*.svg
-!/myst-puzzle-graph.svg
-*.sh
-*.dot
+# Ignore DOT files not in the graphs directory
+**.dot
+!/graphs/*.dot
+
+# Ignore SVG files not in the docs/svg directory
+**.svg
+!/docs/svg/*.svg

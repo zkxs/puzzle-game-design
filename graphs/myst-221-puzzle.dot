@@ -1,0 +1,83 @@
+digraph puter_wilds_progression {
+    graph [
+        layout = dot
+        rankdir = TB
+        nodesep = 0.5 // minimum space between two adjacent nodes in the same rank, in inches
+        ranksep = 0.5 // minimum rank separation, in inches
+        bgcolor = gray12
+        pencolor = red // cluster border color
+        #penwidth = 0
+        fontcolor = red
+        fontname = "Helvetica-bold"
+        fontsize = 24
+        labeljust = "c"
+        labelloc = "t"
+        #newrank = true // use a single global ranking, ignoring clusters. Needed because the Echoes cluster is REALLY tall.
+        #concentrate = true // use edge concentrators. These don't work great.
+    ]
+    edge [
+        color = gray85
+        fontcolor = gray90
+        weight = 100
+    ]
+    node [
+        color = gray85
+        fontcolor = gray90
+        fontname = "Helvetica"
+        shape = box
+        style = rounded
+    ]
+
+    // nodes
+    subgraph top {
+        graph [rank = source]
+        333
+    }
+
+    // subgraph cluster_2 {
+    //     graph [nodesep = 10]
+    //     113, 311
+    // }
+
+    // subgraph cluster_3 {
+    //     322, 121, 223
+    // }
+
+    // subgraph cluster_4 {
+    //     graph [nodesep = 10]
+    //     231, 132
+    // }
+
+    subgraph bottom {
+        graph [rank = sink]
+        212
+    }
+
+    // edges
+    333 -> 113 [headport = ne, tailport = sw]
+    333 -> 311 [headport = nw, tailport = se]
+
+    113 -> 223 [headport = ne, tailport = sw]
+    113 -> 121 [headport = nw, tailport = se]
+
+    311 -> 121 [headport = ne, tailport = sw]
+    311 -> 322 [headport = nw, tailport = se]
+
+    223 -> 333 [headport = w, tailport = n]
+    223 -> 231 [headport = nw, tailport = se]
+
+    322 -> 132 [headport = ne, tailport = sw]
+    322 -> 333 [headport = e, tailport = n]
+
+    121 -> 231 [headport = ne, tailport = sw]
+    121 -> 132 [headport = nw, tailport = se]
+
+    231 -> 311 [headport = w, tailport = n, constraint = false]
+    231 -> 212 [headport = nw, tailport = se]
+
+    132 -> 212 [headport = ne, tailport = sw]
+    132 -> 113 [headport = e, tailport = n, constraint = false]
+
+    212 -> 322 [headport = s, tailport = e]
+    212 -> 223 [headport = s, tailport = w]
+}
