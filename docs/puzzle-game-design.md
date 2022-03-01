@@ -18,8 +18,9 @@
                 panZoom.fit();
                 panZoom.center();
             });
-            console.log("Registered callback for " + id);
+            console.log("Ran setup for " + id);
         });
+        console.log("Registered setup callback for " + id);
     }
 
     var ids = ['#svg-outer-wilds'];
