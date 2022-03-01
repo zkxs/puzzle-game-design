@@ -3,7 +3,7 @@
 <script>
 function foo(id) {
     var object = document.getElementById(id);
-    console.log("foo() called! " + object.contentDocument !== null + " " + object.contentDocument != null);
+    console.log("foo() called! " + (object.contentDocument !== null) + " " + (object.contentDocument != null));
 }
 </script>
 

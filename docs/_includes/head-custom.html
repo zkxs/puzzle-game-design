@@ -3,6 +3,6 @@
 <script>
 function bar(id) {
     var object = document.getElementById(id);
-    console.log("bar() called! " + object.contentDocument !== null + " " + object.contentDocument != null);
+    console.log("bar() called! " + (object.contentDocument !== null) + " " + (object.contentDocument != null));
 }
 </script>
