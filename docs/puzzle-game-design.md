@@ -1,5 +1,6 @@
 # Puzzle Game Design
 
+<script src="https://bumbu.me/svg-pan-zoom/dist/svg-pan-zoom.js"></script>
 <script>
 function registerSvg(id) {
     var element = document.getElementById(id);
@@ -15,6 +16,6 @@ function registerSvg(id) {
 }
 </script>
 
-<object id="svg-outer-wilds" type="image/svg+xml" data="outer-wilds.svg" style="border:1px solid black;" onload="registerSvg('svg-outer-wilds')">Your browser does not support SVG</object>
+<object id="svg-outer-wilds" type="image/svg+xml" data="outer-wilds.svg" style="height:75%; width:75%; border:1px solid black;" onload="registerSvg('svg-outer-wilds')">Your browser does not support SVG</object>
 
 Test text!
