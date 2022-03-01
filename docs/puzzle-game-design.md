@@ -1,13 +1,16 @@
 # Puzzle Game Design
 
-<script src="https://bumbu.me/svg-pan-zoom/dist/svg-pan-zoom.js"></script>
+<script src="svg-pan-zoom.js"></script>
 <script>
 function registerSvg(id) {
     var element = document.getElementById(id);
     var panZoom = svgPanZoom(element, {
-        controlIconsEnabled: false,
+        controlIconsEnabled: true,
         fit: true,
         center: false
+        zoomScaleSensitivity: 1,
+        minZoom: 0.25,
+        maxZoom: 15
     });
     window.addEventListener('resize', function() {
         panZoom.resize();
@@ -16,6 +19,6 @@ function registerSvg(id) {
 }
 </script>
 
-<object id="svg-outer-wilds" type="image/svg+xml" data="outer-wilds.svg" style="height:75%; width:75%; border:1px solid black;" onload="registerSvg('svg-outer-wilds')">Your browser does not support SVG</object>
+<object id="svg-outer-wilds" type="image/svg+xml" data="outer-wilds.svg" style="height:100%; width:100%; border:1px solid black;" onload="registerSvg('svg-outer-wilds')">Your browser does not support SVG</object>
 
 Test text!
