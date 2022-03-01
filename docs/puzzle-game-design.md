@@ -1,31 +1,50 @@
 # Puzzle Game Design
 
-<object id="svg-outer-wilds" type="image/svg+xml" data="outer-wilds.svg" style="width: 500px; height: 500px; border:1px solid black; ">Your browser does not support SVG</object>
+<script>
+function foo() {
+    console.log("foo() called! " + object.contentDocument !== null + " " + object.contentDocument != null);
+}
+</script>
+
+<object id="svg-outer-wilds" type="image/svg+xml" data="outer-wilds.svg" style="width: 500px; height: 500px; border:1px solid black;" onload="foo()">Your browser does not support SVG</object>
 
 <script>
-    function setupSvg(id) {
-        var element = $(id);
-        element.load(function () {
-            var panZoom = svgPanZoom(element, {
-                zoomEnabled: true,
-                controlIconsEnabled: true,
-                fit: 1,
-                center: 1
-            });
+function setupSvg(id) {
+    var element = $(id);
+    var guaranteedCallbackRan = false;
+    var guaranteedCallback = function () {
+        if (guaranteedCallbackRan) {
+            return;
+        }
+        guaranteedCallbackRan = true;
 
-            $(window).resize(function(){
-                panZoom.resize();
-                panZoom.fit();
-                panZoom.center();
-            });
-            console.log("Ran setup for " + id);
+        var panZoom = svgPanZoom(element, {
+            zoomEnabled: true,
+            controlIconsEnabled: true,
+            fit: 1,
+            center: 1
         });
-        console.log("Registered setup callback for " + id);
-    }
 
-    var ids = ['#svg-outer-wilds'];
+        $(window).resize(function() {
+            panZoom.resize();
+            panZoom.fit();
+            panZoom.center();
+        });
+        console.log("Ran setup for " + id);
+    }
+    var timeout = setTimeout(function(){guaranteedCallback("timeout")}, 100);
+    element.load(function () {
+        cleartimeout(timeout);
+        guaranteedCallback("load");
+    });
+    console.log("Registered setup callback for " + id);
+}
+
+var ids = ['#svg-outer-wilds'];
+document.addEventListener('DOMContentLoaded', function() {
     ids.forEach(id => setupSvg(id));
-    console.log("Script done");
+}, false);
+console.log("Script done");
 </script>
 
 Test text!
