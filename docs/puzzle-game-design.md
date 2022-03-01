@@ -3,7 +3,7 @@
 <embed id="svg-outer-wilds" type="image/svg+xml" style="width: 500px; height: 500px; border:1px solid black; " src="outer-wilds.svg" />
 
 <script>
-    (function() {
+    document.addEventListener('DOMContentLoaded', function() {
         var panZoom = window.panZoom = svgPanZoom('#svg-outer-wilds', {
             zoomEnabled: true,
             controlIconsEnabled: true,
@@ -16,7 +16,7 @@
             panZoom.fit();
             panZoom.center();
         })
-    })();
+    }, false);
 </script>
 
 Test text!
