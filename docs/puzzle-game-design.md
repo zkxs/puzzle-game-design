@@ -4,7 +4,7 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        var panZoom = window.panZoom = svgPanZoom('#svg-outer-wilds', {
+        var panZoom = svgPanZoom('#svg-outer-wilds', {
             zoomEnabled: true,
             controlIconsEnabled: true,
             fit: 1,
