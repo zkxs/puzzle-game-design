@@ -3,7 +3,7 @@
 <object id="svg-outer-wilds" type="image/svg+xml" data="outer-wilds.svg" style="width: 500px; height: 500px; border:1px solid black; ">Your browser does not support SVG</object>
 
 <script>
-    function() {
+    (function() {
         var panZoom = window.panZoom = svgPanZoom('#svg-outer-wilds', {
             zoomEnabled: true,
             controlIconsEnabled: true,
@@ -16,7 +16,7 @@
             panZoom.fit();
             panZoom.center();
         })
-    }();
+    })();
 </script>
 
 Test text!
