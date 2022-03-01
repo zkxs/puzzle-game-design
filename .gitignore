@@ -4,9 +4,9 @@
 *.png
 
 #TODO: fix project structure
-*.md
+/*.md
 !/puzzle-game-design.md
-*.svg
+/*.svg
 !/myst-puzzle-graph.svg
 *.sh
 *.dot
