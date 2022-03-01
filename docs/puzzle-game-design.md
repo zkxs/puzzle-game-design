@@ -6,7 +6,7 @@
     function setupSvg(id) {
         var element = $(id);
         element.load(function () {
-            var panZoom = svgPanZoom('#svg-outer-wilds', {
+            var panZoom = svgPanZoom(element, {
                 zoomEnabled: true,
                 controlIconsEnabled: true,
                 fit: 1,
@@ -18,11 +18,13 @@
                 panZoom.fit();
                 panZoom.center();
             });
+            console.log("Registered callback for " + id);
         });
     }
 
     var ids = ['#svg-outer-wilds'];
     ids.forEach(id => setupSvg(id));
+    console.log("Script done");
 </script>
 
 Test text!
