@@ -1,6 +1,6 @@
 # Puzzle Game Design
 
-<object id="svg-outer-wilds" type="image/svg+xml" data="outer-wilds.svg" style="width: 500px; height: 500px; border:1px solid black; ">Your browser does not support SVG</object>
+<embed id="svg-outer-wilds" type="image/svg+xml" style="width: 500px; height: 500px; border:1px solid black; " src="outer-wilds.svg" />
 
 <script>
     (function() {
