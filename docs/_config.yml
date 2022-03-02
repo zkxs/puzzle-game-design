@@ -1,4 +1,9 @@
 remote_theme: jekyll/minima
 minima:
   skin: dark
+  social_links:
+    github: zkxs
 title: Puzzle Game Design
+author:
+  name: Michael Ripley
+  email: "zkxs00@gmail.com"
