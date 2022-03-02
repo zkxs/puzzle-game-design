@@ -1,5 +1,25 @@
-// mod the wrapper to only provide the edge's safety padding
+// default wrapper:
+// auto margins, spacing/2 of padding
+// width does not include padding, border, or margin
+/*
 .wrapper {
+  max-width: calc(#{$content-width} - (#{$spacing-unit}));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+  @extend %clearfix;
+
+  @media screen and (min-width: $on-large) {
+    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+  }
+}
+*/
+
+// mod the wrapper to only provide the edge's safety padding
+.page-content > .wrapper {
   max-width: 100%;
   margin-right: 0;
   margin-left: 0;
@@ -15,7 +35,8 @@
 }
 
 // modify all content elements to be $content-width
-.wrapper > * > * {
+.wrapper > .post > .post-header,
+.wrapper > .post > .post-content > * {
   max-width: calc(#{$content-width} - (#{$spacing-unit}));
   margin-right: auto;
   margin-left: auto;
@@ -27,7 +48,7 @@
 }
 
 // exempt .wide things and give them $content-width-extrawide instead
-.wrapper > * > .wide {
+.wrapper > .post > .post-content >  .wide {
   max-width: calc(#{$content-width-extrawide} - (#{$spacing-unit}));
   @media screen and (min-width: $on-large) {
     max-width: calc(#{$content-width-extrawide} - (#{$spacing-unit} * 2));
