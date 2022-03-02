@@ -5,7 +5,7 @@ function registerSvg(id) {
     var panZoom = svgPanZoom(element, {
         controlIconsEnabled: true,
         fit: true,
-        center: false
+        center: true,
         zoomScaleSensitivity: 1,
         minZoom: 0.25,
         maxZoom: 15
