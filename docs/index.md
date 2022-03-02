@@ -4,9 +4,11 @@ function registerSvg(id) {
     var element = document.getElementById(id);
     var panZoom = svgPanZoom(element, {
         controlIconsEnabled: true,
+        mouseWheelZoomEnabled: false,
+        preventMouseEventsDefault: true,
         fit: true,
         center: true,
-        zoomScaleSensitivity: 1,
+        zoomScaleSensitivity: 0.75,
         minZoom: 0.25,
         maxZoom: 15
     });
@@ -55,7 +57,7 @@ A lot can be observed about the structure of the game just by glancing at these 
 
 # Myst
 
-<object id="svg-myst" type="image/svg+xml" data="svg/myst-puzzle-graph.svg" style="height:100%; width:100%; border:1px solid black;" onload="registerSvg('svg-myst')">Your browser does not support SVG</object>
+<object id="svg-myst" class="wide svg" type="image/svg+xml" data="svg/myst-puzzle-graph.svg" onload="registerSvg('svg-myst')">Your browser does not support SVG</object>
 
 - The green node is the start of the game
 - Purple nodes are significant puzzles. In other words: places players are likely to spend a long time.
@@ -81,7 +83,7 @@ Putting it all together, Myst's simple structure and puzzle design issues makes 
 
 # Riven
 
-<object id="svg-riven" type="image/svg+xml" data="svg/riven-puzzle-graph.svg" style="height:100%; width:100%; border:1px solid black;" onload="registerSvg('svg-riven')">Your browser does not support SVG</object>
+<object id="svg-riven" class="wide svg" type="image/svg+xml" data="svg/riven-puzzle-graph.svg" onload="registerSvg('svg-riven')">Your browser does not support SVG</object>
 
 - The green node is the start of the game
 - Purple nodes are significant puzzles. In other words: places players are likely to spend a long time.
@@ -110,7 +112,7 @@ The takeaway is that with Riven, Cyan took the idea of Myst and simply added inc
 
 # Outer Wilds
 
-<object id="svg-outerwilds" type="image/svg+xml" data="svg/outer-wilds.svg" style="height:100%; width:100%; border:1px solid black;" onload="registerSvg('svg-outerwilds')">Your browser does not support SVG</object>
+<object id="svg-outerwilds" class="wide svg" type="image/svg+xml" data="svg/outer-wilds.svg" onload="registerSvg('svg-outerwilds')">Your browser does not support SVG</object>
 
 **Note:** We've changed the legend a bit here, notably what dashed and dotted edges mean.
 

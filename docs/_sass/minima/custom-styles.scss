@@ -1,0 +1,43 @@
+// mod the wrapper to only provide the edge's safety padding
+.wrapper {
+  max-width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+  @extend %clearfix;
+
+  @media screen and (min-width: $on-large) {
+    max-width: 100%;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+  }
+}
+
+// modify all content elements to be $content-width
+.wrapper > * > * {
+  max-width: calc(#{$content-width} - (#{$spacing-unit}));
+  margin-right: auto;
+  margin-left: auto;
+  @extend %clearfix;
+
+  @media screen and (min-width: $on-large) {
+    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+  }
+}
+
+// exempt .wide things and give them $image-width instead
+.wrapper > * > .wide {
+  max-width: calc(#{$image-width} - (#{$spacing-unit}));
+  @media screen and (min-width: $on-large) {
+    max-width: calc(#{$image-width} - (#{$spacing-unit} * 2));
+  }
+}
+
+// SVG characteristics
+.svg {
+  display: block;
+  height:100%;
+  width:100%;
+  border:1px solid #777777;
+}
