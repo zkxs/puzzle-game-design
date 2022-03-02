@@ -26,11 +26,11 @@
   }
 }
 
-// exempt .wide things and give them $image-width instead
+// exempt .wide things and give them $content-width-extrawide instead
 .wrapper > * > .wide {
-  max-width: calc(#{$image-width} - (#{$spacing-unit}));
+  max-width: calc(#{$content-width-extrawide} - (#{$spacing-unit}));
   @media screen and (min-width: $on-large) {
-    max-width: calc(#{$image-width} - (#{$spacing-unit} * 2));
+    max-width: calc(#{$content-width-extrawide} - (#{$spacing-unit} * 2));
   }
 }
 
@@ -40,4 +40,5 @@
   height:100%;
   width:100%;
   border:1px solid #777777;
+  margin-bottom: 15px;
 }
