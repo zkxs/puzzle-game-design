@@ -1,3 +1,20 @@
+// SVG characteristics
+.svg {
+  display: block;
+  height:100%;
+  width:100%;
+  border:1px solid #777777;
+  margin-bottom: 15px;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  @media screen and (min-width: $on-large) {
+    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+
 // default wrapper:
 // auto margins, spacing/2 of padding
 // width does not include padding, border, or margin
@@ -60,11 +77,3 @@
   }
 }
 
-// SVG characteristics
-.svg {
-  display: block;
-  height:100%;
-  width:100%;
-  border:1px solid #777777;
-  margin-bottom: 15px;
-}

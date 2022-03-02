@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Puzzle Game Design"
+title: "The Design of Adventure Puzzle Games"
 date: 2022-03-02 10:21:52 -0600
-categories: jekyll update
+categories: [adventure puzzle games, graphing]
 ---
-<script src="svg-pan-zoom.js"></script>
+<script src="/js/svg-pan-zoom.js"></script>
 <script>
 function registerSvg(id) {
     var element = document.getElementById(id);
@@ -25,8 +25,7 @@ function registerSvg(id) {
 }
 </script>
 
-# The Design of World Exploration Puzzle Games
-Is there a name for this subgenre? I'm not sure, but I love it. I'm talking about the type of game where you're cast into a new, immersive world. The rules of this world aren't quite like our own. You have to figure out what's going on and how to manipulate the world to progress. Puzzles must be solved, new areas must be explored.
+Is "adventure puzzle game" the right name for this subgenre? I'm not sure, but I love it. I'm talking about the type of game where you're cast into a new, immersive world. The rules of this world aren't quite like our own. You have to figure out what's going on and how to manipulate the world to progress. Puzzles must be solved, new areas must be explored.
 
 Lets take an analytical look at various games in this subgenre, and think about what makes a game good.
 

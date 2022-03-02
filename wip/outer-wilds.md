@@ -12,13 +12,6 @@ NOTE: If you die at any point, you need to quit and start a new expedition again
 ### Ghosts in the Machine
 Reach all 3 Forbidden Archives in a single loop without getting caught.
 
-### Tubular!
-Ride the face of the wave for at least 15 seconds on a raft.
-
-- Start from cinder isles
-- Sleep in tower
-- Scout can be used to check dam integrity
-
 # Things you really shouldn't know
 - The eye coordinates:
   1. `L` tilted clockwise slightly

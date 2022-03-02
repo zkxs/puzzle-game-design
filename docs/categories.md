@@ -1,0 +1,28 @@
+---
+layout: page
+title: Categories
+permalink: /categories/
+---
+
+<div id="archives">
+{% for category in site.categories %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    {% assign words = category_name | split: ' ' %}
+    {% capture category_title %}
+      {% for word in words %}
+        {{ word | capitalize }}
+      {% endfor %}
+    {% endcapture %}
+    <div id="#{{ category_name | slugify }}"></div>
+
+    <h3 class="category-head">{{ category_title}}</h3>
+    <a name="{{ category_name | slugify }}"></a>
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+    </article>
+    {% endfor %}
+  </div>
+{% endfor %}
+</div>
