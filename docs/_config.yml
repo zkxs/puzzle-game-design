@@ -10,6 +10,7 @@ author:
   name: Michael Ripley
   email: "zkxs00@gmail.com"
 header_pages:
+  - tags.html
   - about.md
 plugins:
   - jekyll-feed
