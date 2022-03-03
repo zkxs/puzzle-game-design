@@ -17,7 +17,7 @@ layout: page
       {%- for word in words %}{{ word | capitalize }} {% endfor -%}
     {%- endcapture -%}
 
-    <h3 class="item-head"><a name="{{ item_id }}"></a>{{ item_title }}</h3>
+    <h3 class="item-head">{{ item_title }}</h3>
     {%- assign sorted_posts = posts | sort: name -%}
     {%- for post in sorted_posts -%}
     <article class="archive-item">
