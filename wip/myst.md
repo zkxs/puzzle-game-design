@@ -1,4 +1,4 @@
-# Myst Cheatsheet
+Some quick and dirty Myst notes.
 ## Clock Tower Puzzle
 - You have exact control over the top and bottom gear
 - The middle gear's position is the sum of the top and bottom offsets
@@ -38,11 +38,50 @@ This breaks people's brains.
 |        | Lighthouse |
 |        | Exit room  |
 
-# Myst Tier List
+## Myst Tier List
 1. Riven
+   - Clear winner.
+   - Very good puzzle design.
+   - Incredibly well put together world.
+   - Concise plot. Get in, defeat bad guy, save princess, get out. It's simple and it works.
+   - Renders are a big step up in quality from Myst.
 2. Myst III: Exile
+   - Same basic formula as the original Myst, but minus all the flaws.
+   - Saavedro is the best villain.
+   - Great plot.
+   - All five ages have incredible art design.
+   - Engine is a step up in quality from Riven.
 3. Myst
-4. Myst IV: Revelation
-5. Myst V: End of Ages
-6. MOULA
-7. Uru
+   - The original, the classic.
+   - Has some poor puzzle design.
+   - Not a fan of the surrealism. "But what if we throw a clock in it?" Yeah okay Salvador Dalí.
+4. Myst Online: Uru Live Again (MOULA)
+    - Multiplayer was a mistake. Huge misdirection of effort.
+    - Realtime 3D is not good
+      - It is big a step down in visual quality. Remember Myst IV came before it and looked *incredible*.
+      - Third person is cringe.
+      - Ridiculous walk/sprint mechanic that uses CAPS LOCK!?
+      - Jumping was a mistake. The Myst series did not need platforming.
+    - Ahnonay is incredibly good
+    - On average the *real* ages are pretty good. I'm not counting the ones that were obviously low-effort filler. 
+    - The low-effort filler ages (pods and Minkata) suck.
+5. Myst IV: Revelation
+   - Objectively the best engine of any of the games. The visuals are *beautiful*.
+   - Objectively the worst writing of any of the games. The plot is some fever-dream bullshit.
+   - The acting is pretty bad.
+   - Spire is actually pretty dang cool.
+   - Tomahna is okay, but it's just a hub.
+   - Haven is mildly cursed.
+   - Serenia is incredibly cursed (especially the ending, oh god).
+   - Because half the ages are awful, I consider it half of a game.
+6. Uru
+    - Botched version of MOULA. MOULA is objectively better, and it's *free*.
+    - There's no reason to play it, but for completion's sake I've rated it here as if MOULA didn't exist.
+7. Myst V: End of Ages
+    - Realtime 3D is still not good. See above for more details.
+    - The plot is pretty mediocre.
+    - Incredibly creepy and awful face animation.
+    - 2 of the ages feel very samey, artistically.
+    - Only one of the ages is interesting.
+    - The drawing mechanic is super scuffed.
+    - The puzzles are pretty bland, in part due to many of them being tied to the tablet mechanics.

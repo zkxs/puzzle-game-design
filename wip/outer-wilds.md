@@ -1,32 +1,22 @@
-# Achievements
+Some quick and dirty outer wilds notes.
 
-## Base Game
+## Things you really shouldn't know
 
-### Beginner's Luck
-Reach the Eye of the universe in one loop.
+### The eye's coordinates
 
-NOTE: If you die at any point, you need to quit and start a new expedition again, this needs to be done in a single loop. 
-
-## Echoes of the Eye
-
-### Ghosts in the Machine
-Reach all 3 Forbidden Archives in a single loop without getting caught.
-
-# Things you really shouldn't know
 - The eye coordinates:
   1. `L` tilted clockwise slightly
   2. Hourglass minus bottom
   3. `N` but with swag
-- Symbol room password:
-  1. `)` crescent
-  2. Saturn
-  3. `)` crescent
-  4. `+` star
-  5. `+` star
 
-# Echoes of the Eye
+### The password from the Symbol Room
+  4. `)` crescent
+  5. Saturn
+  6. `)` crescent
+  7. `+` star
+  8. `+` star
 
-## Subterranean Lake Map
+### Subterranean Lake Map
 
 ```
            Starlit Cove ← [2]
@@ -37,31 +27,25 @@ Shrouded Woodlands ← [1]   •   [3] → Endless Canyon
 ```
 Silly trivia: the seals don't point towards their matching forbidden archives
 
-## Freeing the Prisoner
-Requirements:
-1. Seal 1: Ditch lantern
-2. Seal 2: Clip to it from a transition
-3. Seal 3: Be dead
-4. Sealed Vault -> Subterranean Lake  
-   Need to end here. Can we get in from another area? Yes, we can get to it from the tunnel clip.
+## Achievements
 
-Potential Starting points:
-- Hidden Gorge: buys you a lot of time, pretty short trip to the dream rafts
-- River Lowlands: shortest trip to dream rafts?
+### Beginner's Luck
+Reach the Eye of the universe in one loop.
 
-### Route
-1. Enter dream by dying at Hidden Gorge fire
-2. Proceed directly to raft
-   1. No need to put out lights
-   2. Head right from start and take the invisible bridge to the elevator
-3. Clip out of bounds from the raft
-4. Water walk to Seal 2, and remove it for free
-5. Take the raft to the coffin
-6. Open Seal 1 by using your debug vision
-7. Open Seal 3 by being dead (remember step 1?)
+NOTE: If you die at any point, you need to quit and start a new expedition again, this needs to be done in a single loop. 
 
-## Ghosts in the Machine
-This achievement is so neat that it gets its own section.
+1. Speedrun to Launch codes
+2. Get distress signal at ember twin
+3. Loiter until ash twin is empty enough
+4. Slam jam your ship between the warp towers
+5. Steal that fucking core
+6. Bramble escape pod
+7. Scout the fucking seed
+8. Slide into the vessel
+9. WIN
+
+### Ghosts in the Machine
+Reach all 3 Forbidden Archives in a single loop without getting caught.
 
 You must take each archive's elevator for it to count as visited. In the Shrouded Woodlands case this means you may have to take the elevator *up* for credit, depending on if you route it last.
 
@@ -106,7 +90,7 @@ The archives:
    - Take the second invisible bridge to skip some bullshit?
    - ENTRANCE: must have lowered chain elevator
 
-### Multi-dream Route
+#### Multi-dream Route
 1. Hidden Gorge -> Endless Canyon
    1. Left to secret tunnel fuckery, shortcut to turn off lights
    2. Right to bridge fuckery, shortcut past elevator
@@ -130,8 +114,9 @@ The drawbacks:
 The benefits:
 - Only one backtrack, and it's an easy one
 - We do Endless Canyon, the most difficult bit, first
+- Shrouded Woodlands is last, so the dam timing is good
 
-### One Dream Route
+#### One Dream Route
 The gist: Unlock all the docks, then do cinder
 
 1. Setup
@@ -157,8 +142,9 @@ The drawbacks:
 
 The benefits:
 - Swag
+- Shrouded Woodlands is last, so the dam timing is good
 
-### Perfected Route
+#### Perfected Route
 After remembering you can warp to Shrouded Woodlands, a full redesign. Two options:
 - One-dream is slightly more dangerous as you have to dodge a pursuer twice vs once, but you get the swag of doing all three archives in one dream
 - Multi-dream is slightly safer for the aforementioned reason. It's not any slower due to the waiting-for-dam-to-break autoscroller.
@@ -206,3 +192,26 @@ The drawbacks:
 The benefits:
 - One unified route with only minor differences between multi-dream and one-dream
 - Less IRL travel, and dodge the fucking dam entirely
+
+## Freeing the Prisoner
+Requirements:
+1. Seal 1: Ditch lantern
+2. Seal 2: Clip to it from a transition
+3. Seal 3: Be dead
+4. Sealed Vault -> Subterranean Lake  
+   Need to end here. Can we get in from another area? Yes, we can get to it from the tunnel clip.
+
+Potential Starting points:
+- Hidden Gorge: buys you a lot of time, pretty short trip to the dream rafts
+- River Lowlands: shortest trip to dream rafts?
+
+### Route
+1. Enter dream by dying at Hidden Gorge fire
+2. Proceed directly to raft
+   1. No need to put out lights
+   2. Head right from start and take the invisible bridge to the elevator
+3. Clip out of bounds from the raft
+4. Water walk to Seal 2, and remove it for free
+5. Take the raft to the coffin
+6. Open Seal 1 by using your debug vision
+7. Open Seal 3 by being dead (remember step 1?)
