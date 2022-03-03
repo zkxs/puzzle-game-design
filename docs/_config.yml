@@ -13,3 +13,4 @@ header_pages:
   - about.md
 plugins:
   - jekyll-feed
+google_analytics: G-VW0F1ZYLDL
