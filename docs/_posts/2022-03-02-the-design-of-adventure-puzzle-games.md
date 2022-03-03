@@ -3,6 +3,7 @@ layout: post
 title: "The Design of Adventure Puzzle Games"
 date: 2022-03-02 10:21:52 -0600
 tags: [adventure puzzle games, graphing, myst, riven, outer wilds]
+author: Michael Ripley
 ---
 <script src="/js/svg-pan-zoom.js"></script>
 <script>
@@ -21,7 +22,6 @@ function registerSvg(id) {
     window.addEventListener('resize', function() {
         panZoom.resize();
     });
-    console.log("Ran SVG setup for " + id);
 }
 </script>
 

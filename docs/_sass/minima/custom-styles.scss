@@ -84,3 +84,21 @@
     padding-left: calc(#{$spacing-unit} + 15px);
   }
 }
+
+.taglist {
+  margin-left: auto;
+}
+
+.taglink {
+  font-size: 14px;
+  background-color: $code-background-color;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 3px;
+}
+
+.hidden-group {
+  display: none;
+}

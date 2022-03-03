@@ -1,0 +1,69 @@
+---
+layout: page
+---
+
+<div class="archive-prefix">
+  {{ content }}
+</div>
+
+<div id="archives">
+{%- for item in site[page.archive_type] -%}
+  {%- capture item_name -%}{{ item | first }}{%- endcapture -%}
+  {%- assign posts = site[page.archive_type][item_name] -%}
+  {%- assign item_id = item_name | slugify -%}
+  <div id="tag_{{ item_id }}" class="archive-group{%- if posts.size < page.archive_minimum %} hidden-group{% endif -%}">
+    {%- assign words = item_name | split: ' ' -%}
+    {%- capture item_title -%}
+      {%- for word in words %}{{ word | capitalize }} {% endfor -%}
+    {%- endcapture -%}
+
+    <h3 class="item-head"><a name="{{ item_id }}"></a>{{ item_title }}</h3>
+    {%- assign sorted_posts = posts | sort: name -%}
+    {%- for post in sorted_posts -%}
+    <article class="archive-item">
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+    </article>
+    {%- endfor -%}
+  </div>
+{%- endfor -%}
+</div>
+
+<script>
+  var reset = true;
+  function onHashChange() {
+    var anchor = window.location.hash.substr(1);
+    if (anchor) {
+      // we need to filter the page to the specific tag
+      var targetItem = document.getElementById("tag_" + anchor);
+      if (targetItem) {
+        // make sure our group is visible
+        targetItem.style.display = "block";
+        console.log("showing", targetItem.id);
+
+        // make sure all other groups are hidden
+        var allGroups = document.getElementsByClassName("archive-group");
+        for (var i = 0; i < allGroups.length; i++) {
+          var element = allGroups[i];
+          if (element.id !== targetItem.id) {
+            element.style.display = "none";
+            console.log("hiding", element.id);
+          }
+        }
+        reset = false;
+        return;
+      }
+    }
+    // if we reach this point, the hash is invalid and we need to clear our overrides
+    if (!reset) {
+      var allGroups = document.getElementsByClassName("archive-group");
+      console.log("resetting");
+      for (var i = 0; i < allGroups.length; i++) {
+        var element = allGroups[i];
+        element.style.display = "";
+      }
+    }
+    reset = true;
+  }
+  onHashChange(); // handle initial page load
+  window.addEventListener("hashchange", onHashChange, false);
+</script>
