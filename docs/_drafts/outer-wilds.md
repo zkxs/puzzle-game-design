@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Outer Wilds"
+title: "DRAFT: Outer Wilds"
 date: 2022-03-02 10:21:52 -0600
 tags: [adventure puzzle games, outer wilds]
 ---
