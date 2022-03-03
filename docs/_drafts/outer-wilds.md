@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Outer Wilds"
+date: 2022-03-02 10:21:52 -0600
+tags: [adventure puzzle games, outer wilds]
+---
+
 Some quick and dirty outer wilds notes.
 
 ## Things you really shouldn't know

@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Myst"
+date: 2022-03-02 10:21:52 -0600
+tags: [adventure puzzle games, myst]
+---
+
 Some quick and dirty Myst notes.
 ## Clock Tower Puzzle
 - You have exact control over the top and bottom gear

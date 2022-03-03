@@ -16,7 +16,8 @@ permalink: /tags/
     {% endcapture %}
     <div id="#{{ tag_name | slugify }}"></div>
 
-    <h3 class="tag-head">{{ tag_title}}</h3>
+    <h3 class="tag-head">{{ tag_title }}</h3>
+    <p>{{ site.tags[tag_name] | size }} items</p>
     <a name="{{ tag_name | slugify }}"></a>
     {% for post in site.tags[tag_name] %}
     <article class="archive-item">

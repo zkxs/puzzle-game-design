@@ -2,7 +2,7 @@
 layout: post
 title: "The Design of Adventure Puzzle Games"
 date: 2022-03-02 10:21:52 -0600
-tags: [adventure puzzle games, graphing]
+tags: [adventure puzzle games, graphing, myst, riven, outer wilds]
 ---
 <script src="/js/svg-pan-zoom.js"></script>
 <script>
