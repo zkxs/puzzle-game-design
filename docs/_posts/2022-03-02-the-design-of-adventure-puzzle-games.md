@@ -2,28 +2,10 @@
 layout: post
 title: "The Design of Adventure Puzzle Games"
 date: 2022-03-02 10:21:52 -0600
+modified_date: 2022-03-04 03:48:29 -0600
 tags: [adventure puzzle games, graphing, myst, riven, outer wilds]
 author: Michael Ripley
 ---
-<script src="/js/svg-pan-zoom.js"></script>
-<script>
-function registerSvg(id) {
-    var element = document.getElementById(id);
-    var panZoom = svgPanZoom(element, {
-        controlIconsEnabled: true,
-        mouseWheelZoomEnabled: false,
-        preventMouseEventsDefault: true,
-        fit: true,
-        center: true,
-        zoomScaleSensitivity: 0.75,
-        minZoom: 0.25,
-        maxZoom: 15
-    });
-    window.addEventListener('resize', function() {
-        panZoom.resize();
-    });
-}
-</script>
 
 Is "adventure puzzle game" the right name for this subgenre? I'm not sure, but I love it. I'm talking about the type of game where you're cast into a new, immersive world. The rules of this world aren't quite like our own. You have to figure out what's going on and how to manipulate the world to progress. Puzzles must be solved, new areas must be explored.
 
@@ -54,6 +36,7 @@ If you haven't played all of these consider coming back to this post later. They
 <br><br>
 
 …okay, done playing the games? Lets go, then. It's time for some graphs. As you look at the graphs, keep an eye out for the following:
+- Click on the graphs to open a new tab with a pannable, zoomable view
 - The breadth (width) of the graphs, which indicates you have more options available
 - The depth (height) of the graphs, which indicates how many chained steps are required to get from beginning to end
 - How interconnected the nodes are
@@ -61,8 +44,7 @@ If you haven't played all of these consider coming back to this post later. They
 A lot can be observed about the structure of the game just by glancing at these graphs. How long is the game? How linear is it? Are puzzles completely separate from each other, or is everything connected? Where are the bottlenecks?
 
 # Myst
-
-<object id="svg-myst" class="wide svg" type="image/svg+xml" data="/svg/myst-puzzle-graph.svg" onload="registerSvg('svg-myst')">Your browser does not support SVG</object>
+<a href="/svg/myst-puzzle-graph.html" target="_blank"><object id="svg-myst" class="svg" style="pointer-events: none;" type="image/svg+xml" data="/svg/myst-puzzle-graph.svg">Your browser does not support SVG</object></a>
 
 - The green node is the start of the game
 - Purple nodes are significant puzzles. In other words: places players are likely to spend a long time.
@@ -88,7 +70,7 @@ Putting it all together, Myst's simple structure and puzzle design issues makes 
 
 # Riven
 
-<object id="svg-riven" class="wide svg" type="image/svg+xml" data="/svg/riven-puzzle-graph.svg" onload="registerSvg('svg-riven')">Your browser does not support SVG</object>
+<a href="/svg/riven-puzzle-graph.html" target="_blank"><object id="svg-riven" class="svg" style="pointer-events: none;" type="image/svg+xml" data="/svg/riven-puzzle-graph.svg">Your browser does not support SVG</object></a>
 
 - The green node is the start of the game
 - Purple nodes are significant puzzles. In other words: places players are likely to spend a long time.
@@ -117,7 +99,7 @@ The takeaway is that with Riven, Cyan took the idea of Myst and simply added inc
 
 # Outer Wilds
 
-<object id="svg-outerwilds" class="wide svg" type="image/svg+xml" data="/svg/outer-wilds.svg" onload="registerSvg('svg-outerwilds')">Your browser does not support SVG</object>
+<a href="/svg/outer-wilds.html" target="_blank"><object id="svg-outerwilds" class="svg" style="pointer-events: none;" type="image/svg+xml" data="/svg/outer-wilds.svg">Your browser does not support SVG</object></a>
 
 **Note:** We've changed the legend a bit here, notably what dashed and dotted edges mean.
 

@@ -1,17 +1,26 @@
 // SVG characteristics
 .svg {
   display: block;
-  height:100%;
-  width:100%;
-  border:1px solid #777777;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #777777;
   margin-bottom: 15px;
   padding-right: 0 !important;
   padding-left: 0 !important;
   @media screen and (min-width: $on-large) {
-    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
+}
+.full-page-content > .wrapper > .svg {
+  max-height: 100vh;
+  border: 0px;
+  margin-bottom: 0;
+}
+
+.page-content {
+  padding: 0;
+  flex: 1 0 auto;
 }
 
 
@@ -36,7 +45,8 @@
 */
 
 // mod the wrapper to only provide the edge's safety padding
-.page-content > .wrapper {
+.page-content > .wrapper,
+.full-page-content > .wrapper {
   max-width: 100%;
   margin-right: 0;
   margin-left: 0;
@@ -72,6 +82,14 @@
   max-width: calc(#{$content-width-extrawide} - (#{$spacing-unit}));
   @media screen and (min-width: $on-large) {
     max-width: calc(#{$content-width-extrawide} - (#{$spacing-unit} * 2));
+  }
+}
+
+// special case for full-screen pages
+.wrapper > .wide {
+  max-width: 100%;
+  @media screen and (min-width: $on-large) {
+    max-width: 100%;
   }
 }
 

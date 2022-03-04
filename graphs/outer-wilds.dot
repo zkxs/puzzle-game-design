@@ -323,7 +323,7 @@ digraph outer_wilds_progression {
         -> teleporter_partial_knowledge -> black_hole_forge -> teleporter_timing_trick_learned;
     {teleporter_twin_trick_learned, teleporter_timing_trick_learned} -> teleporter_complete_knowledge;
     #teleporter_partial_knowledge -> teleporter_complete_knowledge [constraint = false, tooltip = "While this appears to be an obvious guaranteed edge, remember that the black hole forge can be reached early via a skip"]; // disabled because graphing skips is an exercise in pain
-    teleporter_complete_knowledge -> ash_twin_interior [weight = 200]; // these look better when close
+    teleporter_complete_knowledge -> ash_twin_interior [weight = 200]; // these look better when close //TODO: people also have trouble with figuring out which tower is which
     ash_twin_interior -> warp_core_obtained;
 
     // getting to the sun station

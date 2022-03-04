@@ -1,0 +1,27 @@
+---
+layout: minimal
+---
+
+<script src="/js/svg-pan-zoom.js"></script>
+<script>
+function registerSvg(id) {
+    var element = document.getElementById(id);
+    var panZoom = svgPanZoom(element, {
+        controlIconsEnabled: true,
+        mouseWheelZoomEnabled: true,
+        preventMouseEventsDefault: true,
+        fit: true,
+        center: true,
+        zoomScaleSensitivity: 0.75,
+        minZoom: 0.25,
+        maxZoom: 15
+    });
+    window.addEventListener('resize', function() {
+        panZoom.resize();
+    });
+}
+</script>
+
+<object id="svg-{{ page.svg }}" class="wide svg" type="image/svg+xml" data="/svg/{{ page.svg }}.svg" onload="registerSvg('svg-{{ page.svg }}')">Your browser does not support SVG</object>
+
+{{ content }}
