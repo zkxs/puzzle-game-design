@@ -11,17 +11,69 @@ Some quick and dirty outer wilds notes.
 
 ### The eye's coordinates
 
-- The eye coordinates:
-  1. `L` tilted clockwise slightly
-  2. Hourglass minus bottom
-  3. `N` but with swag
+1. `L` tilted clockwise slightly
+2. Hourglass minus bottom
+3. `N` but with swag
 
-### The password from the Symbol Room
-  4. `)` crescent
-  5. Saturn
-  6. `)` crescent
-  7. `+` star
-  8. `+` star
+### Echoes of the Eye Codes
+
+#### Eye Signal Blocker Shack
+
+???
+
+#### Abandoned Temple Elevator
+
+0, 3, 0, -3, -3
+
+1. 🌒 crescent
+2. 🪐 ringed planet
+3. 🌒 crescent
+4. ✨ star
+5. ✨ star
+
+#### Seal 1 (datamined)
+Does nothing?
+
+0, 1, 2, -2, 3
+
+1. 🌒 crescent
+2. 🌓 half-moon
+3. 🌔 gibbous
+4. 👁️ eye
+5. 🪐 ringed planet
+
+#### Seal 1 (actual)
+Aligns the invisible bridge
+
+-3, 0, 2, -2, 3
+
+1. ✨ star
+2. 🌒 crescent
+3. 🌔 gibbous
+4. 👁️ eye
+5. ✨ star
+
+#### Seal 2 (datamined)
+Summons the raft
+
+-3, 4, 3, -1, 2
+
+1. ✨ star
+2. ☀️ sun
+3. 🪐 ringed planet
+4. 🔥 fire
+5. 🌔 gibbous
+
+#### Seal 3 (datamined)
+Deactivates the bridge's light
+
+1, 2, 3, 2, 1
+
+1. 🌓 half-moon
+2. 🌔 gibbous
+3. 🪐 ringed planet
+4. 🌔 gibbous
+5. 🌓 half-moon
 
 ### Subterranean Lake Map
 
@@ -100,8 +152,9 @@ The archives:
 #### Multi-dream Route
 1. Hidden Gorge -> Endless Canyon
    1. Left to secret tunnel fuckery, shortcut to turn off lights
-   2. Right to bridge fuckery, shortcut past elevator
-   3. Sneak past spooks and through painting
+   2. Deathwarp, go back in
+   3. Right to bridge fuckery, shortcut past elevator
+   4. Sneak past spooks and through painting
    5. Deathwarp
 2. Die at Cinder Isles (Island Tower) -> Starlit Cove
    1. Hang a left and activate the dock
@@ -127,8 +180,9 @@ The benefits:
 The gist: Unlock all the docks, then do cinder
 
 1. Setup
-   1. Go to Hidden Gorge, drop elevator at Endless Canyon dock, deathwarp
-   2. Go to River Lowlands, open Shrouded Woodlands dock, deathwarp
+   1. Go to Hidden Gorge, use invisible bridge to drop elevator at Endless Canyon dock, deathwarp
+   2. Go back into Endless Canyon, use secret passage to extinguish lights, deathwarp
+   3. Go to River Lowlands, open Shrouded Woodlands dock, deathwarp
 2. Go to Cinder Isles (Island Tower), die at fire
 3. Execute The Run
    1. Do Starlit Cove archive (low risk)
@@ -150,55 +204,6 @@ The drawbacks:
 The benefits:
 - Swag
 - Shrouded Woodlands is last, so the dam timing is good
-
-#### Perfected Route
-After remembering you can warp to Shrouded Woodlands, a full redesign. Two options:
-- One-dream is slightly more dangerous as you have to dodge a pursuer twice vs once, but you get the swag of doing all three archives in one dream
-- Multi-dream is slightly safer for the aforementioned reason. It's not any slower due to the waiting-for-dam-to-break autoscroller.
-
-1. Go in the normal entrance
-2. Grab the artifact from the ghost matter shack
-3. Proceed to the Island Tower
-4. Sleep into the Starlit Cove
-5. Hang a left and light the boathouse
-6. Jump in to water to wake up
-7. Raft to the Hidden Gorge
-8. Sleep. If you're going for a one-dream run then die here instead.
-9. Take the painting shortcut to extinguish the lights
-10. Take the invisible bridge right of spawn to the elevator
-11. Hug the right wall to YOLO past the camping pursuer and get to the archive
-12. Backtrack to the elevator.
-    - If you are dead IRL (one-dream run)
-      1. Simply walk back to the elevator, again hugging the left wall and ignoring the camping pursuer
-    - If you aren't dead IRL
-      1. Jump in the water to deathwarp back
-      2. Die at the fire
-      3. Take the right invisible bridge back to the elevator
-13. Take the elevator down to the dock
-14. Raft into the area transition, and jump out
-15. Walk into the only accessible archive
-16. Call the elevator (it takes a while)
-17. Take the elevator upstairs to the Shrouded Woodlands
-18. WAIT inside the fireplace until the music stops. Don't fuck around with your light, because they'll see it and they'll totally walk through the fireplace and grab you.
-19. Head to the dock
-20. Raft to the Starlit Cove
-21. Waltz in to the archive
-    - You're dead, so ignore the alarms
-    - There are no pursuers, even in the archive antechamber, so use your light freely and don't fall in the hole. The room is designed to fuck with you if you don't use your light.
-
-Costs:
-- Ghost matter shack
-- 2.5 IRL quarter turn, no passing the dam
-- 1.5 dream quarter turns
-- 1 archive -> dock backtrack (2 if going for one dream swag)
-
-The drawbacks:
-- We don't get to use the cool hidden gorge entrance, and we have to use the *cringe* ghost matter shack instead.
-- Shrouded Woodlands isn't last, meaning you might need to wait for the dam to break depending on how fast you go
-
-The benefits:
-- One unified route with only minor differences between multi-dream and one-dream
-- Less IRL travel, and dodge the fucking dam entirely
 
 ## Freeing the Prisoner
 Requirements:
