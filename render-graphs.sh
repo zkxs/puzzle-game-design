@@ -1,7 +1,5 @@
 #!/bin/bash
 PNG_OPTIONS="-d 150"
-# Z_BEST_COMPRESSION
-# CAIRO_ANTIALIAS_BEST
 
 function generate {
     echo "  Generating SVG..."
@@ -9,10 +7,9 @@ function generate {
     echo "---
 layout: svg
 svg: $FILENAME
----
-" > "docs/svg/$FILENAME.html"
+---" > "docs/svg/$FILENAME.html"
     #echo "  Generating PNG..."
-    #inkscape $PNG_OPTIONS -o "docs/img/$FILENAME.png" "docs/svg/$FILENAME.svg" &> /dev/null
+    #inkscape $PNG_OPTIONS -o "docs/img/$FILENAME.png" "docs/svg/$FILENAME.svg"
 }
 
 echo "Outer Wilds:"

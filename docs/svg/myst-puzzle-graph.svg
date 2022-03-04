@@ -9,15 +9,15 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1592)">
 <title>myst_progression</title>
 <polygon fill="#1f1f1f" stroke="transparent" points="-4,4 -4,-1592 2115.25,-1592 2115.25,4 -4,4"/>
-<g id="clust5" class="cluster">
-<title>cluster_selenetic</title>
-<polygon fill="#1f1f1f" stroke="red" points="626,-449 626,-994 1000,-994 1000,-449 626,-449"/>
-<text text-anchor="middle" x="813" y="-970.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="24.00" fill="red">Selenetic Age</text>
-</g>
 <g id="clust6" class="cluster">
 <title>cluster_mechanical</title>
 <polygon fill="#1f1f1f" stroke="red" points="8,-449 8,-994 618,-994 618,-449 8,-449"/>
 <text text-anchor="middle" x="313" y="-970.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="24.00" fill="red">Mechanical Age</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_selenetic</title>
+<polygon fill="#1f1f1f" stroke="red" points="626,-449 626,-994 1000,-994 1000,-449 626,-449"/>
+<text text-anchor="middle" x="813" y="-970.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="24.00" fill="red">Selenetic Age</text>
 </g>
 <g id="clust7" class="cluster">
 <title>cluster_stoneship</title>
@@ -506,14 +506,14 @@
 <!-- door_code -->
 <g id="node32" class="node">
 <title>door_code</title>
-<path fill="#280060" stroke="#d9d9d9" d="M829,-677C829,-677 707,-677 707,-677 701,-677 695,-671 695,-665 695,-665 695,-653 695,-653 695,-647 701,-641 707,-641 707,-641 829,-641 829,-641 835,-641 841,-647 841,-653 841,-653 841,-665 841,-665 841,-671 835,-677 829,-677"/>
-<text text-anchor="middle" x="768" y="-655.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Learn the door code</text>
+<path fill="#280060" stroke="#d9d9d9" d="M825,-677C825,-677 703,-677 703,-677 697,-677 691,-671 691,-665 691,-665 691,-653 691,-653 691,-647 697,-641 703,-641 703,-641 825,-641 825,-641 831,-641 837,-647 837,-653 837,-653 837,-665 837,-665 837,-671 831,-677 825,-677"/>
+<text text-anchor="middle" x="764" y="-655.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Learn the door code</text>
 </g>
 <!-- align_microphones&#45;&gt;door_code -->
 <g id="edge52" class="edge">
 <title>align_microphones&#45;&gt;door_code</title>
-<path fill="none" stroke="#d9d9d9" d="M771.23,-732.65C770.66,-719.82 769.87,-702.11 769.22,-687.38"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="772.71,-687.13 768.77,-677.3 765.72,-687.45 772.71,-687.13"/>
+<path fill="none" stroke="#d9d9d9" d="M770.46,-732.65C769.32,-719.82 767.74,-702.11 766.43,-687.38"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="769.91,-686.95 765.54,-677.3 762.94,-687.57 769.91,-686.95"/>
 </g>
 <!-- selenetic_exit_unlocked -->
 <g id="node33" class="node">
@@ -524,8 +524,8 @@
 <!-- door_code&#45;&gt;selenetic_exit_unlocked -->
 <g id="edge53" class="edge">
 <title>door_code&#45;&gt;selenetic_exit_unlocked</title>
-<path fill="none" stroke="#d9d9d9" d="M759.71,-640.65C753.46,-627.57 744.79,-609.42 737.67,-594.53"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="740.73,-592.81 733.27,-585.3 734.42,-595.83 740.73,-592.81"/>
+<path fill="none" stroke="#d9d9d9" d="M756.48,-640.65C750.82,-627.57 742.95,-609.42 736.5,-594.53"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="739.68,-593.08 732.5,-585.3 733.26,-595.87 739.68,-593.08"/>
 </g>
 <!-- selenetic_exit_unlocked&#45;&gt;selenetic_complete -->
 <g id="edge72" class="edge">
@@ -587,14 +587,14 @@
 <!-- mechanical_complete -->
 <g id="node43" class="node">
 <title>mechanical_complete</title>
-<path fill="none" stroke="#d9d9d9" d="M453,-493C453,-493 289,-493 289,-493 283,-493 277,-487 277,-481 277,-481 277,-469 277,-469 277,-463 283,-457 289,-457 289,-457 453,-457 453,-457 459,-457 465,-463 465,-469 465,-469 465,-481 465,-481 465,-487 459,-493 453,-493"/>
-<text text-anchor="middle" x="371" y="-471.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Mechanical age completed</text>
+<path fill="none" stroke="#d9d9d9" d="M449,-493C449,-493 285,-493 285,-493 279,-493 273,-487 273,-481 273,-481 273,-469 273,-469 273,-463 279,-457 285,-457 285,-457 449,-457 449,-457 455,-457 461,-463 461,-469 461,-469 461,-481 461,-481 461,-487 455,-493 449,-493"/>
+<text text-anchor="middle" x="367" y="-471.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Mechanical age completed</text>
 </g>
 <!-- mechanical_page_found&#45;&gt;mechanical_complete -->
 <g id="edge69" class="edge">
 <title>mechanical_page_found&#45;&gt;mechanical_complete</title>
-<path fill="none" stroke="#d9d9d9" d="M112.94,-824.76C109.41,-788.19 105.52,-701.19 139,-640 177.61,-569.44 261.16,-522.23 316.74,-497.25"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="318.35,-500.37 326.09,-493.14 315.53,-493.96 318.35,-500.37"/>
+<path fill="none" stroke="#d9d9d9" d="M112.52,-824.79C108.1,-788.28 102.19,-701.38 135,-640 172.92,-569.07 256.66,-521.96 312.47,-497.1"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="314.09,-500.21 321.86,-493.01 311.29,-493.8 314.09,-500.21"/>
 </g>
 <!-- cardinal_sounds_learned&#45;&gt;selenetic_exit_unlocked -->
 <g id="edge2" class="edge">
@@ -626,56 +626,56 @@
 <!-- mechanical_code_2 -->
 <g id="node40" class="node">
 <title>mechanical_code_2</title>
-<path fill="none" stroke="#d9d9d9" d="M577,-677C577,-677 393,-677 393,-677 387,-677 381,-671 381,-665 381,-665 381,-653 381,-653 381,-647 387,-641 393,-641 393,-641 577,-641 577,-641 583,-641 589,-647 589,-653 589,-653 589,-665 589,-665 589,-671 583,-677 577,-677"/>
-<text text-anchor="middle" x="485" y="-655.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Learn 2nd half of the exit code</text>
+<path fill="none" stroke="#d9d9d9" d="M573,-677C573,-677 389,-677 389,-677 383,-677 377,-671 377,-665 377,-665 377,-653 377,-653 377,-647 383,-641 389,-641 389,-641 573,-641 573,-641 579,-641 585,-647 585,-653 585,-653 585,-665 585,-665 585,-671 579,-677 573,-677"/>
+<text text-anchor="middle" x="481" y="-655.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Learn 2nd half of the exit code</text>
 </g>
 <!-- fortress_rotation&#45;&gt;mechanical_code_2 -->
 <g id="edge41" class="edge">
 <title>fortress_rotation&#45;&gt;mechanical_code_2</title>
-<path fill="none" stroke="#d9d9d9" d="M370.85,-732.86C393.2,-718.6 425.19,-698.18 449.62,-682.58"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="451.7,-685.41 458.25,-677.08 447.93,-679.51 451.7,-685.41"/>
+<path fill="none" stroke="#d9d9d9" d="M370.09,-732.86C391.8,-718.6 422.88,-698.18 446.62,-682.58"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="448.57,-685.49 455.01,-677.08 444.73,-679.64 448.57,-685.49"/>
 </g>
 <!-- mechanical_code_1 -->
 <g id="node41" class="node">
 <title>mechanical_code_1</title>
-<path fill="none" stroke="#d9d9d9" d="M344,-677C344,-677 164,-677 164,-677 158,-677 152,-671 152,-665 152,-665 152,-653 152,-653 152,-647 158,-641 164,-641 164,-641 344,-641 344,-641 350,-641 356,-647 356,-653 356,-653 356,-665 356,-665 356,-671 350,-677 344,-677"/>
-<text text-anchor="middle" x="254" y="-655.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Learn 1st half of the exit code</text>
+<path fill="none" stroke="#d9d9d9" d="M340,-677C340,-677 160,-677 160,-677 154,-677 148,-671 148,-665 148,-665 148,-653 148,-653 148,-647 154,-641 160,-641 160,-641 340,-641 340,-641 346,-641 352,-647 352,-653 352,-653 352,-665 352,-665 352,-671 346,-677 340,-677"/>
+<text text-anchor="middle" x="250" y="-655.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Learn 1st half of the exit code</text>
 </g>
 <!-- fortress_rotation&#45;&gt;mechanical_code_1 -->
 <g id="edge40" class="edge">
 <title>fortress_rotation&#45;&gt;mechanical_code_1</title>
-<path fill="none" stroke="#d9d9d9" d="M326.65,-732.65C312.95,-718.95 293.68,-699.68 278.42,-684.42"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="280.85,-681.9 271.3,-677.3 275.9,-686.85 280.85,-681.9"/>
+<path fill="none" stroke="#d9d9d9" d="M325.88,-732.65C311.57,-718.95 291.44,-699.68 275.51,-684.42"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="277.71,-681.69 268.07,-677.3 272.87,-686.74 277.71,-681.69"/>
 </g>
 <!-- mechanical_exit_unlocked -->
 <g id="node42" class="node">
 <title>mechanical_exit_unlocked</title>
-<path fill="#280060" stroke="#d9d9d9" d="M466.5,-585C466.5,-585 275.5,-585 275.5,-585 269.5,-585 263.5,-579 263.5,-573 263.5,-573 263.5,-561 263.5,-561 263.5,-555 269.5,-549 275.5,-549 275.5,-549 466.5,-549 466.5,-549 472.5,-549 478.5,-555 478.5,-561 478.5,-561 478.5,-573 478.5,-573 478.5,-579 472.5,-585 466.5,-585"/>
-<text text-anchor="middle" x="371" y="-563.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Unlock the mechanical age exit</text>
+<path fill="#280060" stroke="#d9d9d9" d="M462.5,-585C462.5,-585 271.5,-585 271.5,-585 265.5,-585 259.5,-579 259.5,-573 259.5,-573 259.5,-561 259.5,-561 259.5,-555 265.5,-549 271.5,-549 271.5,-549 462.5,-549 462.5,-549 468.5,-549 474.5,-555 474.5,-561 474.5,-561 474.5,-573 474.5,-573 474.5,-579 468.5,-585 462.5,-585"/>
+<text text-anchor="middle" x="367" y="-563.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Unlock the mechanical age exit</text>
 </g>
 <!-- mechanical_code_2&#45;&gt;mechanical_exit_unlocked -->
 <g id="edge43" class="edge">
 <title>mechanical_code_2&#45;&gt;mechanical_exit_unlocked</title>
-<path fill="none" stroke="#d9d9d9" d="M463.29,-640.86C445.54,-626.85 420.26,-606.89 400.65,-591.41"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="402.65,-588.53 392.63,-585.08 398.31,-594.02 402.65,-588.53"/>
+<path fill="none" stroke="#d9d9d9" d="M459.29,-640.86C441.54,-626.85 416.26,-606.89 396.65,-591.41"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="398.65,-588.53 388.63,-585.08 394.31,-594.02 398.65,-588.53"/>
 </g>
 <!-- mechanical_code_1&#45;&gt;mechanical_exit_unlocked -->
 <g id="edge42" class="edge">
 <title>mechanical_code_1&#45;&gt;mechanical_exit_unlocked</title>
-<path fill="none" stroke="#d9d9d9" d="M276.28,-640.86C294.58,-626.78 320.67,-606.71 340.84,-591.2"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="343.01,-593.95 348.8,-585.08 338.74,-588.4 343.01,-593.95"/>
+<path fill="none" stroke="#d9d9d9" d="M272.28,-640.86C290.58,-626.78 316.67,-606.71 336.84,-591.2"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="339.01,-593.95 344.8,-585.08 334.74,-588.4 339.01,-593.95"/>
 </g>
 <!-- mechanical_exit_unlocked&#45;&gt;mechanical_complete -->
 <g id="edge70" class="edge">
 <title>mechanical_exit_unlocked&#45;&gt;mechanical_complete</title>
-<path fill="none" stroke="#d9d9d9" d="M371,-548.65C371,-535.82 371,-518.11 371,-503.38"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="374.5,-503.3 371,-493.3 367.5,-503.3 374.5,-503.3"/>
+<path fill="none" stroke="#d9d9d9" d="M367,-548.65C367,-535.82 367,-518.11 367,-503.38"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="370.5,-503.3 367,-493.3 363.5,-503.3 370.5,-503.3"/>
 </g>
 <!-- mechanical_complete&#45;&gt;learn_fireplace_page_number -->
 <g id="edge76" class="edge">
 <title>mechanical_complete&#45;&gt;learn_fireplace_page_number</title>
-<path fill="none" stroke="#d9d9d9" d="M442.65,-456.98C582.63,-423.75 891.87,-350.31 1042.78,-314.48"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1044,-317.78 1052.92,-312.07 1042.39,-310.97 1044,-317.78"/>
+<path fill="none" stroke="#d9d9d9" d="M439.03,-456.98C579.88,-423.71 891.24,-350.16 1042.77,-314.37"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1043.59,-317.77 1052.52,-312.07 1041.99,-310.96 1043.59,-317.77"/>
 </g>
 <!-- understand_pump -->
 <g id="node45" class="node">
