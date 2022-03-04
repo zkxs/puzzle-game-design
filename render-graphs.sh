@@ -6,6 +6,7 @@ function generate {
     dot -T svg -o "docs/svg/$FILENAME.svg" "graphs/$FILENAME.dot"
     echo "---
 layout: svg
+title: $FILENAME.svg
 svg: $FILENAME
 ---" > "docs/svg/$FILENAME.html"
     #echo "  Generating PNG..."
