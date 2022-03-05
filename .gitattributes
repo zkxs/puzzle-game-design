@@ -1,0 +1,2 @@
+# prevent git from trying to treat Graphviz files as Word documents
+*.dot diff

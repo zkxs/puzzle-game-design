@@ -108,6 +108,7 @@ digraph outer_wilds_progression {
     teleporter_angle_learned [label = "Learn that the teleporters\ntrigger only when aligned"]
     teleporter_partial_knowledge [label = "Figure out how to\nuse the warp towers"]
     black_hole_forge [label = "Teleport to the\nBlack Hole Forge*", tooltip = "Can be skipped if you go full goblin-mode and park your ship on the ceiling"]
+    ash_twin_teleporter_identified [label = "Figure out which warp\ntower goes to the Ash Twin"]
     teleporter_twin_trick_learned [label = "Learn the alignment trick\nto teleporting to the Twins"]
     teleporter_timing_trick_learned [label = "Learn that the warp towers have\na small tolerance timing-wise"]
     teleporter_complete_knowledge [label = "Figure out how to teleport\nto the Ash Twin Interior"]
@@ -261,6 +262,9 @@ digraph outer_wilds_progression {
         // you can do the dream exile ending from any area
         {dream_surface_regions, subterranean_lake} -> be_in_dream;
 
+        // finding feldspar
+        {outer_wilds_venture_signal, dark_bramble_scout_trick_learned} -> feldspar_found;
+
         // the dark bramble seed scout trick
         {feldspar_found, youngbark_crater_explored} -> dark_bramble_scout_trick_learned;
 
@@ -309,7 +313,7 @@ digraph outer_wilds_progression {
 
     // finding the eye coordinates
     southern_observatory -> middle_giants_deep -> inner_giants_deep;
-    outer_wilds_venture_signal -> feldspar_found -> jellyfish_trick_learned -> inner_giants_deep;
+    feldspar_found -> jellyfish_trick_learned -> inner_giants_deep; 
     inner_giants_deep -> eye_coordinates_known [weight = 101]; // keep this from getting pulled down
 
     // finding the vessel
@@ -321,9 +325,10 @@ digraph outer_wilds_progression {
     high_energy_lab -> ash_twin_towers_are_teleporters;
     {ash_twin_towers_are_teleporters, teleporter_angle_learned}
         -> teleporter_partial_knowledge -> black_hole_forge -> teleporter_timing_trick_learned;
-    {teleporter_twin_trick_learned, teleporter_timing_trick_learned} -> teleporter_complete_knowledge;
+    ash_twin_towers_are_teleporters -> ash_twin_teleporter_identified;
+    {teleporter_twin_trick_learned, teleporter_timing_trick_learned, ash_twin_teleporter_identified} -> teleporter_complete_knowledge;
     #teleporter_partial_knowledge -> teleporter_complete_knowledge [constraint = false, tooltip = "While this appears to be an obvious guaranteed edge, remember that the black hole forge can be reached early via a skip"]; // disabled because graphing skips is an exercise in pain
-    teleporter_complete_knowledge -> ash_twin_interior [weight = 200]; // these look better when close //TODO: people also have trouble with figuring out which tower is which
+    teleporter_complete_knowledge -> ash_twin_interior [weight = 200]; // these look better when close
     ash_twin_interior -> warp_core_obtained;
 
     // getting to the sun station
