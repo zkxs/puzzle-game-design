@@ -58,39 +58,39 @@
 <!-- ending_broke_time -->
 <g id="node2" class="node">
 <title>ending_broke_time</title>
-<path fill="#500000" stroke="#d9d9d9" d="M2053.5,-651C2053.5,-651 1962.5,-651 1962.5,-651 1956.5,-651 1950.5,-645 1950.5,-639 1950.5,-639 1950.5,-627 1950.5,-627 1950.5,-621 1956.5,-615 1962.5,-615 1962.5,-615 2053.5,-615 2053.5,-615 2059.5,-615 2065.5,-621 2065.5,-627 2065.5,-627 2065.5,-639 2065.5,-639 2065.5,-645 2059.5,-651 2053.5,-651"/>
-<text text-anchor="middle" x="2008" y="-629.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">You broke time</text>
+<path fill="#500000" stroke="#d9d9d9" d="M2067.5,-651C2067.5,-651 1976.5,-651 1976.5,-651 1970.5,-651 1964.5,-645 1964.5,-639 1964.5,-639 1964.5,-627 1964.5,-627 1964.5,-621 1970.5,-615 1976.5,-615 1976.5,-615 2067.5,-615 2067.5,-615 2073.5,-615 2079.5,-621 2079.5,-627 2079.5,-627 2079.5,-639 2079.5,-639 2079.5,-645 2073.5,-651 2067.5,-651"/>
+<text text-anchor="middle" x="2022" y="-629.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">You broke time</text>
 </g>
 <!-- ending_exile_quantum -->
 <g id="node3" class="node">
 <title>ending_exile_quantum</title>
-<path fill="#500000" stroke="#d9d9d9" d="M1863,-753C1863,-753 1717,-753 1717,-753 1711,-753 1705,-747 1705,-741 1705,-741 1705,-729 1705,-729 1705,-723 1711,-717 1717,-717 1717,-717 1863,-717 1863,-717 1869,-717 1875,-723 1875,-729 1875,-729 1875,-741 1875,-741 1875,-747 1869,-753 1863,-753"/>
-<text text-anchor="middle" x="1790" y="-731.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Exile on Quantum Moon</text>
+<path fill="#500000" stroke="#d9d9d9" d="M1881,-753C1881,-753 1735,-753 1735,-753 1729,-753 1723,-747 1723,-741 1723,-741 1723,-729 1723,-729 1723,-723 1729,-717 1735,-717 1735,-717 1881,-717 1881,-717 1887,-717 1893,-723 1893,-729 1893,-729 1893,-741 1893,-741 1893,-747 1887,-753 1881,-753"/>
+<text text-anchor="middle" x="1808" y="-731.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Exile on Quantum Moon</text>
 </g>
 <!-- ending_lost -->
 <g id="node4" class="node">
 <title>ending_lost</title>
-<path fill="#500000" stroke="#d9d9d9" d="M1668,-753C1668,-753 1590,-753 1590,-753 1584,-753 1578,-747 1578,-741 1578,-741 1578,-729 1578,-729 1578,-723 1584,-717 1590,-717 1590,-717 1668,-717 1668,-717 1674,-717 1680,-723 1680,-729 1680,-729 1680,-741 1680,-741 1680,-747 1674,-753 1668,-753"/>
-<text text-anchor="middle" x="1629" y="-731.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Lost in space</text>
+<path fill="#500000" stroke="#d9d9d9" d="M1686,-753C1686,-753 1608,-753 1608,-753 1602,-753 1596,-747 1596,-741 1596,-741 1596,-729 1596,-729 1596,-723 1602,-717 1608,-717 1608,-717 1686,-717 1686,-717 1692,-717 1698,-723 1698,-729 1698,-729 1698,-741 1698,-741 1698,-747 1692,-753 1686,-753"/>
+<text text-anchor="middle" x="1647" y="-731.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Lost in space</text>
 </g>
 <!-- ending_good -->
 <g id="node5" class="node">
 <title>ending_good</title>
-<path fill="#500000" stroke="#d9d9d9" d="M1531.5,-753C1531.5,-753 1454.5,-753 1454.5,-753 1448.5,-753 1442.5,-747 1442.5,-741 1442.5,-741 1442.5,-729 1442.5,-729 1442.5,-723 1448.5,-717 1454.5,-717 1454.5,-717 1531.5,-717 1531.5,-717 1537.5,-717 1543.5,-723 1543.5,-729 1543.5,-729 1543.5,-741 1543.5,-741 1543.5,-747 1537.5,-753 1531.5,-753"/>
-<text text-anchor="middle" x="1493" y="-731.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Good Ending</text>
+<path fill="#500000" stroke="#d9d9d9" d="M1549.5,-753C1549.5,-753 1472.5,-753 1472.5,-753 1466.5,-753 1460.5,-747 1460.5,-741 1460.5,-741 1460.5,-729 1460.5,-729 1460.5,-723 1466.5,-717 1472.5,-717 1472.5,-717 1549.5,-717 1549.5,-717 1555.5,-717 1561.5,-723 1561.5,-729 1561.5,-729 1561.5,-741 1561.5,-741 1561.5,-747 1555.5,-753 1549.5,-753"/>
+<text text-anchor="middle" x="1511" y="-731.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Good Ending</text>
 </g>
 <!-- ending_best -->
 <g id="node6" class="node">
 <title>ending_best</title>
-<path fill="#500000" stroke="#d9d9d9" d="M1549,-40C1549,-40 1437,-40 1437,-40 1431,-40 1425,-34 1425,-28 1425,-28 1425,-14 1425,-14 1425,-8 1431,-2 1437,-2 1437,-2 1549,-2 1549,-2 1555,-2 1561,-8 1561,-14 1561,-14 1561,-28 1561,-28 1561,-34 1555,-40 1549,-40"/>
-<text text-anchor="middle" x="1493" y="-24.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Good Ending but</text>
-<text text-anchor="middle" x="1493" y="-9.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">with bonus scenes</text>
+<path fill="#500000" stroke="#d9d9d9" d="M1567,-40C1567,-40 1455,-40 1455,-40 1449,-40 1443,-34 1443,-28 1443,-28 1443,-14 1443,-14 1443,-8 1449,-2 1455,-2 1455,-2 1567,-2 1567,-2 1573,-2 1579,-8 1579,-14 1579,-14 1579,-28 1579,-28 1579,-34 1573,-40 1567,-40"/>
+<text text-anchor="middle" x="1511" y="-24.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Good Ending but</text>
+<text text-anchor="middle" x="1511" y="-9.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">with bonus scenes</text>
 </g>
 <!-- ending_good&#45;&gt;ending_best -->
 <g id="edge135" class="edge">
 <title>ending_good&#45;&gt;ending_best</title>
-<path fill="none" stroke="#d9d9d9" d="M1493,-716.97C1493,-682.21 1493,-600.56 1493,-532 1493,-532 1493,-532 1493,-223 1493,-161.28 1493,-88.9 1493,-50.05"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1496.5,-50.02 1493,-40.02 1489.5,-50.02 1496.5,-50.02"/>
+<path fill="none" stroke="#d9d9d9" d="M1511,-716.97C1511,-682.21 1511,-600.56 1511,-532 1511,-532 1511,-532 1511,-223 1511,-161.28 1511,-88.9 1511,-50.05"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1514.5,-50.02 1511,-40.02 1507.5,-50.02 1514.5,-50.02"/>
 </g>
 <!-- incredible_pilot -->
 <g id="node7" class="node">
@@ -327,14 +327,14 @@
 <!-- map_satellite_glitch_learned -->
 <g id="node53" class="node">
 <title>map_satellite_glitch_learned</title>
-<path fill="none" stroke="#d9d9d9" d="M797,-1794C797,-1794 561,-1794 561,-1794 555,-1794 549,-1788 549,-1782 549,-1782 549,-1770 549,-1770 549,-1764 555,-1758 561,-1758 561,-1758 797,-1758 797,-1758 803,-1758 809,-1764 809,-1770 809,-1770 809,-1782 809,-1782 809,-1788 803,-1794 797,-1794"/>
-<text text-anchor="middle" x="679" y="-1772.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Learn about the map satellite&#39;s &quot;glitch&quot;</text>
+<path fill="none" stroke="#d9d9d9" d="M753,-1794C753,-1794 517,-1794 517,-1794 511,-1794 505,-1788 505,-1782 505,-1782 505,-1770 505,-1770 505,-1764 511,-1758 517,-1758 517,-1758 753,-1758 753,-1758 759,-1758 765,-1764 765,-1770 765,-1770 765,-1782 765,-1782 765,-1788 759,-1794 753,-1794"/>
+<text text-anchor="middle" x="635" y="-1772.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Learn about the map satellite&#39;s &quot;glitch&quot;</text>
 </g>
 <!-- launch_codes_learned&#45;&gt;map_satellite_glitch_learned -->
 <g id="edge86" class="edge">
 <title>launch_codes_learned&#45;&gt;map_satellite_glitch_learned</title>
-<path fill="none" stroke="#d9d9d9" d="M1587.56,-1880.61C1466.79,-1879.16 1218.89,-1872.81 1011,-1845.8 922.86,-1834.35 823.19,-1812.47 756.26,-1796.45"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="756.76,-1792.97 746.21,-1794.03 755.12,-1799.77 756.76,-1792.97"/>
+<path fill="none" stroke="#d9d9d9" d="M1587.63,-1880.05C1466.96,-1877.82 1219.19,-1870.38 1011,-1845.8 911.19,-1834.01 797.88,-1812.09 721.97,-1796.16"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="722.49,-1792.69 711.98,-1794.05 721.04,-1799.54 722.49,-1792.69"/>
 </g>
 <!-- launch_codes_learned_proxy_quantum -->
 <g id="node88" class="node">
@@ -556,40 +556,40 @@
 <!-- inner_giants_deep -->
 <g id="node30" class="node">
 <title>inner_giants_deep</title>
-<path fill="none" stroke="#d9d9d9" d="M1433,-1368C1433,-1368 1291,-1368 1291,-1368 1285,-1368 1279,-1362 1279,-1356 1279,-1356 1279,-1342 1279,-1342 1279,-1336 1285,-1330 1291,-1330 1291,-1330 1433,-1330 1433,-1330 1439,-1330 1445,-1336 1445,-1342 1445,-1342 1445,-1356 1445,-1356 1445,-1362 1439,-1368 1433,-1368"/>
-<text text-anchor="middle" x="1362" y="-1352.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Go beneath the electric</text>
-<text text-anchor="middle" x="1362" y="-1337.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">layer on Giant&#39;s Deep</text>
+<path fill="none" stroke="#d9d9d9" d="M1451,-1368C1451,-1368 1309,-1368 1309,-1368 1303,-1368 1297,-1362 1297,-1356 1297,-1356 1297,-1342 1297,-1342 1297,-1336 1303,-1330 1309,-1330 1309,-1330 1451,-1330 1451,-1330 1457,-1330 1463,-1336 1463,-1342 1463,-1342 1463,-1356 1463,-1356 1463,-1362 1457,-1368 1451,-1368"/>
+<text text-anchor="middle" x="1380" y="-1352.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Go beneath the electric</text>
+<text text-anchor="middle" x="1380" y="-1337.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">layer on Giant&#39;s Deep</text>
 </g>
 <!-- middle_giants_deep&#45;&gt;inner_giants_deep -->
 <g id="edge49" class="edge">
 <title>middle_giants_deep&#45;&gt;inner_giants_deep</title>
-<path fill="none" stroke="#d9d9d9" d="M1403.06,-1432.94C1395.43,-1417.53 1384.34,-1395.12 1375.6,-1377.48"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1378.6,-1375.65 1371.03,-1368.24 1372.33,-1378.76 1378.6,-1375.65"/>
+<path fill="none" stroke="#d9d9d9" d="M1406.28,-1432.94C1401.44,-1417.67 1394.43,-1395.53 1388.86,-1377.97"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1392.14,-1376.72 1385.78,-1368.24 1385.46,-1378.83 1392.14,-1376.72"/>
 </g>
 <!-- jellyfish_trick_learned&#45;&gt;inner_giants_deep -->
 <g id="edge51" class="edge">
 <title>jellyfish_trick_learned&#45;&gt;inner_giants_deep</title>
-<path fill="none" stroke="#d9d9d9" d="M1251.14,-1432.94C1272.98,-1416.6 1305.33,-1392.39 1329.46,-1374.35"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1331.71,-1377.03 1337.62,-1368.24 1327.51,-1371.43 1331.71,-1377.03"/>
+<path fill="none" stroke="#d9d9d9" d="M1254.35,-1432.94C1279.41,-1416.41 1316.65,-1391.82 1344.09,-1373.71"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1346.21,-1376.5 1352.63,-1368.07 1342.35,-1370.66 1346.21,-1376.5"/>
 </g>
 <!-- eye_coordinates_known -->
 <g id="node31" class="node">
 <title>eye_coordinates_known</title>
-<path fill="#280060" stroke="#d9d9d9" d="M1442.5,-1266C1442.5,-1266 1281.5,-1266 1281.5,-1266 1275.5,-1266 1269.5,-1260 1269.5,-1254 1269.5,-1254 1269.5,-1240 1269.5,-1240 1269.5,-1234 1275.5,-1228 1281.5,-1228 1281.5,-1228 1442.5,-1228 1442.5,-1228 1448.5,-1228 1454.5,-1234 1454.5,-1240 1454.5,-1240 1454.5,-1254 1454.5,-1254 1454.5,-1260 1448.5,-1266 1442.5,-1266"/>
-<text text-anchor="middle" x="1362" y="-1250.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Learn the coordinates</text>
-<text text-anchor="middle" x="1362" y="-1235.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">of the Eye of the Universe</text>
+<path fill="#280060" stroke="#d9d9d9" d="M1460.5,-1266C1460.5,-1266 1299.5,-1266 1299.5,-1266 1293.5,-1266 1287.5,-1260 1287.5,-1254 1287.5,-1254 1287.5,-1240 1287.5,-1240 1287.5,-1234 1293.5,-1228 1299.5,-1228 1299.5,-1228 1460.5,-1228 1460.5,-1228 1466.5,-1228 1472.5,-1234 1472.5,-1240 1472.5,-1240 1472.5,-1254 1472.5,-1254 1472.5,-1260 1466.5,-1266 1460.5,-1266"/>
+<text text-anchor="middle" x="1380" y="-1250.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Learn the coordinates</text>
+<text text-anchor="middle" x="1380" y="-1235.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">of the Eye of the Universe</text>
 </g>
 <!-- inner_giants_deep&#45;&gt;eye_coordinates_known -->
 <g id="edge52" class="edge">
 <title>inner_giants_deep&#45;&gt;eye_coordinates_known</title>
-<path fill="none" stroke="#d9d9d9" d="M1362,-1329.66C1362,-1314.72 1362,-1293.37 1362,-1276.24"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1365.5,-1276.23 1362,-1266.23 1358.5,-1276.23 1365.5,-1276.23"/>
+<path fill="none" stroke="#d9d9d9" d="M1380,-1329.66C1380,-1314.72 1380,-1293.37 1380,-1276.24"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1383.5,-1276.23 1380,-1266.23 1376.5,-1276.23 1383.5,-1276.23"/>
 </g>
 <!-- eye_coordinates_known&#45;&gt;ending_good -->
 <g id="edge132" class="edge">
 <title>eye_coordinates_known&#45;&gt;ending_good</title>
-<path fill="none" stroke="#d9d9d9" d="M1368.08,-1227.76C1379.27,-1192.5 1402,-1112.33 1402,-1043 1402,-1043 1402,-1043 1402,-939 1402,-869.81 1446.56,-798.05 1473.32,-761.2"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1476.23,-763.14 1479.38,-753.03 1470.61,-758.98 1476.23,-763.14"/>
+<path fill="none" stroke="#d9d9d9" d="M1386.08,-1227.76C1397.27,-1192.5 1420,-1112.33 1420,-1043 1420,-1043 1420,-1043 1420,-939 1420,-869.81 1464.56,-798.05 1491.32,-761.2"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1494.23,-763.14 1497.38,-753.03 1488.61,-758.98 1494.23,-763.14"/>
 </g>
 <!-- vessel_found -->
 <g id="node34" class="node">
@@ -618,8 +618,8 @@
 <!-- vessel_found&#45;&gt;ending_good -->
 <g id="edge133" class="edge">
 <title>vessel_found&#45;&gt;ending_good</title>
-<path fill="none" stroke="#d9d9d9" d="M1576.12,-1433.89C1548.7,-1400.56 1493,-1323.53 1493,-1248 1493,-1248 1493,-1248 1493,-939 1493,-876.02 1493,-802.05 1493,-763.12"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1496.5,-763.11 1493,-753.11 1489.5,-763.11 1496.5,-763.11"/>
+<path fill="none" stroke="#d9d9d9" d="M1579.2,-1433.98C1556.94,-1400.18 1511,-1321.49 1511,-1248 1511,-1248 1511,-1248 1511,-939 1511,-876.02 1511,-802.05 1511,-763.12"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1514.5,-763.11 1511,-753.11 1507.5,-763.11 1514.5,-763.11"/>
 </g>
 <!-- sunken_city&#45;&gt;anglerfish_trick -->
 <g id="edge45" class="edge">
@@ -675,8 +675,8 @@
 <!-- intentionally_break_time&#45;&gt;ending_broke_time -->
 <g id="edge14" class="edge">
 <title>intentionally_break_time&#45;&gt;ending_broke_time</title>
-<path fill="none" stroke="#d9d9d9" stroke-dasharray="5,2" d="M2035,-1432.86C1995.42,-1404.45 1923.31,-1345.26 1895,-1274 1846.16,-1151.06 1925.33,-805.08 1958,-716 1965.39,-695.85 1977.99,-675.23 1988.69,-659.71"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1991.8,-661.38 1994.72,-651.2 1986.09,-657.33 1991.8,-661.38"/>
+<path fill="none" stroke="#d9d9d9" stroke-dasharray="5,2" d="M2035,-1432.86C1995.42,-1404.45 1923.31,-1345.26 1895,-1274 1842.71,-1142.39 1938.34,-786.92 1967,-716 1975.34,-695.35 1989.39,-674.54 2001.19,-659.05"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="2004.07,-661.06 2007.47,-651.02 1998.55,-656.74 2004.07,-661.06"/>
 </g>
 <!-- teleporter_partial_knowledge -->
 <g id="node42" class="node">
@@ -789,57 +789,60 @@
 <!-- ash_twin_interior -->
 <g id="node48" class="node">
 <title>ash_twin_interior</title>
-<path fill="#280060" stroke="#d9d9d9" d="M2410.5,-958C2410.5,-958 2247.5,-958 2247.5,-958 2241.5,-958 2235.5,-952 2235.5,-946 2235.5,-946 2235.5,-934 2235.5,-934 2235.5,-928 2241.5,-922 2247.5,-922 2247.5,-922 2410.5,-922 2410.5,-922 2416.5,-922 2422.5,-928 2422.5,-934 2422.5,-934 2422.5,-946 2422.5,-946 2422.5,-952 2416.5,-958 2410.5,-958"/>
-<text text-anchor="middle" x="2329" y="-936.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Enter the Ash Twin interior</text>
+<path fill="#280060" stroke="#d9d9d9" d="M2413.5,-958C2413.5,-958 2250.5,-958 2250.5,-958 2244.5,-958 2238.5,-952 2238.5,-946 2238.5,-946 2238.5,-934 2238.5,-934 2238.5,-928 2244.5,-922 2250.5,-922 2250.5,-922 2413.5,-922 2413.5,-922 2419.5,-922 2425.5,-928 2425.5,-934 2425.5,-934 2425.5,-946 2425.5,-946 2425.5,-952 2419.5,-958 2413.5,-958"/>
+<text text-anchor="middle" x="2332" y="-936.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Enter the Ash Twin interior</text>
 </g>
 <!-- teleporter_complete_knowledge&#45;&gt;ash_twin_interior -->
 <g id="edge68" class="edge">
 <title>teleporter_complete_knowledge&#45;&gt;ash_twin_interior</title>
-<path fill="none" stroke="#d9d9d9" d="M2333.08,-1022.66C2332.32,-1007.44 2331.23,-985.56 2330.36,-968.29"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="2333.86,-968.04 2329.86,-958.22 2326.86,-968.38 2333.86,-968.04"/>
+<path fill="none" stroke="#d9d9d9" d="M2333.63,-1022.66C2333.33,-1007.44 2332.89,-985.56 2332.55,-968.29"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="2336.04,-968.15 2332.34,-958.22 2329.05,-968.29 2336.04,-968.15"/>
 </g>
 <!-- warp_core_obtained -->
 <g id="node49" class="node">
 <title>warp_core_obtained</title>
-<path fill="none" stroke="#d9d9d9" d="M1734.5,-856C1734.5,-856 1543.5,-856 1543.5,-856 1537.5,-856 1531.5,-850 1531.5,-844 1531.5,-844 1531.5,-832 1531.5,-832 1531.5,-826 1537.5,-820 1543.5,-820 1543.5,-820 1734.5,-820 1734.5,-820 1740.5,-820 1746.5,-826 1746.5,-832 1746.5,-832 1746.5,-844 1746.5,-844 1746.5,-850 1740.5,-856 1734.5,-856"/>
-<text text-anchor="middle" x="1639" y="-834.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Take the operational warp core</text>
+<path fill="none" stroke="#d9d9d9" d="M1752.5,-856C1752.5,-856 1561.5,-856 1561.5,-856 1555.5,-856 1549.5,-850 1549.5,-844 1549.5,-844 1549.5,-832 1549.5,-832 1549.5,-826 1555.5,-820 1561.5,-820 1561.5,-820 1752.5,-820 1752.5,-820 1758.5,-820 1764.5,-826 1764.5,-832 1764.5,-832 1764.5,-844 1764.5,-844 1764.5,-850 1758.5,-856 1752.5,-856"/>
+<text text-anchor="middle" x="1657" y="-834.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Take the operational warp core</text>
 </g>
 <!-- ash_twin_interior&#45;&gt;warp_core_obtained -->
 <g id="edge69" class="edge">
 <title>ash_twin_interior&#45;&gt;warp_core_obtained</title>
-<path fill="none" stroke="#d9d9d9" d="M2235.23,-925.41C2111.03,-907.41 1891.95,-875.66 1756.75,-856.06"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1757.16,-852.59 1746.76,-854.62 1756.15,-859.52 1757.16,-852.59"/>
+<path fill="none" stroke="#d9d9d9" d="M2238.5,-925.15C2117.5,-907.22 1906.61,-875.98 1774.8,-856.45"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1775.07,-852.95 1764.66,-854.95 1774.04,-859.88 1775.07,-852.95"/>
 </g>
 <!-- enter_ash_twin_time_singularity -->
 <g id="node50" class="node">
 <title>enter_ash_twin_time_singularity</title>
-<path fill="none" stroke="#d9d9d9" d="M2421.5,-857C2421.5,-857 2232.5,-857 2232.5,-857 2226.5,-857 2220.5,-851 2220.5,-845 2220.5,-845 2220.5,-831 2220.5,-831 2220.5,-825 2226.5,-819 2232.5,-819 2232.5,-819 2421.5,-819 2421.5,-819 2427.5,-819 2433.5,-825 2433.5,-831 2433.5,-831 2433.5,-845 2433.5,-845 2433.5,-851 2427.5,-857 2421.5,-857"/>
-<text text-anchor="middle" x="2327" y="-841.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Leap into the singularity when</text>
-<text text-anchor="middle" x="2327" y="-826.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">the Ash Twin Project activates</text>
+<g id="a_node50"><a xlink:title="Alternatively use your scout">
+<path fill="none" stroke="#d9d9d9" d="M2428,-857C2428,-857 2234,-857 2234,-857 2228,-857 2222,-851 2222,-845 2222,-845 2222,-831 2222,-831 2222,-825 2228,-819 2234,-819 2234,-819 2428,-819 2428,-819 2434,-819 2440,-825 2440,-831 2440,-831 2440,-845 2440,-845 2440,-851 2434,-857 2428,-857"/>
+<text text-anchor="middle" x="2331" y="-841.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Leap into the singularity when</text>
+<text text-anchor="middle" x="2331" y="-826.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">the Ash Twin Project activates*</text>
+</a>
+</g>
 </g>
 <!-- ash_twin_interior&#45;&gt;enter_ash_twin_time_singularity -->
 <g id="edge128" class="edge">
 <title>ash_twin_interior&#45;&gt;enter_ash_twin_time_singularity</title>
-<path fill="none" stroke="#d9d9d9" d="M2328.65,-921.58C2328.35,-906.66 2327.92,-884.88 2327.57,-867.44"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="2331.06,-867.16 2327.36,-857.23 2324.07,-867.3 2331.06,-867.16"/>
+<path fill="none" stroke="#d9d9d9" d="M2331.83,-921.58C2331.68,-906.66 2331.46,-884.88 2331.28,-867.44"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="2334.78,-867.2 2331.18,-857.23 2327.78,-867.27 2334.78,-867.2"/>
 </g>
 <!-- warp_core_obtained&#45;&gt;ending_exile_quantum -->
 <g id="edge137" class="edge">
 <title>warp_core_obtained&#45;&gt;ending_exile_quantum</title>
-<path fill="none" stroke="#d9d9d9" d="M1664.62,-819.87C1689.75,-803.06 1728.23,-777.32 1755.93,-758.79"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1758.15,-761.52 1764.51,-753.05 1754.25,-755.7 1758.15,-761.52"/>
+<path fill="none" stroke="#d9d9d9" d="M1682.62,-819.87C1707.75,-803.06 1746.23,-777.32 1773.93,-758.79"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1776.15,-761.52 1782.51,-753.05 1772.25,-755.7 1776.15,-761.52"/>
 </g>
 <!-- warp_core_obtained&#45;&gt;ending_lost -->
 <g id="edge127" class="edge">
 <title>warp_core_obtained&#45;&gt;ending_lost</title>
-<path fill="none" stroke="#d9d9d9" d="M1637.3,-819.87C1635.77,-804.41 1633.5,-781.42 1631.71,-763.41"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1635.17,-762.82 1630.7,-753.22 1628.21,-763.51 1635.17,-762.82"/>
+<path fill="none" stroke="#d9d9d9" d="M1655.3,-819.87C1653.77,-804.41 1651.5,-781.42 1649.71,-763.41"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1653.17,-762.82 1648.7,-753.22 1646.21,-763.51 1653.17,-762.82"/>
 </g>
 <!-- warp_core_obtained&#45;&gt;ending_good -->
 <g id="edge134" class="edge">
 <title>warp_core_obtained&#45;&gt;ending_good</title>
-<path fill="none" stroke="#d9d9d9" d="M1614.23,-819.87C1590.01,-803.11 1552.95,-777.47 1526.19,-758.96"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1528.1,-756.03 1517.89,-753.22 1524.12,-761.78 1528.1,-756.03"/>
+<path fill="none" stroke="#d9d9d9" d="M1632.23,-819.87C1608.01,-803.11 1570.95,-777.47 1544.19,-758.96"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1546.1,-756.03 1535.89,-753.22 1542.12,-761.78 1546.1,-756.03"/>
 </g>
 <!-- ending_exile_stranger -->
 <g id="node86" class="node">
@@ -850,8 +853,8 @@
 <!-- warp_core_obtained&#45;&gt;ending_exile_stranger -->
 <g id="edge138" class="edge">
 <title>warp_core_obtained&#45;&gt;ending_exile_stranger</title>
-<path fill="none" stroke="#d9d9d9" d="M1531.25,-824.11C1360.52,-803.68 1031.49,-764.3 877.83,-745.91"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="877.87,-742.39 867.53,-744.68 877.04,-749.34 877.87,-742.39"/>
+<path fill="none" stroke="#d9d9d9" d="M1549.14,-824.36C1374.75,-803.93 1034.64,-764.08 877.83,-745.7"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="878.1,-742.21 867.77,-744.53 877.29,-749.17 878.1,-742.21"/>
 </g>
 <!-- ending_exile_dream -->
 <g id="node87" class="node">
@@ -862,58 +865,58 @@
 <!-- warp_core_obtained&#45;&gt;ending_exile_dream -->
 <g id="edge140" class="edge">
 <title>warp_core_obtained&#45;&gt;ending_exile_dream</title>
-<path fill="none" stroke="#d9d9d9" d="M1531.35,-830.63C1357.89,-819.63 1006.02,-794.32 710,-754 709.08,-753.87 708.16,-753.75 707.23,-753.62"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="707.58,-750.13 697.18,-752.13 706.56,-757.06 707.58,-750.13"/>
+<path fill="none" stroke="#d9d9d9" d="M1549.41,-830.88C1373.36,-820.13 1012.97,-795.01 710,-754 709.08,-753.88 708.16,-753.75 707.23,-753.62"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="707.58,-750.13 697.18,-752.14 706.56,-757.06 707.58,-750.13"/>
 </g>
 <!-- enter_ash_twin_time_singularity&#45;&gt;enter_ash_twin_time_singularity -->
 <g id="edge131" class="edge">
 <title>enter_ash_twin_time_singularity&#45;&gt;enter_ash_twin_time_singularity</title>
-<path fill="none" stroke="#d9d9d9" d="M2402.67,-857.01C2433.03,-858.08 2458.5,-851.75 2458.5,-838 2458.5,-825.81 2438.47,-819.45 2412.77,-818.91"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="2412.65,-815.41 2402.67,-818.99 2412.7,-822.41 2412.65,-815.41"/>
+<path fill="none" stroke="#d9d9d9" d="M2408.11,-857.01C2439.04,-858.08 2465,-851.75 2465,-838 2465,-825.81 2444.59,-819.45 2418.4,-818.91"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="2418.09,-815.41 2408.11,-818.99 2418.14,-822.41 2418.09,-815.41"/>
 </g>
 <!-- meet_yourself -->
 <g id="node51" class="node">
 <title>meet_yourself</title>
-<path fill="none" stroke="#d9d9d9" d="M2369.5,-754C2369.5,-754 2284.5,-754 2284.5,-754 2278.5,-754 2272.5,-748 2272.5,-742 2272.5,-742 2272.5,-728 2272.5,-728 2272.5,-722 2278.5,-716 2284.5,-716 2284.5,-716 2369.5,-716 2369.5,-716 2375.5,-716 2381.5,-722 2381.5,-728 2381.5,-728 2381.5,-742 2381.5,-742 2381.5,-748 2375.5,-754 2369.5,-754"/>
-<text text-anchor="middle" x="2327" y="-738.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Meet yourself.</text>
-<text text-anchor="middle" x="2327" y="-723.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">This is fine.</text>
+<path fill="none" stroke="#d9d9d9" d="M2373.5,-754C2373.5,-754 2288.5,-754 2288.5,-754 2282.5,-754 2276.5,-748 2276.5,-742 2276.5,-742 2276.5,-728 2276.5,-728 2276.5,-722 2282.5,-716 2288.5,-716 2288.5,-716 2373.5,-716 2373.5,-716 2379.5,-716 2385.5,-722 2385.5,-728 2385.5,-728 2385.5,-742 2385.5,-742 2385.5,-748 2379.5,-754 2373.5,-754"/>
+<text text-anchor="middle" x="2331" y="-738.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Meet yourself.</text>
+<text text-anchor="middle" x="2331" y="-723.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">This is fine.</text>
 </g>
 <!-- enter_ash_twin_time_singularity&#45;&gt;meet_yourself -->
 <g id="edge129" class="edge">
 <title>enter_ash_twin_time_singularity&#45;&gt;meet_yourself</title>
-<path fill="none" stroke="#d9d9d9" d="M2327,-818.94C2327,-803.81 2327,-781.94 2327,-764.46"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="2330.5,-764.24 2327,-754.24 2323.5,-764.24 2330.5,-764.24"/>
+<path fill="none" stroke="#d9d9d9" d="M2331,-818.94C2331,-803.81 2331,-781.94 2331,-764.46"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="2334.5,-764.24 2331,-754.24 2327.5,-764.24 2334.5,-764.24"/>
 </g>
 <!-- fail_to_complete_the_loop -->
 <g id="node52" class="node">
 <title>fail_to_complete_the_loop</title>
-<path fill="none" stroke="#d9d9d9" d="M2225.5,-754C2225.5,-754 1982.5,-754 1982.5,-754 1976.5,-754 1970.5,-748 1970.5,-742 1970.5,-742 1970.5,-728 1970.5,-728 1970.5,-722 1976.5,-716 1982.5,-716 1982.5,-716 2225.5,-716 2225.5,-716 2231.5,-716 2237.5,-722 2237.5,-728 2237.5,-728 2237.5,-742 2237.5,-742 2237.5,-748 2231.5,-754 2225.5,-754"/>
-<text text-anchor="middle" x="2104" y="-738.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Inevitably fail to complete the time loop</text>
-<text text-anchor="middle" x="2104" y="-723.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">that you started, creating a paradox</text>
+<path fill="none" stroke="#d9d9d9" d="M2234.5,-754C2234.5,-754 1991.5,-754 1991.5,-754 1985.5,-754 1979.5,-748 1979.5,-742 1979.5,-742 1979.5,-728 1979.5,-728 1979.5,-722 1985.5,-716 1991.5,-716 1991.5,-716 2234.5,-716 2234.5,-716 2240.5,-716 2246.5,-722 2246.5,-728 2246.5,-728 2246.5,-742 2246.5,-742 2246.5,-748 2240.5,-754 2234.5,-754"/>
+<text text-anchor="middle" x="2113" y="-738.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Inevitably fail to complete the time loop</text>
+<text text-anchor="middle" x="2113" y="-723.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">that you started, creating a paradox</text>
 </g>
 <!-- enter_ash_twin_time_singularity&#45;&gt;fail_to_complete_the_loop -->
 <g id="edge130" class="edge">
 <title>enter_ash_twin_time_singularity&#45;&gt;fail_to_complete_the_loop</title>
-<path fill="none" stroke="#d9d9d9" d="M2287.13,-818.94C2249.67,-801.98 2193.5,-776.54 2153.25,-758.31"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="2154.45,-755.01 2143.9,-754.07 2151.56,-761.38 2154.45,-755.01"/>
+<path fill="none" stroke="#d9d9d9" d="M2292.03,-818.94C2255.4,-801.98 2200.49,-776.54 2161.15,-758.31"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="2162.55,-755.1 2152,-754.07 2159.61,-761.45 2162.55,-755.1"/>
 </g>
 <!-- fail_to_complete_the_loop&#45;&gt;ending_broke_time -->
 <g id="edge15" class="edge">
 <title>fail_to_complete_the_loop&#45;&gt;ending_broke_time</title>
-<path fill="none" stroke="#d9d9d9" stroke-dasharray="5,2" d="M2086.39,-715.66C2071.09,-699.72 2048.79,-676.49 2031.88,-658.87"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="2033.98,-656.01 2024.53,-651.22 2028.93,-660.86 2033.98,-656.01"/>
+<path fill="none" stroke="#d9d9d9" stroke-dasharray="5,2" d="M2096.31,-715.66C2081.8,-699.72 2060.66,-676.49 2044.63,-658.87"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="2046.99,-656.26 2037.67,-651.22 2041.81,-660.97 2046.99,-656.26"/>
 </g>
 <!-- stranger_found -->
 <g id="node54" class="node">
 <title>stranger_found</title>
-<path fill="none" stroke="#d9d9d9" d="M670,-1691C670,-1691 568,-1691 568,-1691 562,-1691 556,-1685 556,-1679 556,-1679 556,-1667 556,-1667 556,-1661 562,-1655 568,-1655 568,-1655 670,-1655 670,-1655 676,-1655 682,-1661 682,-1667 682,-1667 682,-1679 682,-1679 682,-1685 676,-1691 670,-1691"/>
-<text text-anchor="middle" x="619" y="-1669.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Find the Stranger</text>
+<path fill="none" stroke="#d9d9d9" d="M641,-1691C641,-1691 539,-1691 539,-1691 533,-1691 527,-1685 527,-1679 527,-1679 527,-1667 527,-1667 527,-1661 533,-1655 539,-1655 539,-1655 641,-1655 641,-1655 647,-1655 653,-1661 653,-1667 653,-1667 653,-1679 653,-1679 653,-1685 647,-1691 641,-1691"/>
+<text text-anchor="middle" x="590" y="-1669.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Find the Stranger</text>
 </g>
 <!-- map_satellite_glitch_learned&#45;&gt;stranger_found -->
 <g id="edge87" class="edge">
 <title>map_satellite_glitch_learned&#45;&gt;stranger_found</title>
-<path fill="none" stroke="#d9d9d9" d="M668.82,-1757.87C659.43,-1742.05 645.34,-1718.33 634.53,-1700.15"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="637.34,-1698.03 629.23,-1691.22 631.33,-1701.6 637.34,-1698.03"/>
+<path fill="none" stroke="#d9d9d9" d="M627.37,-1757.87C620.38,-1742.2 609.95,-1718.77 601.87,-1700.65"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="604.94,-1698.93 597.67,-1691.22 598.54,-1701.78 604.94,-1698.93"/>
 </g>
 <!-- cinder_isles_slide_room -->
 <g id="node55" class="node">
@@ -924,14 +927,14 @@
 <!-- stranger_found&#45;&gt;cinder_isles_slide_room -->
 <g id="edge95" class="edge">
 <title>stranger_found&#45;&gt;cinder_isles_slide_room</title>
-<path fill="none" stroke="#d9d9d9" d="M607.44,-1654.97C595.4,-1637.24 576.39,-1609.24 562.51,-1588.8"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="565.24,-1586.58 556.73,-1580.27 559.45,-1590.51 565.24,-1586.58"/>
+<path fill="none" stroke="#d9d9d9" d="M582.97,-1654.97C575.75,-1637.47 564.4,-1610 555.99,-1589.63"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="559.18,-1588.18 552.13,-1580.27 552.71,-1590.85 559.18,-1588.18"/>
 </g>
 <!-- stranger_found&#45;&gt;easy_lantern -->
 <g id="edge94" class="edge">
 <title>stranger_found&#45;&gt;easy_lantern</title>
-<path fill="none" stroke="#d9d9d9" d="M646.34,-1654.97C675.91,-1636.56 723.22,-1607.08 756.3,-1586.48"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="758.17,-1589.44 764.81,-1581.18 754.47,-1583.5 758.17,-1589.44"/>
+<path fill="none" stroke="#d9d9d9" d="M621.88,-1654.97C656.63,-1636.4 712.43,-1606.58 751.04,-1585.96"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="752.8,-1588.98 759.97,-1581.18 749.5,-1582.81 752.8,-1588.98"/>
 </g>
 <!-- hidden_gorge_found -->
 <g id="node60" class="node">
@@ -945,8 +948,8 @@
 <!-- stranger_found&#45;&gt;hidden_gorge_found -->
 <g id="edge88" class="edge">
 <title>stranger_found&#45;&gt;hidden_gorge_found</title>
-<path fill="none" stroke="#d9d9d9" d="M569,-1654.97C512.14,-1635.6 419.35,-1603.99 358.73,-1583.34"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="359.51,-1579.91 348.91,-1580 357.25,-1586.54 359.51,-1579.91"/>
+<path fill="none" stroke="#d9d9d9" d="M544.53,-1654.97C493.11,-1635.71 409.38,-1604.35 354.24,-1583.69"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="355.22,-1580.32 344.63,-1580.09 352.77,-1586.88 355.22,-1580.32"/>
 </g>
 <!-- submerged_structure_entrance_found -->
 <g id="node68" class="node">
@@ -958,13 +961,13 @@
 <!-- stranger_found&#45;&gt;submerged_structure_entrance_found -->
 <g id="edge101" class="edge">
 <title>stranger_found&#45;&gt;submerged_structure_entrance_found</title>
-<path fill="none" stroke="#d9d9d9" d="M555.86,-1667.78C472.09,-1660.32 321.03,-1640.34 203,-1588.5 109.36,-1547.37 17,-1555.28 17,-1453 17,-1453 17,-1453 17,-1246 17,-1188.77 8.72,-1170.71 31,-1118 38.81,-1099.53 52.7,-1082.06 65.37,-1068.64"/>
+<path fill="none" stroke="#d9d9d9" d="M526.85,-1666.5C448.11,-1657.84 310.74,-1636.75 203,-1588.5 109.66,-1546.7 17,-1555.28 17,-1453 17,-1453 17,-1453 17,-1246 17,-1188.77 8.72,-1170.71 31,-1118 38.81,-1099.53 52.7,-1082.06 65.37,-1068.64"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="68.13,-1070.82 72.62,-1061.23 63.12,-1065.92 68.13,-1070.82"/>
 </g>
 <!-- stranger_found&#45;&gt;ending_exile_stranger -->
 <g id="edge139" class="edge">
 <title>stranger_found&#45;&gt;ending_exile_stranger</title>
-<path fill="none" stroke="#d9d9d9" d="M628.33,-1654.59C643.22,-1627.6 674.16,-1574.68 708,-1535.5 736.3,-1502.74 760.96,-1509.38 781,-1471 806.06,-1423.01 795,-1404.14 795,-1350 795,-1350 795,-1350 795,-939 795,-876.02 795,-802.05 795,-763.12"/>
+<path fill="none" stroke="#d9d9d9" d="M606.37,-1654.72C622,-1638.05 646.07,-1611.95 666,-1588.5 685.46,-1565.6 687.32,-1557.31 708,-1535.5 737.78,-1504.08 760.96,-1509.38 781,-1471 806.06,-1423.01 795,-1404.14 795,-1350 795,-1350 795,-1350 795,-939 795,-876.02 795,-802.05 795,-763.12"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="798.5,-763.11 795,-753.11 791.5,-763.11 798.5,-763.11"/>
 </g>
 <!-- island_tower_cave_entrance -->
@@ -996,15 +999,15 @@
 <!-- green_fire_rooms_found -->
 <g id="node58" class="node">
 <title>green_fire_rooms_found</title>
-<path fill="#280060" stroke="#d9d9d9" d="M520.5,-1061C520.5,-1061 383.5,-1061 383.5,-1061 377.5,-1061 371.5,-1055 371.5,-1049 371.5,-1049 371.5,-1035 371.5,-1035 371.5,-1029 377.5,-1023 383.5,-1023 383.5,-1023 520.5,-1023 520.5,-1023 526.5,-1023 532.5,-1029 532.5,-1035 532.5,-1035 532.5,-1049 532.5,-1049 532.5,-1055 526.5,-1061 520.5,-1061"/>
-<text text-anchor="middle" x="452" y="-1045.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Learn how to enter the</text>
-<text text-anchor="middle" x="452" y="-1030.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">green fire chambers</text>
+<path fill="#280060" stroke="#d9d9d9" d="M516.5,-1061C516.5,-1061 379.5,-1061 379.5,-1061 373.5,-1061 367.5,-1055 367.5,-1049 367.5,-1049 367.5,-1035 367.5,-1035 367.5,-1029 373.5,-1023 379.5,-1023 379.5,-1023 516.5,-1023 516.5,-1023 522.5,-1023 528.5,-1029 528.5,-1035 528.5,-1035 528.5,-1049 528.5,-1049 528.5,-1055 522.5,-1061 516.5,-1061"/>
+<text text-anchor="middle" x="448" y="-1045.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Learn how to enter the</text>
+<text text-anchor="middle" x="448" y="-1030.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">green fire chambers</text>
 </g>
 <!-- island_tower_upper_floor&#45;&gt;green_fire_rooms_found -->
 <g id="edge98" class="edge">
 <title>island_tower_upper_floor&#45;&gt;green_fire_rooms_found</title>
-<path fill="none" stroke="#d9d9d9" d="M417.7,-1329.75C422.54,-1296.72 432.85,-1224.83 440,-1164 443.73,-1132.22 447.25,-1095.66 449.5,-1071.11"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="453,-1071.34 450.41,-1061.06 446.02,-1070.7 453,-1071.34"/>
+<path fill="none" stroke="#d9d9d9" d="M417.9,-1329.77C423.06,-1296.78 433.85,-1224.94 440,-1164 443.2,-1132.25 445.42,-1095.68 446.69,-1071.13"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="450.19,-1071.24 447.2,-1061.07 443.2,-1070.88 450.19,-1071.24"/>
 </g>
 <!-- dream_surface_regions -->
 <g id="node75" class="node">
@@ -1016,8 +1019,8 @@
 <!-- green_fire_rooms_found&#45;&gt;dream_surface_regions -->
 <g id="edge102" class="edge">
 <title>green_fire_rooms_found&#45;&gt;dream_surface_regions</title>
-<path fill="none" stroke="#d9d9d9" d="M441.91,-1022.66C433.54,-1007.43 421.51,-985.56 412,-968.28"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="414.91,-966.3 407.02,-959.23 408.78,-969.67 414.91,-966.3"/>
+<path fill="none" stroke="#d9d9d9" d="M438.65,-1022.66C430.88,-1007.43 419.72,-985.56 410.91,-968.28"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="413.96,-966.54 406.29,-959.23 407.72,-969.72 413.96,-966.54"/>
 </g>
 <!-- lantern_found -->
 <g id="node64" class="node">
@@ -1034,15 +1037,15 @@
 <!-- scout_light_door_puzzle -->
 <g id="node61" class="node">
 <title>scout_light_door_puzzle</title>
-<path fill="none" stroke="#d9d9d9" d="M241.5,-1471C241.5,-1471 106.5,-1471 106.5,-1471 100.5,-1471 94.5,-1465 94.5,-1459 94.5,-1459 94.5,-1445 94.5,-1445 94.5,-1439 100.5,-1433 106.5,-1433 106.5,-1433 241.5,-1433 241.5,-1433 247.5,-1433 253.5,-1439 253.5,-1445 253.5,-1445 253.5,-1459 253.5,-1459 253.5,-1465 247.5,-1471 241.5,-1471"/>
-<text text-anchor="middle" x="174" y="-1455.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Use scout hijinks to</text>
-<text text-anchor="middle" x="174" y="-1440.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">get past a locked door</text>
+<path fill="none" stroke="#d9d9d9" d="M236.5,-1471C236.5,-1471 101.5,-1471 101.5,-1471 95.5,-1471 89.5,-1465 89.5,-1459 89.5,-1459 89.5,-1445 89.5,-1445 89.5,-1439 95.5,-1433 101.5,-1433 101.5,-1433 236.5,-1433 236.5,-1433 242.5,-1433 248.5,-1439 248.5,-1445 248.5,-1445 248.5,-1459 248.5,-1459 248.5,-1465 242.5,-1471 236.5,-1471"/>
+<text text-anchor="middle" x="169" y="-1455.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Use scout hijinks to</text>
+<text text-anchor="middle" x="169" y="-1440.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">get past a locked door</text>
 </g>
 <!-- hidden_gorge_found&#45;&gt;scout_light_door_puzzle -->
 <g id="edge89" class="edge">
 <title>hidden_gorge_found&#45;&gt;scout_light_door_puzzle</title>
-<path fill="none" stroke="#d9d9d9" d="M279.19,-1543.89C258.63,-1526.12 226.24,-1498.14 202.84,-1477.91"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="204.82,-1475 194.97,-1471.11 200.24,-1480.3 204.82,-1475"/>
+<path fill="none" stroke="#d9d9d9" d="M278.4,-1543.89C256.92,-1526.04 223.04,-1497.89 198.67,-1477.65"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="200.73,-1474.81 190.8,-1471.11 196.26,-1480.2 200.73,-1474.81"/>
 </g>
 <!-- hidden_gorge_found&#45;&gt;lantern_found -->
 <g id="edge10" class="edge">
@@ -1059,15 +1062,15 @@
 <!-- stranger_breach -->
 <g id="node62" class="node">
 <title>stranger_breach</title>
-<path fill="none" stroke="#d9d9d9" d="M239,-1368C239,-1368 81,-1368 81,-1368 75,-1368 69,-1362 69,-1356 69,-1356 69,-1342 69,-1342 69,-1336 75,-1330 81,-1330 81,-1330 239,-1330 239,-1330 245,-1330 251,-1336 251,-1342 251,-1342 251,-1356 251,-1356 251,-1362 245,-1368 239,-1368"/>
-<text text-anchor="middle" x="160" y="-1352.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Learn about the Damaged</text>
-<text text-anchor="middle" x="160" y="-1337.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Laboratory breach</text>
+<path fill="none" stroke="#d9d9d9" d="M238,-1368C238,-1368 80,-1368 80,-1368 74,-1368 68,-1362 68,-1356 68,-1356 68,-1342 68,-1342 68,-1336 74,-1330 80,-1330 80,-1330 238,-1330 238,-1330 244,-1330 250,-1336 250,-1342 250,-1342 250,-1356 250,-1356 250,-1362 244,-1368 238,-1368"/>
+<text text-anchor="middle" x="159" y="-1352.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Learn about the Damaged</text>
+<text text-anchor="middle" x="159" y="-1337.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Laboratory breach</text>
 </g>
 <!-- scout_light_door_puzzle&#45;&gt;stranger_breach -->
 <g id="edge90" class="edge">
 <title>scout_light_door_puzzle&#45;&gt;stranger_breach</title>
-<path fill="none" stroke="#d9d9d9" d="M171.5,-1432.94C169.4,-1417.81 166.37,-1395.94 163.95,-1378.46"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="167.37,-1377.67 162.53,-1368.24 160.43,-1378.63 167.37,-1377.67"/>
+<path fill="none" stroke="#d9d9d9" d="M167.21,-1432.94C165.71,-1417.81 163.55,-1395.94 161.82,-1378.46"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="165.27,-1377.85 160.81,-1368.24 158.31,-1378.54 165.27,-1377.85"/>
 </g>
 <!-- damaged_laboratory -->
 <g id="node63" class="node">
@@ -1079,8 +1082,8 @@
 <!-- stranger_breach&#45;&gt;damaged_laboratory -->
 <g id="edge91" class="edge">
 <title>stranger_breach&#45;&gt;damaged_laboratory</title>
-<path fill="none" stroke="#d9d9d9" d="M158.35,-1329.66C157,-1314.72 155.08,-1293.37 153.54,-1276.24"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="157.02,-1275.87 152.64,-1266.23 150.05,-1276.5 157.02,-1275.87"/>
+<path fill="none" stroke="#d9d9d9" d="M157.53,-1329.66C156.34,-1314.72 154.63,-1293.37 153.26,-1276.24"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="156.74,-1275.91 152.46,-1266.23 149.77,-1276.47 156.74,-1275.91"/>
 </g>
 <!-- damaged_laboratory&#45;&gt;lantern_found -->
 <g id="edge11" class="edge">
@@ -1104,21 +1107,21 @@
 <!-- dream_world_entry -->
 <g id="node66" class="node">
 <title>dream_world_entry</title>
-<path fill="none" stroke="#d9d9d9" d="M331,-1061C331,-1061 211,-1061 211,-1061 205,-1061 199,-1055 199,-1049 199,-1049 199,-1035 199,-1035 199,-1029 205,-1023 211,-1023 211,-1023 331,-1023 331,-1023 337,-1023 343,-1029 343,-1035 343,-1035 343,-1049 343,-1049 343,-1055 337,-1061 331,-1061"/>
-<text text-anchor="middle" x="271" y="-1045.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Have an artifact and</text>
-<text text-anchor="middle" x="271" y="-1030.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">know how to use it</text>
+<path fill="none" stroke="#d9d9d9" d="M327,-1061C327,-1061 207,-1061 207,-1061 201,-1061 195,-1055 195,-1049 195,-1049 195,-1035 195,-1035 195,-1029 201,-1023 207,-1023 207,-1023 327,-1023 327,-1023 333,-1023 339,-1029 339,-1035 339,-1035 339,-1049 339,-1049 339,-1055 333,-1061 327,-1061"/>
+<text text-anchor="middle" x="267" y="-1045.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Have an artifact and</text>
+<text text-anchor="middle" x="267" y="-1030.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">know how to use it</text>
 </g>
 <!-- lantern_found&#45;&gt;dream_world_entry -->
 <g id="edge99" class="edge">
 <title>lantern_found&#45;&gt;dream_world_entry</title>
-<path fill="none" stroke="#d9d9d9" d="M327.46,-1126.87C316.91,-1111.2 301.14,-1087.77 288.94,-1069.65"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="291.77,-1067.58 283.28,-1061.24 285.96,-1071.49 291.77,-1067.58"/>
+<path fill="none" stroke="#d9d9d9" d="M326.79,-1126.87C315.62,-1111.2 298.91,-1087.77 286,-1069.65"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="288.66,-1067.35 280,-1061.24 282.96,-1071.42 288.66,-1067.35"/>
 </g>
 <!-- lantern_sleep_trick_learned&#45;&gt;dream_world_entry -->
 <g id="edge100" class="edge">
 <title>lantern_sleep_trick_learned&#45;&gt;dream_world_entry</title>
-<path fill="none" stroke="#d9d9d9" d="M158.49,-1125.94C180.66,-1109.6 213.49,-1085.39 237.98,-1067.35"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="240.29,-1069.99 246.26,-1061.24 236.13,-1064.36 240.29,-1069.99"/>
+<path fill="none" stroke="#d9d9d9" d="M157.78,-1125.94C179.3,-1109.6 211.17,-1085.39 234.94,-1067.35"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="237.13,-1070.08 242.98,-1061.24 232.9,-1064.5 237.13,-1070.08"/>
 </g>
 <!-- subterranean_lake -->
 <g id="node69" class="node">
@@ -1129,14 +1132,14 @@
 <!-- dream_world_entry&#45;&gt;subterranean_lake -->
 <g id="edge104" class="edge">
 <title>dream_world_entry&#45;&gt;subterranean_lake</title>
-<path fill="none" stroke="#d9d9d9" d="M245.83,-1022.89C223.01,-1006.48 189.26,-982.2 164.43,-964.33"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="166.22,-961.3 156.05,-958.31 162.13,-966.99 166.22,-961.3"/>
+<path fill="none" stroke="#d9d9d9" d="M242.55,-1022.89C220.39,-1006.48 187.61,-982.2 163.5,-964.33"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="165.48,-961.45 155.36,-958.31 161.31,-967.07 165.48,-961.45"/>
 </g>
 <!-- dream_world_entry&#45;&gt;dream_surface_regions -->
 <g id="edge103" class="edge">
 <title>dream_world_entry&#45;&gt;dream_surface_regions</title>
-<path fill="none" stroke="#d9d9d9" d="M293.82,-1022.89C314.03,-1006.85 343.71,-983.29 366.06,-965.56"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="368.27,-968.27 373.93,-959.31 363.92,-962.79 368.27,-968.27"/>
+<path fill="none" stroke="#d9d9d9" d="M290.54,-1022.89C311.4,-1006.85 342.02,-983.29 365.07,-965.56"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="367.4,-968.18 373.19,-959.31 363.13,-962.64 367.4,-968.18"/>
 </g>
 <!-- be_in_dream -->
 <g id="node67" class="node">
@@ -1314,21 +1317,21 @@
 <!-- loading_cave_trick -->
 <g id="node78" class="node">
 <title>loading_cave_trick</title>
-<path fill="none" stroke="#d9d9d9" d="M804.5,-243C804.5,-243 591.5,-243 591.5,-243 585.5,-243 579.5,-237 579.5,-231 579.5,-231 579.5,-217 579.5,-217 579.5,-211 585.5,-205 591.5,-205 591.5,-205 804.5,-205 804.5,-205 810.5,-205 816.5,-211 816.5,-217 816.5,-217 816.5,-231 816.5,-231 816.5,-237 810.5,-243 804.5,-243"/>
-<text text-anchor="middle" x="698" y="-227.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Learn about falling out of the world</text>
-<text text-anchor="middle" x="698" y="-212.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">when in the region transition caves</text>
+<path fill="none" stroke="#d9d9d9" d="M803.5,-243C803.5,-243 590.5,-243 590.5,-243 584.5,-243 578.5,-237 578.5,-231 578.5,-231 578.5,-217 578.5,-217 578.5,-211 584.5,-205 590.5,-205 590.5,-205 803.5,-205 803.5,-205 809.5,-205 815.5,-211 815.5,-217 815.5,-217 815.5,-231 815.5,-231 815.5,-237 809.5,-243 803.5,-243"/>
+<text text-anchor="middle" x="697" y="-227.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Learn about falling out of the world</text>
+<text text-anchor="middle" x="697" y="-212.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">when in the region transition caves</text>
 </g>
 <!-- shrouded_woodlands_forbidden_archive&#45;&gt;loading_cave_trick -->
 <g id="edge118" class="edge">
 <title>shrouded_woodlands_forbidden_archive&#45;&gt;loading_cave_trick</title>
-<path fill="none" stroke="#d9d9d9" d="M700.45,-306.66C700,-291.72 699.36,-270.37 698.85,-253.24"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="702.35,-253.12 698.55,-243.23 695.35,-253.33 702.35,-253.12"/>
+<path fill="none" stroke="#d9d9d9" d="M700.27,-306.66C699.67,-291.72 698.81,-270.37 698.13,-253.24"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="701.63,-253.08 697.73,-243.23 694.63,-253.36 701.63,-253.08"/>
 </g>
 <!-- loading_cave_trick&#45;&gt;prisoner_freed -->
 <g id="edge124" class="edge">
 <title>loading_cave_trick&#45;&gt;prisoner_freed</title>
-<path fill="none" stroke="#d9d9d9" d="M656.53,-204.89C617.43,-187.82 558.83,-162.23 517.56,-144.21"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="518.81,-140.93 508.25,-140.14 516.01,-147.35 518.81,-140.93"/>
+<path fill="none" stroke="#d9d9d9" d="M655.71,-204.89C616.78,-187.82 558.43,-162.23 517.35,-144.21"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="518.64,-140.95 508.08,-140.14 515.83,-147.36 518.64,-140.95"/>
 </g>
 <!-- starlit_cove_forbidden_archive -->
 <g id="node80" class="node">
@@ -1404,8 +1407,8 @@
 <!-- prisoner_freed&#45;&gt;ending_best -->
 <g id="edge23" class="edge">
 <title>prisoner_freed&#45;&gt;ending_best</title>
-<path fill="none" stroke="#d9d9d9" stroke-dasharray="5,2" d="M531.51,-114.96C709.41,-97.76 1218.18,-48.57 1414.45,-29.59"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1415.06,-33.05 1424.68,-28.61 1414.39,-26.08 1415.06,-33.05"/>
+<path fill="none" stroke="#d9d9d9" stroke-dasharray="5,2" d="M531.84,-115.03C712.61,-97.85 1233.78,-48.34 1432.63,-29.45"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1433.08,-32.92 1442.7,-28.49 1432.42,-25.95 1433.08,-32.92"/>
 </g>
 <!-- quantum_signal_learned -->
 <g id="node89" class="node">
@@ -1551,8 +1554,8 @@
 <!-- quantum_moon_final_location&#45;&gt;ending_exile_quantum -->
 <g id="edge136" class="edge">
 <title>quantum_moon_final_location&#45;&gt;ending_exile_quantum</title>
-<path fill="none" stroke="#d9d9d9" d="M3009.92,-1227.68C2982.22,-1196.41 2926.13,-1134.51 2902,-1118 2630.07,-931.87 2524.86,-947.53 2208,-857 2084.62,-821.75 1940.96,-780.01 1858.24,-755.91"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1859.04,-752.5 1848.46,-753.06 1857.08,-759.22 1859.04,-752.5"/>
+<path fill="none" stroke="#d9d9d9" d="M3009.92,-1227.69C2982.21,-1196.43 2926.11,-1134.54 2902,-1118 2630.62,-931.79 2525.05,-948.84 2209,-857 2090.3,-822.51 1952.44,-780.48 1873.19,-756.12"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1873.94,-752.69 1863.35,-753.1 1871.88,-759.38 1873.94,-752.69"/>
 </g>
 <!-- solanum_visited -->
 <g id="node99" class="node">
@@ -1569,8 +1572,8 @@
 <!-- solanum_visited&#45;&gt;ending_best -->
 <g id="edge22" class="edge">
 <title>solanum_visited&#45;&gt;ending_best</title>
-<path fill="none" stroke="#d9d9d9" stroke-dasharray="5,2" d="M3016.26,-1126.98C2997.68,-1092.86 2959,-1013.18 2959,-941 2959,-941 2959,-941 2959,-223 2959,-81.63 1875.09,-34.76 1571.3,-24.41"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1571.37,-20.91 1561.25,-24.07 1571.13,-27.9 1571.37,-20.91"/>
+<path fill="none" stroke="#d9d9d9" stroke-dasharray="5,2" d="M3016.55,-1126.94C2998.52,-1092.76 2961,-1012.98 2961,-941 2961,-941 2961,-941 2961,-223 2961,-83.37 1892.39,-35.34 1589.91,-24.55"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="1589.59,-21.03 1579.48,-24.18 1589.35,-28.03 1589.59,-21.03"/>
 </g>
 </g>
 </svg>

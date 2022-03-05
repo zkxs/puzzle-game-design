@@ -114,7 +114,7 @@ digraph outer_wilds_progression {
     teleporter_complete_knowledge [label = "Figure out how to teleport\nto the Ash Twin Interior"]
     ash_twin_interior [label = "Enter the Ash Twin interior", style = "rounded,filled", fillcolor = "#280060"]
     warp_core_obtained [label = "Take the operational warp core"]
-    enter_ash_twin_time_singularity [label = "Leap into the singularity when\nthe Ash Twin Project activates"]
+    enter_ash_twin_time_singularity [label = "Leap into the singularity when\nthe Ash Twin Project activates*", tooltip = "Alternatively use your scout"]
     meet_yourself [label = "Meet yourself.\nThis is fine."]
     fail_to_complete_the_loop [label = "Inevitably fail to complete the time loop\nthat you started, creating a paradox"]
     //TODO: a node for figuring out what teleporter exits look like?
