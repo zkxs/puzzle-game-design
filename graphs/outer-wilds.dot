@@ -273,6 +273,18 @@ digraph outer_wilds_progression {
         prisoner_freed -> ending_best [weight = 100];
     }
 
+    // fake structural edges. These only exist to impose additional constraints so I can lay out the graph how I want to
+    subgraph structural_edges {
+        edge [
+            style = invis
+            color = green
+            weight = 0
+        ]
+        ghost_matter_trick_learned -> anglerfish_trick;
+        gabbro_found -> interloper_ice_trick_learned;
+        gabbro_found -> sunken_city;
+    }
+
     // starting out
     start -> {
         launch_codes_learned
@@ -309,7 +321,6 @@ digraph outer_wilds_progression {
         high_energy_lab
     };
     high_energy_lab -> intentionally_break_time [weight = 101]; // keep this from getting pulled down
-    ghost_matter_trick_learned -> anglerfish_trick [weight = 0, style = invis]; // the graph layout gets messed up if I delete this edge
 
     // finding the eye coordinates
     southern_observatory -> middle_giants_deep -> inner_giants_deep;
