@@ -19,7 +19,13 @@ Some quick and dirty outer wilds notes.
 
 #### Eye Signal Blocker Shack
 
-???
+4, -2, -1, -2, -1
+
+1. ☀️ sun
+2. 👁️ eye
+3. 🔥 fire
+4. 👁️ eye
+5. 🔥 fire
 
 #### Abandoned Temple Elevator
 
