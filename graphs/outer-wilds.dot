@@ -309,7 +309,7 @@ digraph outer_wilds_progression {
         high_energy_lab
     };
     high_energy_lab -> intentionally_break_time [weight = 101]; // keep this from getting pulled down
-    ghost_matter_trick_learned -> anglerfish_trick;
+    ghost_matter_trick_learned -> anglerfish_trick [weight = 0, style = invis]; // the graph layout gets messed up if I delete this edge
 
     // finding the eye coordinates
     southern_observatory -> middle_giants_deep -> inner_giants_deep;
