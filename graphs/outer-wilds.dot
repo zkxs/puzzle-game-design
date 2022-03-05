@@ -205,7 +205,7 @@ digraph outer_wilds_progression {
         giants_deep_quantum_tower [label = "Enter the Tower\nof Quantum Trials"]
         quantum_photo_trick [label = "Learn the rule of\nquantum imaging"]
         brittle_hollow_quantum_tower [label = "Learn how to reach the top of the\nTower of Quantum Knowledge"]
-        quantum_north_trick [label = "Learn the rule of\nquantum north"] //TODO: there's a real name for this, right?
+        quantum_north_trick [label = "Learn the rule of\nthe sixth location"]
         quantum_moon_final_location [label = "Reach the Quantum\nMoon's sixth location"]
         solanum_visited [label = "Talk to Solanum", style = "rounded,filled", fillcolor = "#280060"]
     }
@@ -225,7 +225,7 @@ digraph outer_wilds_progression {
         // forward hints
         orbital_probe_cannon_explored -> middle_giants_deep;
         hanging_city -> black_hole_forge;
-        quantum_signal_learned -> ember_twin_quantum_cave;
+        quantum_signal_learned -> {ember_twin_quantum_cave, giants_deep_north_storm};
 
         // forward hints that might not be worth it as there's a zillion hints to the same thing
         #hanging_city -> anglerfish_trick; // not important, lots of hints towards this
