@@ -281,8 +281,6 @@ digraph outer_wilds_progression {
             weight = 0
         ]
         ghost_matter_trick_learned -> anglerfish_trick;
-        gabbro_found -> interloper_ice_trick_learned;
-        gabbro_found -> sunken_city;
     }
 
     // starting out
