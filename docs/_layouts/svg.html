@@ -2,7 +2,7 @@
 layout: minimal
 ---
 
-<script src="/js/svg-pan-zoom.js"></script>
+<script src="{{ site.baseurl }}/js/svg-pan-zoom.js"></script>
 <script>
 function registerSvg(id) {
     var element = document.getElementById(id);
@@ -22,6 +22,6 @@ function registerSvg(id) {
 }
 </script>
 
-<object id="svg-{{ page.svg }}" class="wide svg" type="image/svg+xml" data="/svg/{{ page.svg }}.svg" onload="registerSvg('svg-{{ page.svg }}')">Your browser does not support SVG</object>
+<object id="svg-{{ page.svg }}" class="wide svg" type="image/svg+xml" data="{{ site.baseurl }}/svg/{{ page.svg }}.svg" onload="registerSvg('svg-{{ page.svg }}')">Your browser does not support SVG</object>
 
 {{ content }}

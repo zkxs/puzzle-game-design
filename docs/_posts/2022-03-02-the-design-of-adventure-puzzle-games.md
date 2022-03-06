@@ -44,7 +44,7 @@ If you haven't played all of these consider coming back to this post later. They
 A lot can be observed about the structure of the game just by glancing at these graphs. How long is the game? How linear is it? Are puzzles completely separate from each other, or is everything connected? Where are the bottlenecks?
 
 # Myst
-<a href="/svg/myst-puzzle-graph.html" target="_blank"><object id="svg-myst" class="svg" style="pointer-events: none;" type="image/svg+xml" data="/svg/myst-puzzle-graph.svg">Your browser does not support SVG</object></a>
+<a href="{{ site.baseurl }}/svg/myst-puzzle-graph.html" target="_blank"><object id="svg-myst" class="svg" style="pointer-events: none;" type="image/svg+xml" data="{{ site.baseurl }}/svg/myst-puzzle-graph.svg">Your browser does not support SVG</object></a>
 
 - The green node is the start of the game
 - Purple nodes are significant puzzles. In other words: places players are likely to spend a long time.
@@ -70,7 +70,7 @@ Putting it all together, Myst's simple structure and puzzle design issues makes 
 
 # Riven
 
-<a href="/svg/riven-puzzle-graph.html" target="_blank"><object id="svg-riven" class="svg" style="pointer-events: none;" type="image/svg+xml" data="/svg/riven-puzzle-graph.svg">Your browser does not support SVG</object></a>
+<a href="{{ site.baseurl }}/svg/riven-puzzle-graph.html" target="_blank"><object id="svg-riven" class="svg" style="pointer-events: none;" type="image/svg+xml" data="{{ site.baseurl }}/svg/riven-puzzle-graph.svg">Your browser does not support SVG</object></a>
 
 - The green node is the start of the game
 - Purple nodes are significant puzzles. In other words: places players are likely to spend a long time.
@@ -99,7 +99,7 @@ The takeaway is that with Riven, Cyan took the idea of Myst and simply added inc
 
 # Outer Wilds
 
-<a href="/svg/outer-wilds.html" target="_blank"><object id="svg-outerwilds" class="svg" style="pointer-events: none;" type="image/svg+xml" data="/svg/outer-wilds.svg">Your browser does not support SVG</object></a>
+<a href="{{ site.baseurl }}/svg/outer-wilds.html" target="_blank"><object id="svg-outerwilds" class="svg" style="pointer-events: none;" type="image/svg+xml" data="{{ site.baseurl }}/svg/outer-wilds.svg">Your browser does not support SVG</object></a>
 
 **Note:** We've changed the legend a bit here, notably what dashed and dotted edges mean.
 
