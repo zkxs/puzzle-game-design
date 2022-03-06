@@ -386,7 +386,7 @@ digraph outer_wilds_progression {
     river_lowlands_slide_burning_room -> shrouded_woodlands_forbidden_archive -> loading_cave_trick;
     cinder_isles_slide_burning_room -> starlit_cove_forbidden_archive -> dead_irl_trick;
     hidden_gorge_slide_burning_room -> endless_canyon_forbidden_archive -> ditch_lantern_trick;
-    {subterranean_lake, ditch_lantern_trick, loading_cave_trick, dead_irl_trick} -> prisoner_freed;
+    {ditch_lantern_trick, loading_cave_trick, dead_irl_trick} -> prisoner_freed;
 
     // endgame
     warp_core_obtained -> ending_lost;
