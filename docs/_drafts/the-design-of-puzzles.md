@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Design of Puzzles"
+title: "DRAFT: The Design of Puzzles"
 date: 2022-03-06 00:39:33 -0600
 tags: [adventure puzzle games]
 author: Michael Ripley
