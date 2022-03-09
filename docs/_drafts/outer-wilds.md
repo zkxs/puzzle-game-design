@@ -1,11 +1,15 @@
 ---
 layout: post
 title: "DRAFT: Outer Wilds"
-date: 2022-03-02 10:21:52 -0600
+date: 2022-03-09 07:01:37 -0600
 tags: [adventure puzzle games, outer wilds]
 ---
 
 Some quick and dirty outer wilds notes.
+
+
+## Design
+Outer Wilds is a cohesive world with a compelling design and story. The interconnected threads you follow to the final conclusion are an incredible way to deal with progression. Using knowledge as the key to progression is genius. I didn't expect to see anything of this quality in the genre made by a company other than Cyan, and then in 2019 Mobius Digital casually releases the best game since Riven was released in 1997. And what's more, they managed to do it so well that *everyone* likes it, while Cyan is still struggling along as a maker of niche games. And then they did it *again* with Echoes of the Eye.
 
 ## Things you really shouldn't know
 

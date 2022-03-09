@@ -6,7 +6,7 @@ tags: [adventure puzzle games]
 author: Michael Ripley
 ---
 
-I've already talked about [the design of adventure puzzle games]({{ site.baseurl }}{% post_url 2022-03-02-the-design-of-adventure-puzzle-games %}), so now lets take a deeper dive into individual puzzles.
+I've already talked about [the design of adventure puzzle games]({{ site.baseurl }}{% post_url 2022-03-02-the-structure-of-adventure-puzzle-games %}), so now lets take a deeper dive into individual puzzles.
 
 - What are the stages of a puzzle
   - information gathering
@@ -35,3 +35,16 @@ I've already talked about [the design of adventure puzzle games]({{ site.baseurl
 - What is the experience you want your player to have?
   - How do you build something that provides that experience?
   - What happens if something goes wrong?
+
+# Inventory
+There's two types of puzzle games: those with an inventory mechanic, and those without. There's a problem with inventory mechanics: they're very difficult to design in a way that's not incredibly frustrating. The problems are simple:
+- If it is immediately obvious where items should be used, then the mechanic is nearly meaningless. This encourages game designers to make items less obvious.
+- If it is not obvious where items should be used, then the player ends up having to backtrack and use them on everything in the world. This is extremely frustrating.
+- If the game includes crafting, then things become an order of magnitude worse. Lets look at the process when you obtain an item
+  1. Attempt to craft it with everything else in your inventory
+  2. Backtrack and attempt to use it on everything in the world
+  3. Fail, because it turns out the item was the second ingredient to a recipe that you lack the third ingredient for
+
+This means that to design an inventory mechanic well, you have to nail the sweet spot where items aren't incredibly obvious, but you can logically think it out and be rewarded when your theory proves correct. This is incredibly difficult to do, as evidenced by how few games have succeeded in doing it.
+
+The alternative to all this is just completely throwing inventory mechanics out of the window, with progression achieved by discovering secrets or manipulating the world state. This sort of game design is apparently harder to screw up, as evidenced by a number of puzzle games that have taken this approach to great effect. We'll look at some of these games in more detail.

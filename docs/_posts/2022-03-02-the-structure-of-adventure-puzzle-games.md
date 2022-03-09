@@ -1,28 +1,16 @@
 ---
 layout: post
-title: "The Design of Adventure Puzzle Games"
+title: "The Structure of Adventure Puzzle Games"
 date: 2022-03-02 10:21:52 -0600
-modified_date: 2022-03-04 03:48:29 -0600
+modified_date: 2022-03-09 07:06:28 -0600
 tags: [adventure puzzle games, graphing, myst, riven, outer wilds]
 author: Michael Ripley
 ---
+2022-03-09T07:06:28
 
 Is "adventure puzzle game" the right name for this subgenre? I'm not sure, but I love it. I'm talking about the type of game where you're cast into a new, immersive world. The rules of this world aren't quite like our own. You have to figure out what's going on and how to manipulate the world to progress. Puzzles must be solved, new areas must be explored.
 
-Lets take an analytical look at various games in this subgenre, and think about what makes a game good.
-
-# Inventory
-There's two types of puzzle games: those with an inventory mechanic, and those without. There's a problem with inventory mechanics: they're very difficult to design in a way that's not incredibly frustrating. The problems are simple:
-- If it is immediately obvious where items should be used, then the mechanic is nearly meaningless. This encourages game designers to make items less obvious.
-- If it is not obvious where items should be used, then the player ends up having to backtrack and use them on everything in the world. This is extremely frustrating.
-- If the game includes crafting, then things become an order of magnitude worse. Lets look at the process when you obtain an item
-  1. Attempt to craft it with everything else in your inventory
-  2. Backtrack and attempt to use it on everything in the world
-  3. Fail, because it turns out the item was the second ingredient to a recipe that you lack the third ingredient for
-
-This means that to design an inventory mechanic well, you have to nail the sweet spot where items aren't incredibly obvious, but you can logically think it out and be rewarded when your theory proves correct. This is incredibly difficult to do, as evidenced by how few games have succeeded in doing it.
-
-The alternative to all this is just completely throwing inventory mechanics out of the window, with progression achieved by discovering secrets or manipulating the world state. This sort of game design is apparently harder to screw up, as evidenced by a number of puzzle games that have taken this approach to great effect. We'll look at some of these games in more detail.
+Lets use graphs to take an analytical look at the structure of various games in this subgenre.
 
 # Spoilers ahead!
 This writeup will spoil *everything* about the following games:
@@ -62,11 +50,7 @@ A lot can be observed about the structure of the game just by glancing at these 
 
 Myst's structure is very simple. As the ages generally can't be left early, you can't solve ages in parallel. This means the game is gong to naturally form a single linear progression chain as you go through it. The only time you have more than one option available is when you're at Myst island trying to get into a new age. This is a recipe for frustration, as if there's only one path forward then every time a puzzle stumps you all your momentum is gone. Every puzzle can become a brick wall, completely halting all progression.
 
-There's also negligible inter-age dependencies. The most glaring inter-age dependency, the sounds of the cardinal directions, has a glaring flaw: 50% of the possible age orderings go in the wrong order to get the hint. And even if you passed the coinflip, if your notes or memory are lacking you miss out anyways. The other inter-age dependency is the library showing where the lever is in Channelwood's maze of a second level. This time you can actually backtrack to read the book, but many players just wander aimlessly until they find the lever.
-
-This is a nice segway into another issue with Myst: its puzzle design. Myst has a couple of puzzles that have an intended solution, but also have a degenerate solution. Specifically, the Selenetic maze and the second layer of Channelwood can both be brute forced. Because the intended solutions are non-obvious and brute forcing is viable, many people take the obvious, but frustrating route. This is poor design. If a puzzle is brute-forcible, then it needs to have such a large solution space that it is clearly infeasible to attempt. Another puzzle with an extremely obscure solution is the clocktower puzzle. It is provable via game theory or modular algebra that 2,2,1 is impossible to achieve with single lever pulls, but players are never going to do math proofs. The puzzle appears designed to be intentionally frustrating until you hold your mouse button down in a fit of rage.
-
-Putting it all together, Myst's simple structure and puzzle design issues makes it a mediocre game. Its most noteworthy quality is that it's a classic. If not for its fame and how it revolutionized the genre it wouldn't be worth mentioning compared to other, much stronger puzzle games.
+There's also negligible inter-age dependencies. The most glaring inter-age dependency, the sounds of the cardinal directions, has a glaring flaw: half the time you'll visit the ages in the wrong order to get the hint. And even if you passed the coinflip, if your notes or memory are lacking you miss out anyways. The other inter-age dependency is the library showing where the lever is in Channelwood's maze of a second level. This time you can actually backtrack to read the book, but many players just wander aimlessly until they find the lever.
 
 # Riven
 
@@ -91,11 +75,7 @@ Putting it all together, Myst's simple structure and puzzle design issues makes 
    - island → dome coordinate mapping
 4. Now you're in the endgame, and things get very linear
 
-Riven's progression graph is much more interconnected than that of its predecessor. At any given time you'll likely have two or three different progression threads to follow, which is great if you're stumped and need to take a break from one puzzle. Eventually things will funnel into the final puzzle: the fire marbles. Once you're past that you're off to the endgame, where your options become much more limited. In fact, once Catherine is rescued your options are artificially limited by Catherine trapping you near the telescope. I can only assume this is because playtesters were struggling with piecing together how to signal Atrus without having the game's scope significantly narrowed. This makes sense, as the telescope is intentionally designed to feel like a fluff object with no progression purpose.
-
-Cyan has clearly learned from the mistakes of Myst, as Riven's puzzles are much better designed. Notably, the frustrating brute-forcible puzzles are gone. Instead, Riven's most frustrating aspect is how it punishes the player for failing to observe inconspicuous details. Riven has a number of small, important items that are very easy to miss. In some cases, perhaps most notably the lever that grants access to the top of the giant golden dome, it becomes harder to find the longer it's been since you missed it. This is because the lever is in a hall, and once players believe they are familiar with a hall they click through it very quickly. All of the other cases of inconspicuous levers and doors in Riven have some sort of tell that indicates there's an area the player needs to get to, leading back to the easy-to-miss button or door. The top of the golden dome has no such tell.
-
-The takeaway is that with Riven, Cyan took the idea of Myst and simply added incredible polish. The puzzles are better designed, more interconnected, and feel like they're seamlessly part of the world.
+Riven's progression graph is much more interconnected than that of its predecessor. At any given time you'll likely have two or three different progression threads to follow, which is great if you're stumped and need to take a break from one puzzle. Eventually things will funnel into the final puzzle: the fire marbles. Once you're past that you're off to the endgame, where your options become much more limited. In fact, once Catherine is rescued your options are artificially limited by Catherine trapping you near the telescope. I can only assume this is because playtesters were struggling with piecing together how to signal Atrus. This makes sense, as the telescope is intentionally designed to feel like a fluff object with no progression purpose.
 
 # Outer Wilds
 
@@ -121,7 +101,7 @@ The takeaway is that with Riven, Cyan took the idea of Myst and simply added inc
 4. Once you have all three pieces of knowledge there's no endgame progression beyond forming a plan and executing it.
 
 - The quantum moon is a whole side thing where you collect three quantum rules as you explore for the main progression.
-- Edges of the eye is another side thing. 
+- Echoes of the Eye is another side thing, but much larger.
   1. Starting out there's a lot to explore but only three things you can do
      - Follow the trail from the Cinder Isles slide room to gaining access to the green fire rooms
      - Find the hidden gorge
@@ -131,7 +111,7 @@ The takeaway is that with Riven, Cyan took the idea of Myst and simply added inc
   4. Combine the three critical pieces of information to free the prisoner
 
 ### High Branching
-The massive branching at the beginning of the game is interesting. I see some players who are overwhelmed by it and focus too much on the question: "where am I supposed to go?". Many gamers are so used to linear progression that their kneejerk reaction when it's suddenly gone is that the game must be poorly designed, and there's "nothing to do". Ironic that having too many options makes people think there's too few. However, Mobius Digital has clearly designed for this as the Hearthinians in the village give you prods to go check various planets. Eventually players realize they can go wherever their fancy takes them, and that's when the game starts to make sense to them.
+The massive branching at the beginning of the game is interesting. I see some players who are overwhelmed by it and focus too much on the question: "where am I supposed to go?". Many gamers are so used to linear progression that their kneejerk reaction when it's suddenly gone is that the game must be poorly designed, and there's "nothing to do". Ironic that having too many options makes people think there's too few. However, Mobius Digital has clearly designed for this as the Hearthians in the village give you prods to go check various planets. Eventually players realize they can go wherever their fancy takes them, and that's when the game starts to make sense to them.
 
 ### Bottlenecks
 The main game doesn't really have any bottlenecks. It's not difficult to learn something new every loop, and eventually you'll have learned everything you need. It's simply a matter of going everywhere, and there aren't really any puzzles that would stump you. The main barrier to progression I see here is players focusing too hard on one place and trying to brute force their way in when they're supposed to have learned a trick somewhere different. For example: trying to get into the black hole forge before understanding the warp towers.
@@ -142,6 +122,3 @@ Finally, Echoes of the Eye. There's much less breadth to this subgraph, meaning 
 
 ### These Three Simple Tricks Your Game Doesn't Want you to Know
 Mobius Digital *really* likes the pattern of having three critical pieces of knowledge that when combined solve some huge puzzle. They've done it for the main game, the quantum moon, and Echoes of the Eye. And I must say: it works pretty dang well. It helps keep things from being overly linear, and when you finally put everything together it's quite satisfying. They've clearly got a great formula here, and they know it.
-
-### The Takeaway
-Outer Wilds is a cohesive world with a compelling design and story. The interconnected threads you follow to the final conclusion are an incredible way to deal with progression. Using knowledge as the key to progression is genius. I didn't expect to see anything of this quality in the genre made by a company other than Cyan, and then in 2019 Mobius Digital casually releases the best game since Riven was released in 1997. And what's more, they managed to do it so well that *everyone* likes it, while Cyan is still struggling along as a maker of niche games. And then they did it *again* with Echoes of the Eye.

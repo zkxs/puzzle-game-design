@@ -1,0 +1,123 @@
+digraph outer_wilds_nomai {
+
+        graph [
+        layout = dot
+        rankdir = TB
+        nodesep = 0.35 // minimum space between two adjacent nodes in the same rank, in inches
+        ranksep = 0.75 // minimum rank separation, in inches
+        bgcolor = gray12
+        pencolor = red // cluster border color
+        fontcolor = red
+        fontname = "Helvetica-bold"
+        fontsize = 24
+        newrank = true // use a single global ranking, ignoring clusters. Needed because the Echoes cluster is REALLY tall.
+        #concentrate = true // use edge concentrators. These don't work great.
+        labeljust = "c"
+        labelloc = "t"
+    ]
+    edge [
+        color = gray85
+        fontcolor = gray90
+        weight = 100 // gotta crank this because it must be an integer, and I need a range of lower weights
+        fontname = "Helvetica"
+    ]
+    node [
+        color = gray85
+        fontcolor = gray90
+        fontname = "Helvetica"
+        shape = box
+        style = rounded
+    ]
+
+    // nodes
+
+    subgraph pods {
+        graph [rank = source]
+        pod1 [color = red, tooltip = "Brittle Hollow"]
+        pod2 [color = cyan, tooltip = "Ember Twin"]
+        pod3 [color = lime, tooltip = "Dark Bramble"]
+        vessel [color = yellow, tooltip = "Died during crash"]
+    }
+
+    // adults during the disaster
+    subgraph gen1 {
+        graph [rank = same]
+        filix // bridge officer, brittle hollow temporary settlement
+        annona // bridge officer, warp core guy
+        escall // captain of the vessel
+        foil // died during crash
+        kousa // depressed about foil being dead
+        bur // distress signal tracking, quantum moon locator, exact age uncertain
+        melorae // establish sunless city
+        rhus // nothing of interest
+        din // nothing of interest
+        secca // nothing of interest
+        keek // died during crash
+        plume // brittle hollow temporary settlement
+    }
+
+    // adults during work on the ATP
+    subgraph genx {
+        graph [rank = same]
+        yarrow // high rank at sunless city, ATP, AT excavation
+        clary // ATP, black hole forge
+        ramie // ATP, high energy lab, AT core
+        pye // ATP, high energy lab, sun station
+        phlox // memory statue sculptor
+        daz // memory mask guy
+        cassava // not gen1, ATP, orbital probe cannon
+        avens // ATP, orbital probe cannon
+        mallow // ATP, orbital probe cannon
+        poke // ATP, black hole forge
+        root // ATP, black hole forge
+        oneo // ATP, ore mining
+    }
+
+    // wiped out by interloper
+    subgraph gen3 {
+        graph [rank = same]
+        conoy // grandmother was a crash survivor, ATP, oribital probe cannon, cyclone model
+    }
+
+    // munchkins. Kids during fossil fish. Adolescent when interloper nuked system.
+    subgraph gen4 {
+        graph [rank = same]
+        solanum
+        ilex
+        taget
+        laevi
+        lami
+    }
+
+    // mystery generation
+    plume
+    thatch
+    coleus
+    cycad
+    privet
+    bells
+
+    // pod people
+    pod1 -> {filix, kousa, plume, thatch} [color = red]
+    pod2 -> {annona, bur, coleus, melorae, rhus} [color = cyan]
+    pod3 -> {din, escall, secca} [color = lime]
+    vessel -> {foil, keek}
+
+    // relationships
+    melorae -> thatch [label = "aunt"]
+    melorae -> coleus [label = "mentor"]
+    coleus -> cycad [label = "mentor"]
+    annona -> poke [label = "mentor"]
+    yarrow -> clary [dir = both, label = "partner"]
+    pye -> {laevi, lami} [label = "aunt"]
+    filix -> privet [label = "mentor"]
+    cassava -> daz [dir = both, label = "partner"]
+    kousa -> foil [dir = both, label = "partner"]
+    plume -> phlox [label = "father"]
+    daz -> avens [dir = both, label = "sibling"]
+    avens -> mallow [dir = both, label = "partner"]
+    clary -> poke [dir = both, label = "sibling"]
+    solanum -> {ilex, laevi, lami, taget} [dir = both, label = "friends"]
+    {bells, conoy} -> solanum [label = "teacher"]
+    keek -> plume [dir = both, label = "partner"]
+}

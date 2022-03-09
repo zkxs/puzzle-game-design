@@ -6,6 +6,12 @@ tags: [adventure puzzle games, myst]
 ---
 
 Some quick and dirty Myst notes.
+
+## Puzzle Design
+Myst has a couple of puzzles that have an intended solution, but also have a degenerate solution. Specifically, the Selenetic maze and the second layer of Channelwood can both be brute forced. Because the intended solutions are non-obvious and brute forcing is viable, many people take the obvious, but frustrating route. This is poor design. If a puzzle is brute-forcible, then it needs to have such a large solution space that it is clearly infeasible to attempt. Another puzzle with an extremely obscure solution is the clocktower puzzle. It is provable via game theory or modular algebra that 2,2,1 is impossible to achieve with single lever pulls, but players are never going to do math proofs. The puzzle appears designed to be intentionally frustrating until you hold your mouse button down in a fit of rage.
+
+Putting it all together, Myst's simple structure and puzzle design issues make it a mediocre game. Its most noteworthy quality is that it's a classic. If not for its fame and how it revolutionized the genre it wouldn't be worth mentioning compared to other, much stronger puzzle games.
+
 ## Clock Tower Puzzle
 - You have exact control over the top and bottom gear
 - The middle gear's position is the sum of the top and bottom offsets
