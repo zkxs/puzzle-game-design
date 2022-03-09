@@ -66,6 +66,7 @@ This breaks people's brains.
     - Multiplayer was a mistake. Huge misdirection of effort.
     - Realtime 3D is not good
       - It is big a step down in visual quality. Remember Myst IV came before it and looked *incredible*.
+      - Controls are awful.
       - Third person is cringe.
       - Ridiculous walk/sprint mechanic that uses CAPS LOCK!?
       - Jumping was a mistake. The Myst series did not need platforming.

@@ -1,2 +1,12 @@
-$content-width: 50%; // Width of the content area
-$content-width-extrawide: 90%; // Width of items that go outside the normal content area
+$spacing-unit: 30px;
+
+$table-text-align: left;
+
+// Width of the content area
+$content-width: 1000px;
+
+$on-palm: 400px;
+$on-laptop: 1000px;
+
+$on-medium: $on-palm;
+$on-large: $on-laptop;
