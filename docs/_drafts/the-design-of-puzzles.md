@@ -35,7 +35,9 @@ I've already talked about [the design of adventure puzzle games]({{ site.baseurl
 - What is the experience you want your player to have?
   - How do you build something that provides that experience?
   - What happens if something goes wrong?
-
+- Cause and Effect
+  - player interaction should have immediately visible output
+- Short term and long term goals
 # Inventory
 There's two types of puzzle games: those with an inventory mechanic, and those without. There's a problem with inventory mechanics: they're very difficult to design in a way that's not incredibly frustrating. The problems are simple:
 - If it is immediately obvious where items should be used, then the mechanic is nearly meaningless. This encourages game designers to make items less obvious.
