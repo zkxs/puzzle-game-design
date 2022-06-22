@@ -9,8 +9,8 @@ layout: svg
 title: $FILENAME.svg
 svg: $FILENAME
 ---" > "docs/svg/$FILENAME.html"
-    #echo "  Generating PNG..."
-    #inkscape $PNG_OPTIONS -o "docs/img/$FILENAME.png" "docs/svg/$FILENAME.svg"
+    echo "  Generating PNG..."
+    inkscape $PNG_OPTIONS -o "docs/img/$FILENAME.png" "docs/svg/$FILENAME.svg"
 }
 
 echo "Outer Wilds:"

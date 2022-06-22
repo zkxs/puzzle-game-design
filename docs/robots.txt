@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zkxs.github.io/sitemap.xml
+Sitemap: https://www.zkxs.dev/sitemap.xml

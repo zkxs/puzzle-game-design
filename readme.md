@@ -1,5 +1,20 @@
 # Mich's Mystery Blog
-This repo houses the source for my [blog](https://zkxs.github.io/).
+This repo houses the source for my [blog](https://www.zkxs.dev/).
+
+## Running locally
+
+[Setup instructions](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
+
+```shell
+# change into the root of the website
+cd docs
+# install dependencies
+bundle install
+# Run locally
+bundle exec jekyll serve
+# Run locally, but show drafts
+bundle exec jekyll serve --drafts
+```
 
 ## License
 - The blog source code in this repository is licensed under the [MIT License](LICENSE.txt).
