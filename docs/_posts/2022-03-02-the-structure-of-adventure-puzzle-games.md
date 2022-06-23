@@ -6,7 +6,6 @@ modified_date: 2022-03-09 07:06:28 -0600
 tags: [adventure puzzle games, graphing, myst, riven, outer wilds]
 author: Michael Ripley
 ---
-2022-03-09T07:06:28
 
 Is "adventure puzzle game" the right name for this subgenre? I'm not sure, but I love it. I'm talking about the type of game where you're cast into a new, immersive world. The rules of this world aren't quite like our own. You have to figure out what's going on and how to manipulate the world to progress. Puzzles must be solved, new areas must be explored.
 
