@@ -2,6 +2,7 @@
 layout: post
 title: "Rainbow Table Adventure"
 date: 2022-06-22 14:39:42 -0500
+modified_date: 2022-06-23 13:47:16 -0500
 tags: [security, neos]
 author: Michael Ripley
 ---
@@ -10,7 +11,7 @@ This is a story about an adventure I took into video game reverse engineering, D
 
 ## The Adventure Begins
 
-While talking to some folks in Neos one day back in May 2021, someone mentioned that there are some hidden fields in the User component. These fields can't normally be seen in game, but you can still read them using a technique called refhacking.
+While talking to some folks in Neos one day back in May 2021, someone mentions that there are some hidden fields in the User component. These fields can't normally be seen in game, but you can still read them using a technique called refhacking.
 
 **Refhacking** is an unintended side effect of a couple different Neos features. In short, it allows you to create a reference to something dynamically. This is a big deal, as normally in Neos each reference has to be created by hand and there's no dynamic way of getting a field from an arbitrary component. The downside? Refhacking is really more of a bug than a feature, and it's horribly horribly inefficient.
 
@@ -46,12 +47,12 @@ But after the update, we're getting this gibberish back:
 }
 ```
 
-What's going on here? The fact that we've got 32 bytes worth of hexadecimal implies that there's some sort of hashing going on… but to learn more we'll have to do some reverse engineering. After some poking around to figure out what Neos is doing internally, I found that there's two things going on here:
+What's going on here? The fact that we've got 32 bytes worth of hexadecimal implies that there's some sort of hashing going on… but to learn more we'll have to do some reverse engineering. After some poking around to figure out what Neos is doing internally, I find that there's two things going on here:
 
 1. Each ID's key and value is being locally hashed using [SHA256](https://en.wikipedia.org/w/index.php?title=SHA-256) before being sent to the session host.
 2. These hashes are then encrypted using [DES](https://en.wikipedia.org/wiki/Data_Encryption_Standard) before being stored in the User component.
 
-So if we wanted to read these values, we'd need to first decrypt the value, then reverse the hash. But first, we need to talk about what encryption and hashing are:
+So if we want to read these values, we need to first decrypt the value, then reverse the hash. But before we go deeper into that, I need to explain what encryption and hashing are:
 
 **Encryption** is a process of encoding information such that some secret key is needed to decode the information. DES is a[ symmetric-key algorithm](https://en.wikipedia.org/wiki/Symmetric-key_algorithm), meaning the same secret key is used for both encrypting and decrypting. 
 
@@ -65,9 +66,9 @@ The larger problem is the hash. How do we reverse a one-way operation? If we can
 
 Hashes are expensive to brute force. But *how* expensive? Well, to answer that we have to look at what a Discord ID is. Discord uses a format called [snowflake](https://discord.com/developers/docs/reference#snowflakes) for all of their internal IDs. These snowflake IDs are 64 bit numbers. There are 18,446,744,073,709,551,616 possible values for a 64 bit number. That's *a lot*. Imagine we have some imaginary computer, which we'll name the HashSmasher, that can compute one million SHA-256 hashes per second. It would take the HashSmasher 585 years to brute force the entire space of possible IDs. That's obviously not viable.
 
-Can we do better? As it turns out, 42 bits of the ID are a timestamp, and we only need to account for time values between Discord's initial release in 2015 and the present time. There are approximately 237,000,000,000 different timestamps in that range, which combined with the remaining 22 bits in the ID gets us down to 994,050,048,000,000,000 possible IDs. With this new, much smaller ID space it would only the HashSmasher 32 years to brute force a hash! While this is much faster, it's still a terribly long time. A naïve brute-force over all possible IDs simply isn't viable.
+Can we do better? As it turns out, 42 bits of the ID are a timestamp, and we only need to account for time values between Discord's initial release in 2015 and the present time. There are approximately 237,000,000,000 different timestamps in that range, which combined with the remaining 22 bits in the ID gets us down to 994,050,048,000,000,000 possible IDs. With this new, much smaller ID space it would only take the HashSmasher 32 years to brute force a hash! While this is much faster, it's still a terribly long time. A naïve brute-force over all possible IDs simply isn't viable.
 
-Can we do even better? In practice, there isn't a new Discord user being created every microsecond. What if we could somehow build a dictionary of all *valid* Discord user IDs? Or even better, a dictionary of all Discord user IDs belonging to Neos players? Well, Neos has a [Discord sever][Neos Discord] that the vast majority of Neos players are a member of. If we could enumerate user IDs from that server, that'd be a wonderful source of data to mount a [dictionary attack](https://en.wikipedia.org/wiki/Dictionary_attack). If we could get down to a dictionary of 10,000 IDs, that would only take the HashSmasher 10 μs to brute force a hash! Now we're getting into the realm where an attack is feasible. A typical CPU can easily hash those 10,000 IDs in about 100ms.
+Can we do even better? In practice, there isn't a new Discord user being created every microsecond. What if we could somehow build a dictionary of all *valid* Discord user IDs? Or even better, a dictionary of all Discord user IDs belonging to Neos players? Well, Neos has a [Discord sever][Neos Discord] that the vast majority of Neos players are a member of. If we could enumerate user IDs from that server, that'd be a wonderful source of data to use in a [dictionary attack](https://en.wikipedia.org/wiki/Dictionary_attack). If we could get down to a dictionary of 10,000 IDs, that would only take the HashSmasher 10 microseconds to brute force a hash! Now we're getting into the realm where an attack is feasible. A typical CPU can easily hash those 10,000 IDs in about 100 milliseconds.
 
 Finally, we can go one step further. Instead of brute-forcing every single hash we encounter against our dictionary, we can pre-compute the hashes and store them a table, like so:
 
@@ -81,7 +82,7 @@ Now if we get a hash such as `fcde2b2edba56bf408601fb721fe9b5c338d10ee429ea04fae
 
 ## Discord Shenanigans
 
-Now that we've established that a rainbow-table attack is viable, we need to actually build our dictionary of Discord IDs. Discord doesn't make enumerating users in a server easy to do. A bot is the logical way to automate something like this, but I can't add a bot to a server I don't own. One potential option is a so-called "selfbot", which is a bot that uses the normal user API instead of using Discord's special bot API. However, selfbots are against the Discord ToS and will get you banned. My approach was to simply log in to the Neos Discord server from a browser and use the developer tools to log the data sent to my client. Discord provides [documentation and a decoding example](https://discord.com/developers/docs/topics/gateway#encoding-and-compression) for their websocket data format. So the process is as follows:
+Now that we've established that a rainbow-table attack is viable, we need to actually build our dictionary of Discord IDs. Discord doesn't make enumerating users in a server easy to do. A bot is the logical way to automate something like this, but I can't add a bot to a server I don't own. One potential option is a so-called "selfbot", which is a bot that uses the normal user API instead of using Discord's special bot API. However, selfbots are against the Discord ToS and will get you banned. My approach is to simply log in to the Neos Discord server from a browser and use the developer tools to log the data sent to my client. Discord provides [documentation and a decoding example](https://discord.com/developers/docs/topics/gateway#encoding-and-compression) for their websocket data format. So the process is as follows:
 
 1. Open Discord in your browser, and use the dev tools to log websocket data
 2. Scroll through the entire user list in the Neos Discord, causing Discord to send you data about each user
@@ -92,7 +93,7 @@ Now that we've established that a rainbow-table attack is viable, we need to act
 
 ## Putting it all Together
 
-On May 15, 2021 after another evening of coding, I built my rainbow table, built a Neos plugin to perform the DES decryption, and updated my in-game tool to use my new code. Refhacking was no longer needed, and everything worked!
+On May 15, 2021 after another evening of coding, I build my rainbow table, buid a Neos plugin to perform the DES decryption, and update my in-game tool to use my new code. Refhacking is no longer needed, and everything works!
 
 To this day I still haven't released the tool, as it requires a rather poorly put together Neos plugin in order to work. My code isn't in a state where I'm happy enough with it to share. Also, given the previous incident where Discord IDs were allegedly used to scare people, I'm not particularly motivated to polish my software into a release-ready state. So for now, at least, I'm the only person doing this (as far as I know).
 
