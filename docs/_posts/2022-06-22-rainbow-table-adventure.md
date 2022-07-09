@@ -2,7 +2,7 @@
 layout: post
 title: "Rainbow Table Adventure"
 date: 2022-06-22 14:39:42 -0500
-modified_date: 2022-06-23 13:47:16 -0500
+modified_date: 2022-07-09 15:04:25 -0500
 tags: [security, neos]
 author: Michael Ripley
 ---
@@ -23,7 +23,7 @@ At this point things are relatively simple, but that won't last for long.
 
 ## The Game has Changed
 
-For about 10 days after the initial implementation nothing particularly interesting happens, aside from learning that we're not the first people to do this. There's another Discord gun already floating around, and I have no idea how long it's existed. However, demoing our tool has raised interest in it again. At some point in those 10 days someone gets spooked by this other Discord gun and raises a moderation report. While Discord user IDs aren't really a huge privacy concern on their own, there's a valid concern that some people might not want a link between their Neos identity and their Discord identity. On May 13, 2021 Frooxius releases Neos build 2021.5.13.384, which changes how these extra user IDs are stored in the User component.
+For about 10 days after the initial implementation nothing particularly interesting happens, aside from learning that we're not the first people to do this. There's another Discord gun already floating around, and I have no idea how long it's existed. However, demoing our tool has raised interest in it again. At some point in those 10 days someone gets spooked by this other Discord gun and raises a moderation report. While Discord user IDs aren't really a huge privacy concern on their own, there's a valid concern that some people might not want a link between their Neos identity and their Discord identity. On May 13, 2021 Frooxius (Neos's main developer) releases Neos build 2021.5.13.384, which changes how these extra user IDs are stored in the User component.
 
 Previously, we would read some data that looked like this:
 
