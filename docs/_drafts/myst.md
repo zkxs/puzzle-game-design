@@ -35,8 +35,8 @@ Putting it all together, Myst's simple structure and puzzle design issues make i
 
 Observe:
 
-- Telescope has 5 degree increments
-- Compass has 32 divisions, or 11.25 degree increments
+- Telescope has 72 divisions, for 5 degree increments
+- Compass has 32 divisions, for 11.25 degree increments
 
 This breaks people's brains.
 
@@ -45,9 +45,8 @@ This breaks people's brains.
 | Button | Area       |
 | ------ | ---------- |
 | Left   |            |
-| Middle |            |
+| Middle | Bedrooms   |
 | Right  |            |
-|        | Bedrooms   |
 |        | Lighthouse |
 |        | Exit room  |
 
@@ -70,6 +69,7 @@ This breaks people's brains.
    - Not a fan of the surrealism. "But what if we throw a clock in it?" Yeah okay Salvador Dalí.
 4. Myst Online: Uru Live Again (MOULA)
     - Multiplayer was a mistake. Huge misdirection of effort.
+      - that being said, it gives you the perfect population to ask for in-game hints to some of the more abstruse puzzles
     - Realtime 3D is not good
       - It is big a step down in visual quality. Remember Myst IV came before it and looked *incredible*.
       - Controls are awful.
@@ -88,14 +88,24 @@ This breaks people's brains.
    - Haven is mildly cursed.
    - Serenia is incredibly cursed (especially the ending, oh god).
    - Because half the ages are awful, I consider it half of a game.
-6. Uru
-    - Botched version of MOULA. MOULA is objectively better, and it's *free*.
-    - There's no reason to play it, but for completion's sake I've rated it here as if MOULA didn't exist.
-7. Myst V: End of Ages
+6. Myst V: End of Ages
     - Realtime 3D is still not good. See above for more details.
     - The plot is pretty mediocre.
     - Incredibly creepy and awful face animation.
     - 2 of the ages feel very samey, artistically.
     - Only one of the ages is interesting.
-    - The drawing mechanic is super scuffed.
+    - The drawing mechanic is super scuffed, but at least it's interesting.
     - The puzzles are pretty bland, in part due to many of them being tied to the tablet mechanics.
+7. Uru
+    - Botched version of MOULA. MOULA is objectively better, and it's *free*.
+    - There's no reason to play it, but for completion's sake I've rated it here as if MOULA didn't exist.
+    - Missing the distinguishing feature of MOULA: the multiplayer.
+    - Missing some of the better ages of MOULA
+    - Some of the most annoying puzzles in the franchise
+      - firefly wrangler
+      - the trash-physics buttons
+      - the bridge bonk
+      - the ridiculous jump in Gahreesen
+      - Kadish Tolesa
+        - everything there is abstruse
+        - if the lighting bugs out it's unplayable

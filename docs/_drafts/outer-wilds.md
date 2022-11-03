@@ -13,6 +13,13 @@ Outer Wilds is a cohesive world with a compelling design and story. The intercon
 
 ## Things you really shouldn't know
 
+## Math
+
+9,318,054 loops until probe finds an eye of the universe, ~22 minutes per loop.  
+That is ~390 years since the sun started exploding.  
+After not receiving a command for over ten minutes due to the death of the Nomai, the Sun Station went into sleep mode and has been offline for 281,042 years.  
+The Nomai are only 2 or 3 generations in before they get ghost-matter'd.  
+
 ### The eye's coordinates
 
 1. `L` tilted clockwise slightly
