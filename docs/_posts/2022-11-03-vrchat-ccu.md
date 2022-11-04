@@ -6,7 +6,7 @@ tags: [vrchat]
 author: Michael Ripley
 ---
 
-Three months ago on July 25th, 2022 there was a significant event in the VRChat community: the [Security Update's](https://hello.vrchat.com/blog/vrchat-security-update) introduction of Easy Anti-Cheat (EAC). It was, and still is, very controversial within the VRChat playerbase. However, this post is not about my opinion of EAC: it's about the affect of EAC on VRChat's concurrent users. I believe that three months is long enough to give the numbers time to settle down, and now it's time to do some analysis.
+Three months ago on July 25th, 2022 there was a significant event in the VRChat community: the [Security Update's](https://hello.vrchat.com/blog/vrchat-security-update) introduction of Easy Anti-Cheat (EAC). It was, and still is, very controversial within the VRChat playerbase. However, this post is not about my opinion of EAC: it's about the effect of EAC on VRChat's concurrent users. I believe that three months is long enough to give the numbers time to settle down, and now it's time to do some analysis.
 
 My goal is to clear up exactly how the introduction of EAC affected concurrent user (CCU) numbers. To achieve that I'm going to look at some charts, tell you what I think the numbers mean, and link to my sources. I will include screenshots for ease-of-reading (and in case the sources go down), but I invite you to take a look around the actual charts. They're quite nice.
 
