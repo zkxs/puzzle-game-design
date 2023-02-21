@@ -1,0 +1,304 @@
+digraph outer_wilds_progression {
+    graph [
+        layout = dot
+        rankdir = TB
+        nodesep = 0.35 // minimum space between two adjacent nodes in the same rank, in inches
+        ranksep = 0.75 // minimum rank separation, in inches
+        bgcolor = gray12
+        pencolor = red // cluster border color
+        fontcolor = red
+        fontname = "Helvetica-bold"
+        fontsize = 24
+        newrank = true // use a single global ranking, ignoring clusters. Needed because the Echoes cluster is REALLY tall.
+        #concentrate = true // use edge concentrators. These don't work great.
+        labeljust = "c"
+        labelloc = "t"
+    ]
+    edge [
+        color = gray85
+        fontcolor = gray90
+        weight = 100 // gotta crank this because it must be an integer, and I need a range of lower weights
+    ]
+    node [
+        color = gray85
+        fontcolor = gray90
+        fontname = "Helvetica"
+        shape = box
+        style = rounded
+    ]
+
+    // special nodes
+    subgraph starts {
+        graph [
+            rank = source
+        ]
+        node [
+            style = "rounded,filled"
+            fillcolor = "#005000"
+        ]
+        start [label = "Start"];
+    }
+
+    subgraph endings {
+        graph [
+            #rank = sink // has the potential to cause more problems than it solves
+        ]
+        node [
+            style = "rounded,filled"
+            fillcolor = "#500000"
+            group = "endings" // appears to do nothing?
+        ]
+        ending_broke_time [label = "You broke time"]
+        ending_exile_quantum [label = "Exile on Quantum Moon"]
+        ending_lost [label = "Lost in space"]
+        ending_good [label = "Good Ending"]
+        ending_best [label = "Good Ending but\nwith bonus scene"]
+    }
+
+        // these nodes aren't required to beat the game, but you'll learn some neat lore
+    subgraph optional_nodes {
+        node [
+            color = gray45
+            fontcolor = gray50
+            style = "rounded,dotted"
+        ]
+
+        // these nodes look like shit when they get spread out, so we'll stealth-cluster them
+        subgraph cluster_sun_station {
+            graph [penwidth = 0]
+            incredible_pilot [label = <Be <i>extremely </i><br/>good at piloting>]
+            sun_station_teleporter [label = "Go through the warp\ntower to the Sun Station"]
+            sun_station [label = "Enter the\nSun Station*", tooltip = "This is optional, and just gives you some lore about how the sun isn't exploding due to the Sun Station. It's just old."]
+        }
+
+        gabbro_found [label = "Find Gabbro\non Giant's Deep"]
+        ember_twin_gravity_cannon [label = "Find the Ember Twin's\ngravity cannon"]
+        interloper_ice_trick_learned [label = "Learn how to get\ninside the Interloper"]
+        interloper_interior [label = "Reach the Interloper's core*", tooltip = "This is optional, and just gives you lore about the origins of ghost matter."]
+        meditation_unlocked [label = "Learn how to meditate the\nsecond time you talk to Gabbro*", tooltip = "Optional, but gives some good quality-of-life."]
+    }
+
+    // normal nodes
+    ghost_matter_trick_learned [label = "Learn how to\ndetect ghost matter"]
+    launch_codes_learned [label = "Obtain launch codes"]
+    youngbark_crater_explored [label = "Explore the Youngbark\nCrater on Timber Hearth"]
+    outer_wilds_venture_signal [label = "Follow the Outer Wilds\nVentures signal"]
+    feldspar_found [label = "Find Feldspar\nin Dark Bramble"]
+    brittle_hollow_escape_pod_found [label = "Find the escape pod\non Brittle Hollow"]
+    ember_twin_escape_pod_found [label = "Find the escape pod\non the Ember Twin"]
+    distress_signal_learned [label = "Learn the distress signal\nfrom an escape pod"]
+    white_hole_found [label = "Find the white hole", tooltip = "Probably by falling into the black hole in the center of Brittle Hollow"]
+    orbital_probe_cannon_explored [label = "Explore the\nOrbital Probe Cannon"]
+    brittle_hollow_underground [label = "Find the underground\npaths on Brittle Hollow"]
+    hanging_city [label = "Explore the Hanging City"]
+    southern_observatory [label = "Enter the Southern Observatory,\n and learn the trick to the\nGiant's Deep cyclones"]
+    middle_giants_deep [label = "Go beneath the current\nlayer on Giant's Deep"]
+    jellyfish_trick_learned [label = "Learn that jellyfish are\nelectrically resistant"]
+    inner_giants_deep [label = "Go beneath the electric\nlayer on Giant's Deep"]
+    eye_coordinates_known [label = "Learn the coordinates\nof the Eye of the Universe", style = "rounded,filled", fillcolor = "#280060"]
+    dark_bramble_escape_pod_found [label = "Find the escape pod\nin Dark Bramble"]
+    dark_bramble_scout_trick_learned [label = "Learn about shooting your scout\nthrough Dark Bramble seeds"]
+    vessel_found [label = "Find the Vessel", style = "rounded,filled", fillcolor = "#280060"]
+    sunken_city [label = "Find the Sunken City"]
+    anglerfish_trick [label = "Learn the trick to\ngetting past anglerfish"]
+    high_energy_lab [label = "Enter the\nHigh Energy Lab"]
+    intentionally_break_time [label = "Intentionally fuck around with\ntime. What could go wrong?"]
+    ash_twin_towers_are_teleporters [label = "Discover that the Ash Twin\ntowers are teleporters"]
+    white_hole_station_explored [label = "Explore the\nWhite Hole Station"]
+    teleporter_angle_learned [label = "Learn that the teleporters\ntrigger only when aligned"]
+    teleporter_partial_knowledge [label = "Figure out how to\nuse the warp towers"]
+    black_hole_forge [label = "Teleport to the\nBlack Hole Forge*", tooltip = "Can be skipped if you go full goblin-mode and park your ship on the ceiling"]
+    ash_twin_teleporter_identified [label = "Figure out which warp\ntower goes to the Ash Twin"]
+    teleporter_twin_trick_learned [label = "Learn the alignment trick\nto teleporting to the Twins"]
+    teleporter_timing_trick_learned [label = "Learn that the warp towers have\na small tolerance timing-wise"]
+    teleporter_complete_knowledge [label = "Figure out how to teleport\nto the Ash Twin Interior"]
+    ash_twin_interior [label = "Enter the Ash Twin interior", style = "rounded,filled", fillcolor = "#280060"]
+    warp_core_obtained [label = "Take the operational warp core"]
+    enter_ash_twin_time_singularity [label = "Leap into the singularity when\nthe Ash Twin Project activates*", tooltip = "Alternatively use your scout"]
+    meet_yourself [label = "Meet yourself.\nThis is fine."]
+    fail_to_complete_the_loop [label = "Inevitably fail to complete the time loop\nthat you started, creating a paradox"]
+    //TODO: a node for figuring out what teleporter exits look like?
+
+    // quantum stuff
+    subgraph cluster_quantum {
+        graph [
+            label = "Quantum Moon\n "
+        ]
+        launch_codes_learned_proxy_quantum [shape = point, style = ""]
+        quantum_signal_learned [label = "Learn the quantum signal\nfrom any quantum rock"]
+        ember_twin_quantum_cave [label = "Find one of the Ember\nTwin's quantum caves"]
+        ember_twin_lakebed_cave [label = "Get into the Lakebed\nCave before it floods"]
+        quantum_flashlight_trick [label = "Learn the rule of\nquantum entanglement"] 
+        giants_deep_north_storm [label = "Get inside the large northern\nstorm on Giant's Deep"]
+        giants_deep_quantum_tower [label = "Enter the Tower\nof Quantum Trials"]
+        quantum_photo_trick [label = "Learn the rule of\nquantum imaging"]
+        brittle_hollow_quantum_tower [label = "Learn how to reach the top of the\nTower of Quantum Knowledge"]
+        quantum_north_trick [label = "Learn the rule of\nthe sixth location"]
+        quantum_moon_final_location [label = "Reach the Quantum\nMoon's sixth location"]
+        solanum_visited [label = "Talk to Solanum", style = "rounded,filled", fillcolor = "#280060"]
+    }
+
+    ///////////////////// END OF NODES, BEGINNING OF EDGES /////////////////////
+
+    // optional edges
+    subgraph optional_edges {
+        edge [
+            style = dotted
+            weight = 100 // decreasing this can sometimes make the graph less spaghetti without compromising readability
+        ]
+
+        // NPCs that can be found without signals. Technically not needed.
+        #outer_wilds_venture_signal -> gabbro_found [color = gray45]; // okay I considered removing this but it RUINS the layout somehow so we won't touch it
+
+        // forward hints
+        orbital_probe_cannon_explored -> middle_giants_deep;
+        hanging_city -> black_hole_forge;
+        quantum_signal_learned -> {ember_twin_quantum_cave, giants_deep_north_storm};
+
+        // forward hints that might not be worth it as there's a zillion hints to the same thing
+        #hanging_city -> anglerfish_trick; // not important, lots of hints towards this
+
+        // don't want to mess up the layout with these, as they go against the normal flow
+        subgraph backwards_hints {
+            edge [
+                constraint = false
+            ]
+
+            // so you missed an escape pod
+            distress_signal_learned -> {ember_twin_escape_pod_found, brittle_hollow_escape_pod_found};
+        }
+    }
+
+    // OR edges. You need at least one of these to get a node.
+    subgraph or_edges {
+        edge [
+            style = dashed
+        ]
+
+        // find any escape pod
+        {ember_twin_escape_pod_found, brittle_hollow_escape_pod_found} -> distress_signal_learned;
+
+        // there's a few lanterns you can get
+        {easy_lantern, hidden_gorge_found, damaged_laboratory} -> lantern_found;
+
+        // two ways into sun station
+        {incredible_pilot, sun_station_teleporter} -> sun_station [color = gray45];
+
+        // time is easy to break
+        {intentionally_break_time, fail_to_complete_the_loop} -> ending_broke_time;
+
+        // you can do the dream exile ending from any area
+        {dream_surface_regions, subterranean_lake} -> be_in_dream;
+
+        // finding feldspar
+        {outer_wilds_venture_signal, dark_bramble_scout_trick_learned} -> feldspar_found;
+
+        // the dark bramble seed scout trick
+        {feldspar_found, youngbark_crater_explored} -> dark_bramble_scout_trick_learned;
+
+        // ending bonus points
+        solanum_visited -> ending_best [weight = 100];
+        prisoner_freed -> ending_best [weight = 100];
+    }
+
+    // fake structural edges. These only exist to impose additional constraints so I can lay out the graph how I want to
+    subgraph structural_edges {
+        edge [
+            style = invis
+            color = green
+            weight = 0
+        ]
+        ghost_matter_trick_learned -> anglerfish_trick;
+    }
+
+    // starting out
+    start -> {
+        launch_codes_learned
+        ghost_matter_trick_learned
+    };
+    launch_codes_learned -> {incredible_pilot, gabbro_found} [color = gray45];
+    launch_codes_learned -> {
+        outer_wilds_venture_signal
+        // places you can just go
+        white_hole_found
+        brittle_hollow_escape_pod_found
+        ember_twin_escape_pod_found
+        orbital_probe_cannon_explored
+        youngbark_crater_explored
+    };
+
+    // meditation
+    gabbro_found -> meditation_unlocked [color = gray45];
+
+    // the interloper
+    launch_codes_learned -> ember_twin_gravity_cannon -> interloper_ice_trick_learned [color = gray45];
+    {interloper_ice_trick_learned, ghost_matter_trick_learned} -> interloper_interior [color = gray45];
+
+    // escape pods
+    distress_signal_learned -> dark_bramble_escape_pod_found;
+    brittle_hollow_escape_pod_found -> brittle_hollow_underground -> {
+        hanging_city
+        southern_observatory
+    };
+
+    // sunken city
+    ember_twin_escape_pod_found -> sunken_city -> {
+        anglerfish_trick
+        high_energy_lab
+    };
+    high_energy_lab -> intentionally_break_time [weight = 101]; // keep this from getting pulled down
+
+    // finding the eye coordinates
+    southern_observatory -> middle_giants_deep -> inner_giants_deep;
+    feldspar_found -> jellyfish_trick_learned -> inner_giants_deep; 
+    inner_giants_deep -> eye_coordinates_known [weight = 101]; // keep this from getting pulled down
+
+    // finding the vessel
+    {dark_bramble_scout_trick_learned, dark_bramble_escape_pod_found, anglerfish_trick} -> vessel_found [weight = 101]; // this looks a lot better with all the requirments clustered
+
+    // getting the warp core
+    white_hole_found -> white_hole_station_explored -> teleporter_angle_learned;
+    black_hole_forge -> teleporter_twin_trick_learned;
+    high_energy_lab -> ash_twin_towers_are_teleporters;
+    {ash_twin_towers_are_teleporters, teleporter_angle_learned}
+        -> teleporter_partial_knowledge -> black_hole_forge -> teleporter_timing_trick_learned;
+    ash_twin_towers_are_teleporters -> ash_twin_teleporter_identified;
+    {teleporter_twin_trick_learned, teleporter_timing_trick_learned, ash_twin_teleporter_identified} -> teleporter_complete_knowledge;
+    #teleporter_partial_knowledge -> teleporter_complete_knowledge [constraint = false, tooltip = "While this appears to be an obvious guaranteed edge, remember that the black hole forge can be reached early via a skip"]; // disabled because graphing skips is an exercise in pain
+    teleporter_complete_knowledge -> ash_twin_interior [weight = 200]; // these look better when close
+    ash_twin_interior -> warp_core_obtained;
+
+    // getting to the sun station
+    teleporter_partial_knowledge -> sun_station_teleporter [color = gray45];
+
+    // quantum knowledge
+    subgraph cross_cluster_quantum_edges {
+        #graph [concentrate = true] // doesn't work
+        edge [weight = 100]
+        launch_codes_learned -> launch_codes_learned_proxy_quantum [dir = none, weight = 90];
+        white_hole_found -> brittle_hollow_quantum_tower [weight = 100];
+        brittle_hollow_underground -> brittle_hollow_quantum_tower [style = dotted, weight = 10]; // optional
+    }
+    launch_codes_learned_proxy_quantum -> {quantum_signal_learned, giants_deep_north_storm, ember_twin_quantum_cave};
+    ember_twin_quantum_cave -> ember_twin_lakebed_cave -> quantum_flashlight_trick;
+    brittle_hollow_quantum_tower -> quantum_north_trick;
+    giants_deep_north_storm -> giants_deep_quantum_tower -> quantum_photo_trick;
+    {quantum_flashlight_trick, quantum_north_trick, quantum_photo_trick} -> quantum_moon_final_location [weight = 101]; // this looks a lot better with all the requirments clustered
+    quantum_moon_final_location -> solanum_visited [weight = 101]; // keep this from getting pulled down
+
+    // endgame
+    warp_core_obtained -> ending_lost;
+    ash_twin_interior -> enter_ash_twin_time_singularity -> {fail_to_complete_the_loop, meet_yourself}
+    enter_ash_twin_time_singularity -> enter_ash_twin_time_singularity; // this self loop is bullshit but I find it hilarious
+    {vessel_found, eye_coordinates_known} -> ending_good;
+    warp_core_obtained -> ending_good [weight = 190]; // smooch this up close because it's such an important edge
+    ending_good -> ending_best [weight = 3]; // this really likes to suck itself down to a lower rank unless there's a huge weight difference
+
+    // quantum ending connections
+    quantum_moon_final_location -> ending_exile_quantum [weight = 75]; // allowed to be longer because quantum stuff lives over in optional town
+    warp_core_obtained -> ending_exile_quantum;
+
+    graph [
+        ratio = 0.5625
+    ]
+}

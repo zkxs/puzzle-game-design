@@ -17,6 +17,10 @@ echo "Outer Wilds:"
 FILENAME="outer-wilds"
 generate
 
+echo "Outer Wilds (no DLC spoilers):"
+FILENAME="outer-wilds-no-dlc"
+generate
+
 
 echo "Myst:"
 FILENAME="myst-puzzle-graph"

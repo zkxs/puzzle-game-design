@@ -11,14 +11,14 @@ Some quick and dirty outer wilds notes.
 ## Design
 Outer Wilds is a cohesive world with a compelling design and story. The interconnected threads you follow to the final conclusion are an incredible way to deal with progression. Using knowledge as the key to progression is genius. I didn't expect to see anything of this quality in the genre made by a company other than Cyan, and then in 2019 Mobius Digital casually releases the best game since Riven was released in 1997. And what's more, they managed to do it so well that *everyone* likes it, while Cyan is still struggling along as a maker of niche games. And then they did it *again* with Echoes of the Eye.
 
-## Things you really shouldn't know
-
 ## Math
 
-9,318,054 loops until probe finds an eye of the universe, ~22 minutes per loop.  
-That is ~390 years since the sun started exploding.  
-After not receiving a command for over ten minutes due to the death of the Nomai, the Sun Station went into sleep mode and has been offline for 281,042 years.  
-The Nomai are only 2 or 3 generations in before they get ghost-matter'd.  
+- 9,318,054 loops until probe finds an eye of the universe, ~22 minutes per loop.  
+- That is ~390 years since the sun started exploding.  
+- After not receiving a command for over ten minutes due to the death of the Nomai, the Sun Station went into sleep mode and has been offline for 281,042 years.  
+- The Nomai are only 2 or 3 generations in before they get ghost-matter'd.  
+
+## Things you really shouldn't know
 
 ### The eye's coordinates
 
