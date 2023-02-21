@@ -2,11 +2,12 @@
 layout: post
 title: "Effect of Anti-Cheat on VRChat Concurrent Users"
 date: 2022-11-03 02:08:33 -0500
+modified_date: 2023-02-21 15:18:30 -0600
 tags: [vrchat]
 author: Michael Ripley
 ---
 
-Three months ago on July 25th, 2022 there was a significant event in the VRChat community: the [Security Update's](https://hello.vrchat.com/blog/vrchat-security-update) introduction of Easy Anti-Cheat (EAC). It was, and still is, very controversial within the VRChat playerbase. However, this post is not about my opinion of EAC: it's about the effect of EAC on VRChat's concurrent users. I believe that three months is long enough to give the numbers time to settle down, and now it's time to do some analysis.
+It's presently November 3rd, 2022. Three months ago on July 25th, 2022 there was a significant event in the VRChat community: the [Security Update's](https://hello.vrchat.com/blog/vrchat-security-update) introduction of Easy Anti-Cheat (EAC). It was, and still is, very controversial within the VRChat playerbase. However, this post is not about my opinion of EAC: it's about the effect of EAC on VRChat's concurrent users. I believe that three months is long enough to give the numbers time to settle down, and now it's time to do some analysis.
 
 My goal is to clear up exactly how the introduction of EAC affected concurrent user (CCU) numbers. To achieve that I'm going to look at some charts, tell you what I think the numbers mean, and link to my sources. I will include screenshots for ease-of-reading (and in case the sources go down), but I invite you to take a look around the actual charts. They're quite nice.
 
@@ -74,3 +75,15 @@ VRChat traditionally has a large increase in users immediately after Christmas a
 ## Conclusion
 
 Steam users are down by around 10% post-EAC, and show no signs of recovering to their pre-EAC levels (at least not until Christmas). Total users have dropped by 30% over the past three months, potentially due to the review bomb scaring off new Quest users. While VRChat's CCUs will recover given time, the impact of EAC is measurable and should not be handwaved away.
+
+## Update: March 2023
+
+It's been another three months since I wrote this post. Lets go back through my predictions and see how accurate I was.
+
+> "Mostly Positive"... will happen soon
+
+It did. VRChat is now at 71% positive reviews and as expected has switched from "Mixed" back to "Mostly Positive".
+
+> Christmas 2022 [will] mostly, if not completely, replenish VRChat’s CCUs to pre-EAC levels
+
+According to the [steamdb.info chart](https://steamdb.info/app/438100/charts/) CCUs have recovered, and have even improved slightly. The [metrics.vrchat.community chart](https://metrics.vrchat.community/?orgId=1&from=now-3y&to=now&refresh=30s) shows the same thing, with both total and Steam CCUs being approximately where they were before EAC dropped.
