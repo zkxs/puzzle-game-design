@@ -9,15 +9,15 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1979.82)">
 <title>outer_wilds_progression</title>
 <polygon fill="#1f1f1f" stroke="none" points="-4,4 -4,-1979.82 3515,-1979.82 3515,4 -4,4"/>
+<g id="clust4" class="cluster">
+<title>cluster_sun_station</title>
+<polygon fill="#1f1f1f" stroke="red" stroke-width="0" points="1854,-1099.99 1854,-1260.27 2182,-1260.27 2182,-1099.99 1854,-1099.99"/>
+</g>
 <g id="clust7" class="cluster">
 <title>cluster_quantum</title>
 <polygon fill="#1f1f1f" stroke="red" points="2851,-1101.09 2851,-1828.71 3503,-1828.71 3503,-1101.09 2851,-1101.09"/>
 <text text-anchor="middle" x="3177" y="-1805.51" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="24.00" fill="red">Quantum Moon</text>
 <text text-anchor="middle" x="3177" y="-1779.51" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="24.00" fill="red"> </text>
-</g>
-<g id="clust4" class="cluster">
-<title>cluster_sun_station</title>
-<polygon fill="#1f1f1f" stroke="red" stroke-width="0" points="1854,-1099.99 1854,-1260.27 2182,-1260.27 2182,-1099.99 1854,-1099.99"/>
 </g>
 <g id="clust5" class="cluster">
 <title>cluster_echoes_of_the_eye</title>

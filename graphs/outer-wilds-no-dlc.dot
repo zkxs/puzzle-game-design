@@ -178,17 +178,11 @@ digraph outer_wilds_progression {
         // find any escape pod
         {ember_twin_escape_pod_found, brittle_hollow_escape_pod_found} -> distress_signal_learned;
 
-        // there's a few lanterns you can get
-        {easy_lantern, hidden_gorge_found, damaged_laboratory} -> lantern_found;
-
         // two ways into sun station
         {incredible_pilot, sun_station_teleporter} -> sun_station [color = gray45];
 
         // time is easy to break
         {intentionally_break_time, fail_to_complete_the_loop} -> ending_broke_time;
-
-        // you can do the dream exile ending from any area
-        {dream_surface_regions, subterranean_lake} -> be_in_dream;
 
         // finding feldspar
         {outer_wilds_venture_signal, dark_bramble_scout_trick_learned} -> feldspar_found;
@@ -198,7 +192,6 @@ digraph outer_wilds_progression {
 
         // ending bonus points
         solanum_visited -> ending_best [weight = 100];
-        prisoner_freed -> ending_best [weight = 100];
     }
 
     // fake structural edges. These only exist to impose additional constraints so I can lay out the graph how I want to

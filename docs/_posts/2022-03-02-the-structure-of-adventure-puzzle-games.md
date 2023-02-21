@@ -2,7 +2,7 @@
 layout: post
 title: "The Structure of Adventure Puzzle Games"
 date: 2022-03-02 10:21:52 -0600
-modified_date: 2022-03-09 07:06:28 -0600
+modified_date: 2023-02-21 14:21:50 -0600
 tags: [adventure puzzle games, graphing, myst, riven, outer wilds]
 author: Michael Ripley
 ---
@@ -79,6 +79,8 @@ Riven's progression graph is much more interconnected than that of its predecess
 # Outer Wilds
 
 <a href="{{ site.baseurl }}/svg/outer-wilds.html" target="_blank"><object id="svg-outerwilds" class="svg" style="pointer-events: none;" type="image/svg+xml" data="{{ site.baseurl }}/svg/outer-wilds.svg">Your browser does not support SVG</object></a>
+
+A [graph without DLC spoilers]({{ site.baseurl }}/svg/outer-wilds-no-dlc.html) is also available, which might be useful for showing to a friend.
 
 **Note:** We've changed the legend a bit here, notably what dashed and dotted edges mean.
 
