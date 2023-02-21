@@ -1,4 +1,4 @@
-remote_theme: jekyll/minima@v2.5.1
+remote_theme: jekyll/minima@fdc3aba23a1d59ad1d1f65f505693848c4b82fdf
 minima:
   skin: dark
   social_links:
