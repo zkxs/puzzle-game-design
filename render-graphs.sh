@@ -2,30 +2,21 @@
 PNG_OPTIONS="-d 150"
 
 function generate {
-    echo "  Generating SVG..."
+    local FILENAME="$1"
+    echo "  Generating SVG $1..."
     dot -T svg -o "docs/svg/$FILENAME.svg" "graphs/$FILENAME.dot"
     echo "---
 layout: svg
 title: $FILENAME.svg
 svg: $FILENAME
 ---" > "docs/svg/$FILENAME.html"
-    echo "  Generating PNG..."
+    echo "  Generating PNG $1..."
     inkscape $PNG_OPTIONS -o "docs/img/$FILENAME.png" "docs/svg/$FILENAME.svg"
 }
 
-echo "Outer Wilds:"
-FILENAME="outer-wilds"
-generate
-
-echo "Outer Wilds (no DLC spoilers):"
-FILENAME="outer-wilds-no-dlc"
-generate
-
-
-echo "Myst:"
-FILENAME="myst-puzzle-graph"
-generate
-
-echo "Riven:"
-FILENAME="riven-puzzle-graph"
-generate
+generate "outer-wilds"
+generate "outer-wilds-no-dlc"
+generate "myst-puzzle-graph"
+generate "riven-puzzle-graph"
+generate "myst-221-puzzle"
+generate "system-stella"

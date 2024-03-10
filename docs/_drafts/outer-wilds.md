@@ -7,16 +7,28 @@ tags: [adventure puzzle games, outer wilds]
 
 Some quick and dirty outer wilds notes.
 
-
 ## Design
+
 Outer Wilds is a cohesive world with a compelling design and story. The interconnected threads you follow to the final conclusion are an incredible way to deal with progression. Using knowledge as the key to progression is genius. I didn't expect to see anything of this quality in the genre made by a company other than Cyan, and then in 2019 Mobius Digital casually releases the best game since Riven was released in 1997. And what's more, they managed to do it so well that *everyone* likes it, while Cyan is still struggling along as a maker of niche games. And then they did it *again* with Echoes of the Eye.
 
-## Math
+## Timeline
 
-- 9,318,054 loops until probe finds an eye of the universe, ~22 minutes per loop.  
-- That is ~390 years since the sun started exploding.  
-- After not receiving a command for over ten minutes due to the death of the Nomai, the Sun Station went into sleep mode and has been offline for 281,042 years.  
+- Eye begins emitting its signal
+- Unknown duration passes
+- Stranger race detects the eyes signal
+- Stranger race spends generations constructing the stranger and moving to the Eye system
+- Stranger inhabitants scan the eye, and then construct the eye signal blocker
+- Unknown duration passes
+- Stranger inhabitants create the simulation
+- A relatively short duration passes (it's short enough the prisoner hasn't died of old age despite everyone living in the simulation and no longer reproducing)
+- Prisoner leaves the simulation, temporarily disables the eye signal blocker, and is then imprisoned
+- Signal expands from the eye system for an unknown duration, but presumably it was a very long time given how derelict the Stranger is.
+- Nomai receive echoes of the eye signal and warp to the Eye system
 - The Nomai are only 2 or 3 generations in before they get ghost-matter'd.  
+- 281,042 years since the Nomai were wiped out
+  - After not receiving a command for over ten minutes due to the death of the Nomai, the Sun Station went into sleep mode and has been offline for 281,042 years.  
+- ~390 years of time looping since the sun started exploding.  
+  - 9,318,054 loops until probe finds an eye of the universe, ~22 minutes per loop.  
 
 ## Things you really shouldn't know
 
@@ -25,6 +37,20 @@ Outer Wilds is a cohesive world with a compelling design and story. The intercon
 1. `L` tilted clockwise slightly
 2. Hourglass minus bottom
 3. `N` but with swag
+
+
+### The Nomai Masks
+
+| Mask Number | Statue Location         | Who's Linked                           |
+| ----------- | ----------------------- | -------------------------------------- |
+| 1           | Museum                  | You                                    |
+| 2           | Outside Statue Workshop | Gabbro                                 |
+| 3           | Probe Tracking Module   | Probe Tracking Module Itself           |
+| 4           | Inside Statue Workshop  | Originally Daz, but presently inactive |
+| 5           | Sun station             | *Inactive*                             |
+| 6           | Sun Station             | *Inactive*                             |
+| 7           | Ash Twin Project Core   | *Inactive*                             |
+| 8           | Black Hole Forge        | *Inactive*                             |
 
 ### Echoes of the Eye Codes
 
@@ -49,6 +75,7 @@ Outer Wilds is a cohesive world with a compelling design and story. The intercon
 5. ✨ star
 
 #### Seal 1 (datamined)
+
 Does nothing?
 
 0, 1, 2, -2, 3
@@ -60,6 +87,7 @@ Does nothing?
 5. 🪐 ringed planet
 
 #### Seal 1 (actual)
+
 Aligns the invisible bridge
 
 -3, 0, 2, -2, 3
@@ -71,6 +99,7 @@ Aligns the invisible bridge
 5. ✨ star
 
 #### Seal 2 (datamined)
+
 Summons the raft
 
 -3, 4, 3, -1, 2
@@ -82,6 +111,7 @@ Summons the raft
 5. 🌔 gibbous
 
 #### Seal 3 (datamined)
+
 Deactivates the bridge's light
 
 1, 2, 3, 2, 1
@@ -106,6 +136,7 @@ Silly trivia: the seals don't point towards their matching forbidden archives
 ## Achievements
 
 ### Beginner's Luck
+
 Reach the Eye of the universe in one loop.
 
 NOTE: If you die at any point, you need to quit and start a new expedition again, this needs to be done in a single loop. 
@@ -121,6 +152,7 @@ NOTE: If you die at any point, you need to quit and start a new expedition again
 9. WIN
 
 ### Ghosts in the Machine
+
 Reach all 3 Forbidden Archives in a single loop without getting caught.
 
 You must take each archive's elevator for it to count as visited. In the Shrouded Woodlands case this means you may have to take the elevator *up* for credit, depending on if you route it last.
@@ -167,6 +199,7 @@ The archives:
    - ENTRANCE: must have lowered chain elevator
 
 #### Multi-dream Route
+
 1. Hidden Gorge -> Endless Canyon
    1. Left to secret tunnel fuckery, shortcut to turn off lights
    2. Deathwarp, go back in
@@ -194,6 +227,7 @@ The benefits:
 - Shrouded Woodlands is last, so the dam timing is good
 
 #### One Dream Route
+
 The gist: Unlock all the docks, then do cinder
 
 1. Setup
@@ -223,6 +257,7 @@ The benefits:
 - Shrouded Woodlands is last, so the dam timing is good
 
 ## Freeing the Prisoner
+
 Requirements:
 1. Seal 1: Ditch lantern
 2. Seal 2: Clip to it from a transition
@@ -235,6 +270,7 @@ Potential Starting points:
 - River Lowlands: shortest trip to dream rafts?
 
 ### Route
+
 1. Enter dream by dying at Hidden Gorge fire
 2. Proceed directly to raft
    1. No need to put out lights
