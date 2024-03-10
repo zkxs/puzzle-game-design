@@ -1,0 +1,354 @@
+digraph narpg {
+    graph [
+        layout = dot // the "dot" layout engine is the correct choice for directed graphs
+        rankdir = LR // TB top-to-bottom
+        nodesep = 0.4 // padding between nodes in the same rank
+        ranksep = 0.3 // padding between nodes between rank
+        bgcolor = gray12 // graph background color
+        #style = invis // don't render cluster borders
+        pencolor = red // cluster border color
+        fontcolor = red // cluster font color
+        fontname = "Helvetica-bold" // font used for text
+    ]
+    edge [
+        color = gray85
+        fontcolor = gray90
+        fontname = "Helvetica"
+    ]
+    node [
+        color = gray85
+        fontcolor = gray90
+        // rounded rectangles look pretty good for nodes
+        shape = box
+        style = rounded
+        fontname = "Helvetica"
+    ]
+
+    // default techniques
+    subgraph default_techniques {
+        graph [
+            rank = source
+        ]
+        node [
+            color = gray35
+            fontcolor = gray65
+        ]
+        strike [label = "Strike"]
+        grapple [label = "Grapple"]
+        guard [label = "Guard"]
+        enhance [label = "Enhance"]
+        focus [label = "Focus"]
+    }
+
+    // martial techniques
+    subgraph cluster_martial {
+        graph [
+            label = "MARTIAL"
+        ]
+        flashkick [label = "Flashkick (20)"]
+        dazzling_blow [label = "Dazzling Blow (20)"]
+        expose [label = "Expose (20)"]
+        gaping_wounds [label = "Gaping Wounds (20)"]
+        increscent_strike [label = "Increscent Strike (20)"]
+        preparation [label = "Preparation (20)"]
+        shielding_blow [label = "Shielding Blow (20)"]
+        barbaric_cover [label = "Barbaric Cover (25)"]
+        counterblow [label = "Counterblow (25)"]
+        discombobulate [label = "Discombobulate (25)"]
+        lunging_strike [label = "Lunging Strike (25)"]
+        make_way [label = "Make Way (25)"]
+        pummel [label = "Pummel (25)"]
+        riposte [label = "Riposte (25)"]
+        steel_divergence [label = "Steel Divergence (25)"]
+        sweep_kick [label = "Sweep Kick (25)"]
+        whirlwind_strike [label = "Whirlwind Strike (25)"]
+        intercept [label = "Intercept (30)"]
+        rebound [label = "Rebound (30)"]
+        puncture_round [label = "Puncture Round (30)"]
+        evasive_threat [label = "Evasive Threat (30/35)"]
+        tavern_tactics [label = "Tavern Tactics (30/35)"]
+    }
+
+    // pure arcana techniques
+    subgraph cluster_arcane {
+        graph [
+            label = "PURE ARCANA"
+        ]
+        arcane_bolt [label = "Arcane Bolt (25)"]
+        wellspring_of_power [label = "Wellspring of Power (25/30)"]
+        flick_of_death [label = "Flick of Death (25)"]
+    }
+
+    // physical augmentation techniques
+    subgraph cluster_physical {
+        graph [
+            label = "PHYSICAL AUGMENTATION"
+        ]
+        subgraph physical_1 {
+            graph [
+                rank = same
+            ]
+            focused_breathing [label = "Focused Breathing (25/30)"]
+            optimized_flow [label = "Optimized Flow (30/35/40)"]
+        }
+        subgraph physical_2 {
+            graph [
+                rank = same
+            ]
+            redistribution_prowess [label = "Redistribution: Prowess (25)"]
+            redistribution_power [label = "Redistribution: Power (30)"]
+            redistribution_weight [label = "Redistribution: Weight (35)"]
+        }
+        extended_breath_split_strike [label = "Extended Breath: Split Strike (35)"]
+    }
+
+    // tri-elemental techniques
+    tri_elemental_conversion [label = "Tri-Elemental Conversion (25)"]
+    pptec [label = "Post-Physical Tri-Elemental Conversion (20)"]
+    tri_elemental_absorption [label = "Tri-Elemental Absorption (30)"]
+    subgraph cluster_fire { // this prevents this cluster from getting skewed by nearby nodes
+        graph [
+            label = "PYROMANCY"
+        ]
+        subgraph fire_1 {
+            graph [
+                rank = same
+            ]
+            fireball [label = "Fireball (25)"]
+            ignition_blast [label = "Ignition Blast (25)"]
+        }
+        subgraph fire_2 {
+            graph [
+                rank = same
+            ]
+            hellrazer_linear [label = "Hellrazer: Linear (25)"]
+            heat_metal [label = "Heat Metal (30)"]
+        }
+        hellrazer_lateral [label = "Hellrazer: Lateral (25)"]
+        hellrazer_ring [label = "Hellrazer: Ring (30)"]
+        hellrazer_rekindle [label = "Hellrazer: Rekindle (35)"]
+        hellrazer_engulf [label = "Hellrazer: Engulf (35)"]
+        fan_the_flames [label = "Fan the Flames (35)"]
+        fervent_emotions [label = "Fervent Emotion (30/35)"]
+    }
+    subgraph cluster_electric {
+        graph [
+            label = "ELECTROMANCY"
+        ]
+        seizing_shock [label = "Seizing Shock (25)"]
+        subgraph electric_1 {
+            graph [
+                rank = same
+            ]
+            lightning_tether [label = "Lightning Tether (25)"]
+            ride_the_lightning [label = "Ride the Lightning (30)"]
+        }
+        adrenaline_spark [label = "Adrenaline Spark (35/40)"]
+    }
+    subgraph cluster_ice {
+        graph [
+            label = "CRYOMANCY"
+        ]
+        verglas_cascade [label = "Verglas Cascade (25)"]
+        subgraph ice_1 {
+            graph [
+                rank = same
+            ]
+            frost_lane [label = "Frost Lane (25)"]
+            glacial_series [label = "Glacial Series (25)"]
+        }
+        glacial_barrier [label = "Glacial Barrier (25)"]
+    }
+    falling_haze [label = "Falling Haze (25)"]
+
+    // repulsion techniques
+    subgraph cluster_repulsion {
+        graph [
+            label = "REPULSION"
+        ]
+        repulsion [label = "Repulsion (25)"]
+        subgraph repulsion_1 {
+            graph [
+                rank = same
+            ]
+            ricochet_guard [label = "Ricochet Guard (25)"]
+            pulse_strike [label = "Pulse Strike (20/25)"]
+            propulsion_assault [label = "Propulsion Assault (25)"]
+        }
+        pulse_reversal [label = "Pulse Reversal (30)"]
+        reflect_missile [label = "Reflect Missile (25/30)"]
+    }
+
+    // conjuration techniques
+    subgraph cluster_conjuration {
+        graph [
+            label = "CONJURATION"
+        ]
+        lesser_conjuration [label = "Lesser Conjuration (30)"]
+        subgraph conjuration_1 {
+            graph [
+                rank = same
+            ]
+            conjure_grease [label = "Conjure Grease (25)"]
+            conjure_wall [label = "Conjure Wall (30)"]
+        }
+    }
+
+    // prestidigitation techniques
+    subgraph cluster_illusion {
+        graph [
+            label = "PRESTIDIGITATION"
+        ]
+        prestidigitation [label = "Prestidigitation (25)"]
+        subgraph illusion_1 {
+            graph [
+                rank = same
+            ]
+            lesser_illusion [label = "Lesser Illusion (25)"]
+            evanescent_slip [label ="Evanescent Slip (30/35)"]
+            devious_strike [label = "Devious Strike (35/40)"]
+        }
+    }
+
+    // biological transmutation techniques
+    subgraph cluster_bio {
+        graph [
+            label = "BIOLOGICAL TRANSMUTATION"
+        ]
+        seal_wounds [label = "Seal Wounds (25)"]
+        subgraph bio_1 {
+            graph [
+                rank = same
+            ]
+            revitalizing_sigil [label = "Revitalizing Sigil (30)"]
+            mangle_wounds [label = "Mangle Wounds (30)"]
+        }
+    }
+
+    // natural transumation techniques
+    subgraph cluster_nature {
+        graph [
+            label = "NATURAL TRANSMUTATION"
+        ]
+        botanical_alteration [label = "Botanical Alteration (25)"]
+        transmute_brambles [label = "Transmute Brambles (30)"]
+        invoke_lightning [label = "Invoke Lightning (40)"]
+        animate_carrat [label = "Animate Carrat (30)"]
+    }
+
+    // warp techniques
+    subgraph cluster_warp {
+        graph [
+            label = "WARP"
+        ]
+        warp_step [label = "Warp Step (30)"]
+        phase_shift [label = "Phase Shift (20)"]
+        subgraph warp_1 {
+            graph [
+                rank = same
+            ]
+            elusive_flash [label = "Elusive Flash (30)"]
+            warp_swap [label = "Warp Swap (30/35)"]
+        }
+        misdirection [label = "Misdirection (35/40)"]
+    }
+
+    // pact techniques
+    celestial_pact [label = "Celestial Pact (35/40)"]
+
+    // fake techniques that aren't real, just your imagination
+    // subgraph cluster_fakenews {
+    //     graph [
+    //         label = "FAKE NEWS"
+    //     ]
+    //     blade_extension [label = "Blade Extension"]
+    //     echo_rip [label = "Echo Rip"]
+    //     vortex_crash [label = "Vortex Crash"]
+    //     telepathy [label = "Telepathy"]
+    //     lesser_telekinesis [label = "Lesser Telekinesis"]
+    //     psionic_shove [label = "Psionic Shove"]
+    //     gravity_well [label = "Gravity Well"]
+    //     rend_mind [label = "Rend Mind"]
+    //     animate_brambelion [label = "Animate Brambelion"]
+    // }
+
+    // edges
+    strike -> flashkick
+    strike -> dazzling_blow
+    strike -> expose
+    strike -> gaping_wounds
+    strike -> increscent_strike
+    guard -> preparation
+    strike -> shielding_blow
+    grapple -> barbaric_cover
+    strike -> counterblow
+    strike -> discombobulate
+    strike -> lunging_strike
+    strike -> make_way
+    strike -> pummel
+    guard -> riposte
+    strike -> steel_divergence
+    strike -> sweep_kick
+    strike -> whirlwind_strike
+    strike -> intercept
+    guard -> rebound
+    strike -> puncture_round
+    guard -> evasive_threat
+    grapple -> tavern_tactics
+    enhance -> arcane_bolt
+    {enhance, arcane_bolt} -> wellspring_of_power
+    {arcane_bolt, wellspring_of_power} -> flick_of_death
+    focus -> {focused_breathing, optimized_flow}
+    focused_breathing -> optimized_flow [dir = both, color = yellow]
+    focus -> {redistribution_prowess, redistribution_power, redistribution_weight}
+    redistribution_prowess -> redistribution_power -> redistribution_weight -> redistribution_prowess [dir = both, color = yellow]
+    {redistribution_power, focused_breathing, optimized_flow} -> extended_breath_split_strike
+    enhance -> tri_elemental_conversion
+    tri_elemental_conversion -> pptec
+    {tri_elemental_conversion, pptec} -> tri_elemental_absorption
+    tri_elemental_conversion -> {fireball, ignition_blast}
+    fireball -> hellrazer_linear
+    fireball -> ignition_blast [dir = both, color = yellow]
+    fireball -> heat_metal [dir = both, color = yellow]
+    ignition_blast -> hellrazer_linear [dir = both, color = yellow]
+    heat_metal -> hellrazer_linear [dir = both, color = yellow]
+    hellrazer_linear -> hellrazer_lateral -> hellrazer_ring
+    {hellrazer_linear, hellrazer_lateral, hellrazer_ring} -> hellrazer_rekindle
+    {ignition_blast, hellrazer_linear, hellrazer_rekindle} -> fan_the_flames
+    {fan_the_flames, hellrazer_rekindle} -> fervent_emotions
+    {hellrazer_rekindle, hellrazer_ring} -> hellrazer_engulf
+    ignition_blast -> heat_metal
+    tri_elemental_conversion -> seizing_shock
+    seizing_shock -> {lightning_tether, ride_the_lightning}
+     ride_the_lightning -> lightning_tether [dir = both, color = yellow]
+    {lightning_tether, ride_the_lightning} -> adrenaline_spark
+    tri_elemental_conversion -> verglas_cascade
+    verglas_cascade -> {frost_lane, glacial_series}
+    frost_lane -> glacial_series [dir = both, color = yellow]
+    glacial_series -> glacial_barrier
+    {verglas_cascade, fireball, ignition_blast} -> falling_haze
+    enhance -> repulsion
+    repulsion -> {ricochet_guard, pulse_strike, propulsion_assault}
+    ricochet_guard -> {pulse_strike, propulsion_assault} [dir = both, color = yellow]
+    pulse_strike -> propulsion_assault [dir = both, color = yellow]
+    {propulsion_assault, pulse_strike} -> pulse_reversal
+    {ricochet_guard, pulse_strike} -> reflect_missile
+    enhance -> lesser_conjuration
+    lesser_conjuration -> {conjure_grease, conjure_wall}
+    conjure_grease -> conjure_wall [dir = both, color = yellow]
+    enhance -> prestidigitation
+    prestidigitation -> {lesser_illusion, evanescent_slip, devious_strike}
+    lesser_illusion -> evanescent_slip [dir = both, color = yellow]
+    devious_strike -> evanescent_slip [dir = both, color = yellow]
+    lesser_illusion -> devious_strike
+    enhance -> seal_wounds -> {revitalizing_sigil, mangle_wounds}
+    mangle_wounds -> revitalizing_sigil [dir = both, color = yellow]
+    enhance -> botanical_alteration
+    botanical_alteration -> transmute_brambles
+    botanical_alteration -> animate_carrat
+    enhance -> warp_step -> {phase_shift, elusive_flash, warp_swap}
+    warp_swap -> elusive_flash [dir = both, color = yellow]
+    {warp_swap, elusive_flash} -> misdirection
+    focus -> celestial_pact
+    {botanical_alteration, seizing_shock} -> invoke_lightning
+}
