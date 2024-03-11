@@ -3,13 +3,21 @@ This repo houses the source for my [blog](https://www.zkxs.dev/).
 
 ## Running locally
 
-[Setup instructions](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
+[Setup instructions](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll). Note that `choco install ruby` will install some fucked install, so follow the [Windows guide on the Jekyll site](https://jekyllrb.com/docs/installation/windows/).
+
+one-time setup
 
 ```shell
-# change into the root of the website
+# RUN AS NORMAL USER
+gem install jekyll bundler
 cd docs
-# install dependencies
+rm Gemfile.lock
 bundle install
+```
+
+To run the website
+
+```shell
 # Run locally
 bundle exec jekyll serve
 # Run locally, but show drafts
