@@ -45,28 +45,29 @@ digraph narpg {
         graph [
             label = "MARTIAL"
         ]
-        flashkick [label = "Flashkick (20)"]
         dazzling_blow [label = "Dazzling Blow (20)"]
         expose [label = "Expose (20)"]
+        flashkick [label = "Flashkick (20)"]
         gaping_wounds [label = "Gaping Wounds (20)"]
         increscent_strike [label = "Increscent Strike (20)"]
         preparation [label = "Preparation (20)"]
         shielding_blow [label = "Shielding Blow (20)"]
         barbaric_cover [label = "Barbaric Cover (25)"]
-        counterblow [label = "Counterblow (25)"]
         discombobulate [label = "Discombobulate (25)"]
         lunging_strike [label = "Lunging Strike (25)"]
         make_way [label = "Make Way (25)"]
         pummel [label = "Pummel (25)"]
         riposte [label = "Riposte (25)"]
+        stalwart_defender [label = "Stalwart Defender (25)", color = cyan]
         steel_divergence [label = "Steel Divergence (25)"]
         sweep_kick [label = "Sweep Kick (25)"]
         whirlwind_strike [label = "Whirlwind Strike (25)"]
+        evasive_threat [label = "Evasive threat (30)", color = cyan]
         intercept [label = "Intercept (30)"]
         rebound [label = "Rebound (30)"]
         puncture_round [label = "Puncture Round (30)"]
-        evasive_threat [label = "Evasive Threat (30/35)"]
-        tavern_tactics [label = "Tavern Tactics (30/35)"]
+        tavern_tactics [label = "Tavern Tactics (30/35)", color = cyan]
+        brawler [label = "Brawler (35/40)", color = cyan]
     }
 
     // pure arcana techniques
@@ -75,7 +76,7 @@ digraph narpg {
             label = "PURE ARCANA"
         ]
         arcane_bolt [label = "Arcane Bolt (25)"]
-        wellspring_of_power [label = "Wellspring of Power (25/30)"]
+        wellspring_of_power [label = "Wellspring of Power (25/30)", color = cyan]
         flick_of_death [label = "Flick of Death (25)"]
     }
 
@@ -88,16 +89,16 @@ digraph narpg {
             graph [
                 rank = same
             ]
-            focused_breathing [label = "Focused Breathing (25/30)"]
-            optimized_flow [label = "Optimized Flow (30/35/40)"]
+            redistribution_prowess [label = "Redistribution: Prowess (25)"]
+            redistribution_power [label = "Redistribution: Power (30)"]
+            redistribution_weight [label = "Redistribution: Weight (35)"]
         }
         subgraph physical_2 {
             graph [
                 rank = same
             ]
-            redistribution_prowess [label = "Redistribution: Prowess (25)"]
-            redistribution_power [label = "Redistribution: Power (30)"]
-            redistribution_weight [label = "Redistribution: Weight (35)"]
+            focused_breathing [label = "Focused Breathing (25/30)", color = cyan]
+            optimized_flow [label = "Optimized Flow (30/35/40)", color = cyan]
         }
         extended_breath_split_strike [label = "Extended Breath: Split Strike (35)"]
     }
@@ -129,7 +130,7 @@ digraph narpg {
         hellrazer_rekindle [label = "Hellrazer: Rekindle (35)"]
         hellrazer_engulf [label = "Hellrazer: Engulf (35)"]
         fan_the_flames [label = "Fan the Flames (35)"]
-        fervent_emotions [label = "Fervent Emotion (30/35)"]
+        fervent_emotions [label = "Fervent Emotion (30/35)", color = cyan]
     }
     subgraph cluster_electric {
         graph [
@@ -143,7 +144,7 @@ digraph narpg {
             lightning_tether [label = "Lightning Tether (25)"]
             ride_the_lightning [label = "Ride the Lightning (30)"]
         }
-        adrenaline_spark [label = "Adrenaline Spark (35/40)"]
+        adrenaline_spark [label = "Adrenaline Spark (35/40)", color = cyan]
     }
     subgraph cluster_ice {
         graph [
@@ -205,8 +206,8 @@ digraph narpg {
                 rank = same
             ]
             lesser_illusion [label = "Lesser Illusion (25)"]
-            evanescent_slip [label ="Evanescent Slip (30/35)"]
-            devious_strike [label = "Devious Strike (35/40)"]
+            evanescent_slip [label ="Evanescent Slip (30/35)", color = cyan]
+            devious_strike [label = "Devious Strike (35/40)", color = cyan]
         }
     }
 
@@ -230,10 +231,31 @@ digraph narpg {
         graph [
             label = "NATURAL TRANSMUTATION"
         ]
+        
         botanical_alteration [label = "Botanical Alteration (25)"]
         transmute_brambles [label = "Transmute Brambles (30)"]
-        invoke_lightning [label = "Invoke Lightning (40)"]
         animate_carrat [label = "Animate Carrat (30)"]
+    }
+
+    // aeromancy techniques
+    subgraph cluster_air {
+        graph [
+            label = "AEROMANCY"
+        ]
+        subgraph air_1 {
+            graph [
+                rank = same
+            ]
+            invoke_gale [label = "Invoke Gale (30)"]
+            invoke_lightning [label = "Invoke Lightning (40)"]
+        }
+        subgraph air_2 {
+            graph [
+                rank = same
+            ]
+            invoke_gale_vortex [label = "Invoke Gale: Vortex (35)"]
+            invoke_gale_turbulence [label = "Invoke Gale: Turbulence (40)"]
+        }
     }
 
     // warp techniques
@@ -242,7 +264,7 @@ digraph narpg {
             label = "WARP"
         ]
         warp_step [label = "Warp Step (30)"]
-        phase_shift [label = "Phase Shift (20)"]
+        phase_shift [label = "Phase Shift (30)"]
         subgraph warp_1 {
             graph [
                 rank = same
@@ -250,7 +272,9 @@ digraph narpg {
             elusive_flash [label = "Elusive Flash (30)"]
             warp_swap [label = "Warp Swap (30/35)"]
         }
+        warp_infusion [label = "Warp Infusion (35)"]
         misdirection [label = "Misdirection (35/40)"]
+        rift_pocket [label = "Rift Pocket (35/40)"]
     }
 
     // pact techniques
@@ -270,6 +294,7 @@ digraph narpg {
     //     gravity_well [label = "Gravity Well"]
     //     rend_mind [label = "Rend Mind"]
     //     animate_brambelion [label = "Animate Brambelion"]
+    //     counterblow [label = "Counterblow (25)"]
     // }
 
     // edges
@@ -281,12 +306,12 @@ digraph narpg {
     guard -> preparation
     strike -> shielding_blow
     grapple -> barbaric_cover
-    strike -> counterblow
     strike -> discombobulate
     strike -> lunging_strike
     strike -> make_way
     strike -> pummel
     guard -> riposte
+    guard -> stalwart_defender
     strike -> steel_divergence
     strike -> sweep_kick
     strike -> whirlwind_strike
@@ -295,6 +320,7 @@ digraph narpg {
     strike -> puncture_round
     guard -> evasive_threat
     grapple -> tavern_tactics
+    strike -> brawler
     enhance -> arcane_bolt
     {enhance, arcane_bolt} -> wellspring_of_power
     {arcane_bolt, wellspring_of_power} -> flick_of_death
@@ -346,9 +372,17 @@ digraph narpg {
     enhance -> botanical_alteration
     botanical_alteration -> transmute_brambles
     botanical_alteration -> animate_carrat
-    enhance -> warp_step -> {phase_shift, elusive_flash, warp_swap}
+    enhance -> phase_shift -> warp_step -> {elusive_flash, warp_swap}
     warp_swap -> elusive_flash [dir = both, color = yellow]
-    {warp_swap, elusive_flash} -> misdirection
+    {warp_swap, misdirection} -> warp_infusion
+    warp_swap -> misdirection
+    warp_infusion -> rift_pocket
     focus -> celestial_pact
-    {botanical_alteration, seizing_shock} -> invoke_lightning
+    {botanical_alteration} -> invoke_gale
+    {invoke_gale, invoke_lightning} -> invoke_gale_vortex
+    invoke_gale -> invoke_gale_turbulence
+    seizing_shock -> invoke_lightning
+    invoke_gale_vortex -> invoke_gale_turbulence [dir = both, color = yellow]
+    invoke_gale -> invoke_lightning [dir = both, color = yellow]
+    invoke_gale_turbulence -> invoke_lightning [dir = both, color = yellow]
 }
