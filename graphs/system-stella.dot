@@ -138,11 +138,12 @@ digraph narpg {
         ]
         seizing_shock [label = "Seizing Shock (25)"]
         subgraph electric_1 {
+            lightning_tether [label = "Lightning Tether (25)"]
             graph [
                 rank = same
             ]
-            lightning_tether [label = "Lightning Tether (25)"]
             ride_the_lightning [label = "Ride the Lightning (30)"]
+            thunderbolt_stance [label = "Thunderbolt Stance (30)"]
         }
         adrenaline_spark [label = "Adrenaline Spark (35/40)", color = cyan]
     }
@@ -274,6 +275,7 @@ digraph narpg {
         }
         warp_infusion [label = "Warp Infusion (35)"]
         misdirection [label = "Misdirection (35/40)"]
+        warp_acclimation [label = "Warp Acclimation (40)", color = cyan]
         rift_pocket [label = "Rift Pocket (35/40)"]
     }
 
@@ -345,9 +347,9 @@ digraph narpg {
     {hellrazer_rekindle, hellrazer_ring} -> hellrazer_engulf
     ignition_blast -> heat_metal
     tri_elemental_conversion -> seizing_shock
-    seizing_shock -> {lightning_tether, ride_the_lightning}
-     ride_the_lightning -> lightning_tether [dir = both, color = yellow]
-    {lightning_tether, ride_the_lightning} -> adrenaline_spark
+    seizing_shock -> {lightning_tether, ride_the_lightning, thunderbolt_stance}
+     ride_the_lightning -> thunderbolt_stance [dir = both, color = yellow]
+    {thunderbolt_stance, ride_the_lightning} -> adrenaline_spark
     tri_elemental_conversion -> verglas_cascade
     verglas_cascade -> {frost_lane, glacial_series}
     frost_lane -> glacial_series [dir = both, color = yellow]
@@ -376,6 +378,7 @@ digraph narpg {
     warp_swap -> elusive_flash [dir = both, color = yellow]
     {warp_swap, misdirection} -> warp_infusion
     warp_swap -> misdirection
+    warp_infusion -> warp_acclimation
     warp_infusion -> rift_pocket
     focus -> celestial_pact
     {botanical_alteration} -> invoke_gale
