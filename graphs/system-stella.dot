@@ -55,6 +55,7 @@ digraph narpg {
         barbaric_cover [label = "Barbaric Cover (25)"]
         discombobulate [label = "Discombobulate (25)"]
         lunging_strike [label = "Lunging Strike (25)"]
+        inquisitive_eye [label = "Inquisitive Eye (25)"]
         make_way [label = "Make Way (25)"]
         pummel [label = "Pummel (25)"]
         riposte [label = "Riposte (25)"]
@@ -264,19 +265,17 @@ digraph narpg {
         graph [
             label = "WARP"
         ]
-        warp_step [label = "Warp Step (30)"]
         phase_shift [label = "Phase Shift (30)"]
-        subgraph warp_1 {
-            graph [
-                rank = same
-            ]
-            elusive_flash [label = "Elusive Flash (30)"]
-            warp_swap [label = "Warp Swap (30/35)"]
-        }
-        warp_infusion [label = "Warp Infusion (35)"]
-        misdirection [label = "Misdirection (35/40)"]
-        warp_acclimation [label = "Warp Acclimation (40)", color = cyan]
-        rift_pocket [label = "Rift Pocket (35/40)"]
+        banishment [label = "Banishment (35)"]
+        phase_dash [label = "Phase Dash (30)"]
+        warp_step [label = "Warp Step (30/35)"]
+        warp_acclimation [label = "Warp Acclimation (35)", color = cyan]
+        warp_gate [label = "Warp Gate (35/40)"]
+        elusive_flash [label = "Elusive Flash (40)"]
+        warp_swap [label = "Warp Swap (35/40)"]
+        misdirection [label = "Misdirection (40/45)"]
+        warp_infusion [label = "Warp Infusion (40)"]
+        rift_pocket [label = "Rift Pocket (40/45)"]
     }
 
     // pact techniques
@@ -309,6 +308,7 @@ digraph narpg {
     strike -> shielding_blow
     grapple -> barbaric_cover
     strike -> discombobulate
+    focus -> inquisitive_eye
     strike -> lunging_strike
     strike -> make_way
     strike -> pummel
@@ -374,11 +374,16 @@ digraph narpg {
     enhance -> botanical_alteration
     botanical_alteration -> transmute_brambles
     botanical_alteration -> animate_carrat
-    enhance -> phase_shift -> warp_step -> {elusive_flash, warp_swap}
-    warp_swap -> elusive_flash [dir = both, color = yellow]
-    {warp_swap, misdirection} -> warp_infusion
-    warp_swap -> misdirection
-    warp_infusion -> warp_acclimation
+    enhance -> phase_shift
+    phase_shift -> banishment
+    {banishment, warp_step} -> phase_dash
+    phase_shift -> warp_step
+    {warp_step, banishment} -> warp_acclimation
+    phase_dash -> warp_gate
+    warp_step -> elusive_flash
+    warp_step -> warp_swap
+    {warp_swap, elusive_flash} -> misdirection
+    {warp_acclimation, warp_swap, misdirection} -> warp_infusion
     warp_infusion -> rift_pocket
     focus -> celestial_pact
     {botanical_alteration} -> invoke_gale
