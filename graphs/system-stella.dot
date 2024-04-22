@@ -360,7 +360,7 @@ digraph narpg {
     // shadow techniques
     subgraph cluster_shadow {
         graph [
-            label = "SHADOWMANCY"
+            label = "SHADOMANCY"
         ]
         faible_feux [label = "Faible Feux (30)"]
         silhouette [label = "Silhouette (30/35)"]
@@ -517,7 +517,6 @@ digraph narpg {
     {banishment, warp_step} -> phase_dash -> warp_gate
     phase_shift -> warp_step -> {elusive_flash, warp_swap}
     {warp_step, banishment} -> warp_acclimation
-    phase_dash -> warp_gate
     {warp_swap, elusive_flash} -> misdirection
     {warp_acclimation, warp_swap, misdirection} -> warp_infusion -> rift_pocket
     focus -> celestial_pact

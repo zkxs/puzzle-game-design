@@ -89,7 +89,7 @@
 <g id="clust33" class="cluster">
 <title>cluster_shadow</title>
 <polygon fill="#1f1f1f" stroke="red" points="148.5,-2697 148.5,-2774 843,-2774 843,-2697 148.5,-2697"/>
-<text text-anchor="middle" x="495.75" y="-2756.7" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="14.00" fill="red">SHADOWMANCY</text>
+<text text-anchor="middle" x="495.75" y="-2756.7" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="14.00" fill="red">SHADOMANCY</text>
 </g>
 <g id="clust34" class="cluster">
 <title>cluster_weavespeak</title>
@@ -600,7 +600,7 @@
 <text text-anchor="middle" x="216.25" y="-2717.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Faible Feux (30)</text>
 </g>
 <!-- enhance&#45;&gt;faible_feux -->
-<g id="edge182" class="edge">
+<g id="edge181" class="edge">
 <title>enhance&#45;&gt;faible_feux</title>
 <path fill="none" stroke="#d9d9d9" d="M47.04,-3562.84C48.18,-3449.52 56.44,-2841.98 102.62,-2775 113.05,-2759.88 129.03,-2749.06 145.71,-2741.36"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="146.9,-2744.65 154.75,-2737.54 144.17,-2738.21 146.9,-2744.65"/>
@@ -738,7 +738,7 @@
 <text text-anchor="middle" x="216.25" y="-12.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Celestial Pact (35/40)</text>
 </g>
 <!-- focus&#45;&gt;celestial_pact -->
-<g id="edge173" class="edge">
+<g id="edge172" class="edge">
 <title>focus&#45;&gt;celestial_pact</title>
 <path fill="none" stroke="#d9d9d9" d="M47.89,-324.83C51.46,-267.33 65.31,-90.78 102.62,-50 109.96,-41.99 119.14,-35.92 129.07,-31.35"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="130.27,-34.64 138.25,-27.66 127.66,-28.14 130.27,-34.64"/>
@@ -756,7 +756,7 @@
 <text text-anchor="middle" x="216.25" y="-5492.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Telepathy (20)</text>
 </g>
 <!-- psionic&#45;&gt;telepathy -->
-<g id="edge192" class="edge">
+<g id="edge191" class="edge">
 <title>psionic&#45;&gt;telepathy</title>
 <path fill="none" stroke="#d9d9d9" d="M92,-5473.84C110.16,-5477.4 131.44,-5481.57 151.15,-5485.44"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="150.26,-5488.83 160.75,-5487.32 151.61,-5481.96 150.26,-5488.83"/>
@@ -768,7 +768,7 @@
 <text text-anchor="middle" x="216.25" y="-5427.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Lesser Telekinesis (20)</text>
 </g>
 <!-- psionic&#45;&gt;lesser_telekinesis -->
-<g id="edge193" class="edge">
+<g id="edge192" class="edge">
 <title>psionic&#45;&gt;lesser_telekinesis</title>
 <path fill="none" stroke="#d9d9d9" d="M92,-5456.42C101.47,-5454.62 111.79,-5452.66 122.29,-5450.67"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="122.61,-5454.17 131.79,-5448.86 121.31,-5447.29 122.61,-5454.17"/>
@@ -780,7 +780,7 @@
 <text text-anchor="middle" x="488.25" y="-519.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Insinuation (25/30)</text>
 </g>
 <!-- scornful_diversion&#45;&gt;insinuation -->
-<g id="edge185" class="edge">
+<g id="edge184" class="edge">
 <title>scornful_diversion&#45;&gt;insinuation</title>
 <path fill="none" stroke="#d9d9d9" d="M296.8,-548.28C332.59,-543.9 374.68,-538.76 410.17,-534.42"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="410.44,-537.91 419.95,-533.23 409.6,-530.97 410.44,-537.91"/>
@@ -792,7 +792,7 @@
 <text text-anchor="middle" x="488.25" y="-584.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Instill Concept (25/30)</text>
 </g>
 <!-- scornful_diversion&#45;&gt;instill_concept -->
-<g id="edge186" class="edge">
+<g id="edge185" class="edge">
 <title>scornful_diversion&#45;&gt;instill_concept</title>
 <path fill="none" stroke="#d9d9d9" d="M296.8,-567.43C328.8,-571.22 365.84,-575.61 398.7,-579.5"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="398.28,-582.98 408.62,-580.68 399.11,-576.03 398.28,-582.98"/>
@@ -1227,7 +1227,7 @@
 <text text-anchor="middle" x="758.75" y="-4204.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Invoke Lightning (40)</text>
 </g>
 <!-- seizing_shock&#45;&gt;invoke_lightning -->
-<g id="edge178" class="edge">
+<g id="edge177" class="edge">
 <title>seizing_shock&#45;&gt;invoke_lightning</title>
 <path fill="none" stroke="#d9d9d9" d="M510.4,-4374.52C541.45,-4347.86 601.76,-4297.9 657.75,-4262 673.71,-4251.77 691.91,-4241.83 708.38,-4233.43"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="709.65,-4236.71 717.01,-4229.09 706.51,-4230.45 709.65,-4236.71"/>
@@ -1729,7 +1729,7 @@
 <text text-anchor="middle" x="758.75" y="-4139.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Invoke Gale (30)</text>
 </g>
 <!-- botanical_alteration&#45;&gt;invoke_gale -->
-<g id="edge174" class="edge">
+<g id="edge173" class="edge">
 <title>botanical_alteration&#45;&gt;invoke_gale</title>
 <path fill="none" stroke="#d9d9d9" d="M228.65,-3982.32C247.83,-4011.35 289.5,-4067.25 340.75,-4093 451.96,-4148.88 600.12,-4153.38 686.61,-4150.16"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="686.52,-4153.66 696.36,-4149.74 686.23,-4146.67 686.52,-4153.66"/>
@@ -1805,7 +1805,7 @@
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="672.35,-4011.93 682.89,-4010.88 673.99,-4005.12 672.35,-4011.93"/>
 </g>
 <!-- invoke_gale&#45;&gt;invoke_lightning -->
-<g id="edge180" class="edge">
+<g id="edge179" class="edge">
 <title>invoke_gale&#45;&gt;invoke_lightning</title>
 <path fill="none" stroke="yellow" d="M758.75,-4174.4C758.75,-4176.39 758.75,-4178.38 758.75,-4180.37"/>
 <polygon fill="yellow" stroke="yellow" points="762.25,-4174.79 758.75,-4164.79 755.25,-4174.79 762.25,-4174.79"/>
@@ -1818,7 +1818,7 @@
 <text text-anchor="middle" x="981.62" y="-4204.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Invoke Gale: Vortex (35)</text>
 </g>
 <!-- invoke_gale&#45;&gt;invoke_gale_vortex -->
-<g id="edge175" class="edge">
+<g id="edge174" class="edge">
 <title>invoke_gale&#45;&gt;invoke_gale_vortex</title>
 <path fill="none" stroke="#d9d9d9" d="M819.52,-4162.59C846.6,-4170.56 878.86,-4180.05 907.38,-4188.44"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="906.07,-4191.71 916.65,-4191.17 908.05,-4184.99 906.07,-4191.71"/>
@@ -1830,26 +1830,26 @@
 <text text-anchor="middle" x="981.62" y="-4139.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Invoke Gale: Turbulence (40)</text>
 </g>
 <!-- invoke_gale&#45;&gt;invoke_gale_turbulence -->
-<g id="edge177" class="edge">
+<g id="edge176" class="edge">
 <title>invoke_gale&#45;&gt;invoke_gale_turbulence</title>
 <path fill="none" stroke="#d9d9d9" d="M819.52,-4145C835.24,-4145 852.71,-4145 870.18,-4145"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="870.13,-4148.5 880.13,-4145 870.13,-4141.5 870.13,-4148.5"/>
 </g>
 <!-- invoke_lightning&#45;&gt;invoke_gale_vortex -->
-<g id="edge176" class="edge">
+<g id="edge175" class="edge">
 <title>invoke_lightning&#45;&gt;invoke_gale_vortex</title>
 <path fill="none" stroke="#d9d9d9" d="M832.99,-4210C849.68,-4210 867.65,-4210 885.11,-4210"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="884.98,-4213.5 894.98,-4210 884.98,-4206.5 884.98,-4213.5"/>
 </g>
 <!-- invoke_gale_vortex&#45;&gt;invoke_gale_turbulence -->
-<g id="edge179" class="edge">
+<g id="edge178" class="edge">
 <title>invoke_gale_vortex&#45;&gt;invoke_gale_turbulence</title>
 <path fill="none" stroke="yellow" d="M981.62,-4180.37C981.62,-4178.38 981.62,-4176.39 981.62,-4174.4"/>
 <polygon fill="yellow" stroke="yellow" points="978.13,-4180.24 981.63,-4190.24 985.13,-4180.24 978.13,-4180.24"/>
 <polygon fill="yellow" stroke="yellow" points="985.13,-4174.79 981.63,-4164.79 978.13,-4174.79 985.13,-4174.79"/>
 </g>
 <!-- invoke_gale_turbulence&#45;&gt;invoke_lightning -->
-<g id="edge181" class="edge">
+<g id="edge180" class="edge">
 <title>invoke_gale_turbulence&#45;&gt;invoke_lightning</title>
 <path fill="none" stroke="yellow" d="M906.72,-4166.75C883.03,-4173.72 856.82,-4181.43 833.16,-4188.4"/>
 <polygon fill="yellow" stroke="yellow" points="907.71,-4170.11 916.31,-4163.93 905.73,-4163.39 907.71,-4170.11"/>
@@ -1936,14 +1936,8 @@
 <!-- phase_dash&#45;&gt;warp_gate -->
 <g id="edge160" class="edge">
 <title>phase_dash&#45;&gt;warp_gate</title>
-<path fill="none" stroke="#d9d9d9" d="M820.4,-2863.51C845.76,-2862.41 875.56,-2862.21 902.54,-2862.91"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="902.29,-2866.4 912.39,-2863.22 902.51,-2859.41 902.29,-2866.4"/>
-</g>
-<!-- phase_dash&#45;&gt;warp_gate -->
-<g id="edge166" class="edge">
-<title>phase_dash&#45;&gt;warp_gate</title>
-<path fill="none" stroke="#d9d9d9" d="M820.4,-2883.17C845.76,-2884.35 875.56,-2884.56 902.54,-2883.81"/>
-<polygon fill="#d9d9d9" stroke="#d9d9d9" points="902.51,-2887.31 912.39,-2883.48 902.28,-2880.32 902.51,-2887.31"/>
+<path fill="none" stroke="#d9d9d9" d="M820.4,-2873C845.76,-2873 875.56,-2873 902.54,-2873"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="902.39,-2876.5 912.39,-2873 902.39,-2869.5 902.39,-2876.5"/>
 </g>
 <!-- warp_step&#45;&gt;phase_dash -->
 <g id="edge159" class="edge">
@@ -1988,7 +1982,7 @@
 <text text-anchor="middle" x="1197" y="-3001.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Warp Infusion (40)</text>
 </g>
 <!-- warp_acclimation&#45;&gt;warp_infusion -->
-<g id="edge169" class="edge">
+<g id="edge168" class="edge">
 <title>warp_acclimation&#45;&gt;warp_infusion</title>
 <path fill="none" stroke="#d9d9d9" d="M837.32,-2942.74C904.54,-2947.79 1004.14,-2957.53 1089.5,-2975 1103.01,-2977.76 1117.27,-2981.48 1130.8,-2985.39"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="1129.45,-2988.64 1140.03,-2988.13 1131.44,-2981.93 1129.45,-2988.64"/>
@@ -2000,25 +1994,25 @@
 <text text-anchor="middle" x="981.62" y="-3001.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Misdirection (40/45)</text>
 </g>
 <!-- elusive_flash&#45;&gt;misdirection -->
-<g id="edge167" class="edge">
+<g id="edge166" class="edge">
 <title>elusive_flash&#45;&gt;misdirection</title>
 <path fill="none" stroke="#d9d9d9" d="M823.64,-3004.16C847.28,-3004.59 874.41,-3005.08 899.39,-3005.53"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="899.12,-3009.02 909.18,-3005.71 899.25,-3002.03 899.12,-3009.02"/>
 </g>
 <!-- warp_swap&#45;&gt;misdirection -->
-<g id="edge168" class="edge">
+<g id="edge167" class="edge">
 <title>warp_swap&#45;&gt;misdirection</title>
 <path fill="none" stroke="#d9d9d9" d="M826.62,-3049.53C850.73,-3042.87 878.14,-3035.3 903.09,-3028.41"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="903.82,-3031.84 912.52,-3025.81 901.95,-3025.1 903.82,-3031.84"/>
 </g>
 <!-- warp_swap&#45;&gt;warp_infusion -->
-<g id="edge170" class="edge">
+<g id="edge169" class="edge">
 <title>warp_swap&#45;&gt;warp_infusion</title>
 <path fill="none" stroke="#d9d9d9" d="M828.55,-3066.47C895.67,-3063.97 1000.4,-3057.38 1089.5,-3040 1103.96,-3037.18 1119.23,-3033.12 1133.56,-3028.81"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="1134.34,-3032.23 1142.86,-3025.93 1132.27,-3025.54 1134.34,-3032.23"/>
 </g>
 <!-- misdirection&#45;&gt;warp_infusion -->
-<g id="edge171" class="edge">
+<g id="edge170" class="edge">
 <title>misdirection&#45;&gt;warp_infusion</title>
 <path fill="none" stroke="#d9d9d9" d="M1052.49,-3007C1073.61,-3007 1096.93,-3007 1118.51,-3007"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="1118.45,-3010.5 1128.45,-3007 1118.45,-3003.5 1118.45,-3010.5"/>
@@ -2030,7 +2024,7 @@
 <text text-anchor="middle" x="1385.38" y="-3001.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Rift Pocket (40/45)</text>
 </g>
 <!-- warp_infusion&#45;&gt;rift_pocket -->
-<g id="edge172" class="edge">
+<g id="edge171" class="edge">
 <title>warp_infusion&#45;&gt;rift_pocket</title>
 <path fill="none" stroke="#d9d9d9" d="M1264.23,-3007C1277.86,-3007 1292.32,-3007 1306.31,-3007"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="1305.9,-3010.5 1315.9,-3007 1305.9,-3003.5 1305.9,-3010.5"/>
@@ -2042,7 +2036,7 @@
 <text text-anchor="middle" x="488.25" y="-2717.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Silhouette (30/35)</text>
 </g>
 <!-- faible_feux&#45;&gt;silhouette -->
-<g id="edge183" class="edge">
+<g id="edge182" class="edge">
 <title>faible_feux&#45;&gt;silhouette</title>
 <path fill="none" stroke="#d9d9d9" d="M276.17,-2723C316.19,-2723 369.47,-2723 412.48,-2723"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="412.23,-2726.5 422.23,-2723 412.23,-2719.5 412.23,-2726.5"/>
@@ -2054,13 +2048,13 @@
 <text text-anchor="middle" x="758.75" y="-2717.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Lumière Nulle (35/40)</text>
 </g>
 <!-- silhouette&#45;&gt;lumiere_nulle -->
-<g id="edge184" class="edge">
+<g id="edge183" class="edge">
 <title>silhouette&#45;&gt;lumiere_nulle</title>
 <path fill="none" stroke="#d9d9d9" d="M552.88,-2723C588.17,-2723 632.55,-2723 670.98,-2723"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="670.66,-2726.5 680.66,-2723 670.66,-2719.5 670.66,-2726.5"/>
 </g>
 <!-- insinuation&#45;&gt;instill_concept -->
-<g id="edge187" class="edge">
+<g id="edge186" class="edge">
 <title>insinuation&#45;&gt;instill_concept</title>
 <path fill="none" stroke="yellow" d="M488.25,-554.4C488.25,-556.39 488.25,-558.38 488.25,-560.37"/>
 <polygon fill="yellow" stroke="yellow" points="491.75,-554.79 488.25,-544.79 484.75,-554.79 491.75,-554.79"/>
@@ -2073,7 +2067,7 @@
 <text text-anchor="middle" x="758.75" y="-519.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Mocking Tongue (35)</text>
 </g>
 <!-- insinuation&#45;&gt;mocking_tongue -->
-<g id="edge188" class="edge">
+<g id="edge187" class="edge">
 <title>insinuation&#45;&gt;mocking_tongue</title>
 <path fill="none" stroke="#d9d9d9" d="M554.93,-525C590.26,-525 634.24,-525 672.21,-525"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="671.75,-528.5 681.75,-525 671.75,-521.5 671.75,-528.5"/>
@@ -2085,7 +2079,7 @@
 <text text-anchor="middle" x="758.75" y="-584.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Bedeviling Challenge (30)</text>
 </g>
 <!-- instill_concept&#45;&gt;bedeviling_challenge -->
-<g id="edge189" class="edge">
+<g id="edge188" class="edge">
 <title>instill_concept&#45;&gt;bedeviling_challenge</title>
 <path fill="none" stroke="#d9d9d9" d="M566.19,-590C594.63,-590 627.3,-590 657.51,-590"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="657.44,-593.5 667.44,-590 657.44,-586.5 657.44,-593.5"/>
@@ -2097,13 +2091,13 @@
 <text text-anchor="middle" x="758.75" y="-649.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Terrorize (35)</text>
 </g>
 <!-- instill_concept&#45;&gt;terrorize -->
-<g id="edge190" class="edge">
+<g id="edge189" class="edge">
 <title>instill_concept&#45;&gt;terrorize</title>
 <path fill="none" stroke="#d9d9d9" d="M565.47,-608.45C606.82,-618.46 657.26,-630.67 696.1,-640.08"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="695.23,-643.47 705.77,-642.42 696.88,-636.66 695.23,-643.47"/>
 </g>
 <!-- bedeviling_challenge&#45;&gt;terrorize -->
-<g id="edge191" class="edge">
+<g id="edge190" class="edge">
 <title>bedeviling_challenge&#45;&gt;terrorize</title>
 <path fill="none" stroke="yellow" d="M758.75,-619.4C758.75,-621.39 758.75,-623.38 758.75,-625.37"/>
 <polygon fill="yellow" stroke="yellow" points="762.25,-619.79 758.75,-609.79 755.25,-619.79 762.25,-619.79"/>
@@ -2116,7 +2110,7 @@
 <text text-anchor="middle" x="488.25" y="-5492.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Rend Mind (25)</text>
 </g>
 <!-- telepathy&#45;&gt;rend_mind -->
-<g id="edge194" class="edge">
+<g id="edge193" class="edge">
 <title>telepathy&#45;&gt;rend_mind</title>
 <path fill="none" stroke="#d9d9d9" d="M270.27,-5498C313.03,-5498 373.44,-5498 419.67,-5498"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="419.58,-5501.5 429.58,-5498 419.58,-5494.5 419.58,-5501.5"/>
@@ -2128,7 +2122,7 @@
 <text text-anchor="middle" x="488.25" y="-5427.95" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#e5e5e5">Psionic Shove (25)</text>
 </g>
 <!-- lesser_telekinesis&#45;&gt;psionic_shove -->
-<g id="edge195" class="edge">
+<g id="edge194" class="edge">
 <title>lesser_telekinesis&#45;&gt;psionic_shove</title>
 <path fill="none" stroke="#d9d9d9" d="M299.36,-5433C334.07,-5433 374.32,-5433 408.64,-5433"/>
 <polygon fill="#d9d9d9" stroke="#d9d9d9" points="408.52,-5436.5 418.52,-5433 408.52,-5429.5 408.52,-5436.5"/>
