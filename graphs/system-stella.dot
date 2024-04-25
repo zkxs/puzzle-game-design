@@ -3,7 +3,7 @@ digraph narpg {
         layout = dot // the "dot" layout engine is the correct choice for directed graphs
         rankdir = LR // TB top-to-bottom
         nodesep = 0.4 // padding between nodes in the same rank
-        ranksep = 0.3 // padding between nodes between rank
+        ranksep = 0.1 // padding between nodes between rank
         bgcolor = gray12 // graph background color
         pencolor = red // cluster border color
         fontcolor = red // cluster font color
@@ -97,14 +97,9 @@ digraph narpg {
             devious_strike [label = "Devious Strike (35)"]
         }
 
-        subgraph cluster_martial_2 {
-            graph [
-                style = invis
-                label = ""
-            ]
-            tavern_tactics [label = "Tavern Tactics (30)", color = green]
-            brawling_stance [label = "Brawling Stance (30)", color = green]
-        }
+        tavern_tactics [label = "Tavern Tactics (30)", color = green]
+        brawling_stance [label = "Brawling Stance (30)", color = green]
+        inertia_mastery [label = "Inertia Mastery (40)", color = cyan]
     }
 
     // pure arcana techniques
@@ -239,6 +234,7 @@ digraph narpg {
         echo_slash [label = "Echo Slash (30)"]
         pulse_reversal [label = "Pulse Reversal (30)"]
         reflect_missile [label = "Reflect Missile (25/30)"]
+        pulse_wave [label = "Pulse Wave (40)"]
     }
 
     // conjuration techniques
@@ -438,8 +434,8 @@ digraph narpg {
     strike -> sweep_kick
     strike -> twirl
     strike -> whirlwind_strike
-    strike -> brawling_stance
-    tavern_tactics -> brawling_stance [constraint = false] // awful long edge from strike if I don't do this
+    strike -> brawling_stance [weight = 100] // awful long edge
+    tavern_tactics -> brawling_stance
     focus -> deadshot
     guard -> escape_artist
     strike -> intercept
@@ -451,6 +447,8 @@ digraph narpg {
     grapple -> tavern_tactics
     strike -> devious_strike
     deadshot -> devious_strike [dir = both, constraint = false, color = yellow]
+    strike -> inertia_mastery [weight = 100] // awful long edge
+    tavern_tactics -> inertia_mastery
     enhance -> arcane_bolt
     {enhance, arcane_bolt} -> wellspring_of_power
     {arcane_bolt, wellspring_of_power} -> flick_of_death
@@ -498,6 +496,7 @@ digraph narpg {
     {pulse_strike, propulsion_assault} -> echo_slash
     {propulsion_assault, pulse_strike} -> pulse_reversal
     {ricochet_guard, pulse_strike} -> reflect_missile
+    pulse_strike -> pulse_wave
     enhance -> lesser_conjuration
     lesser_conjuration -> {conjure_grease, conjure_wall}
     conjure_grease -> conjure_wall [dir = both, color = yellow]
