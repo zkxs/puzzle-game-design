@@ -3,7 +3,7 @@ layout: post
 title: "DRAFT: The Design of Puzzles"
 date: 2022-03-06 00:39:33 -0600
 tags: [adventure puzzle games]
-author: Michael Ripley
+author: zkxs
 ---
 
 I've already talked about [the design of adventure puzzle games]({{ site.baseurl }}{% post_url 2022-03-02-the-structure-of-adventure-puzzle-games %}), so now lets take a deeper dive into individual puzzles.

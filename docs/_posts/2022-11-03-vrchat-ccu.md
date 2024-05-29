@@ -4,7 +4,7 @@ title: "Effect of Anti-Cheat on VRChat Concurrent Users"
 date: 2022-11-03 02:08:33 -0500
 modified_date: 2023-02-21 15:18:30 -0600
 tags: [vrchat]
-author: Michael Ripley
+author: zkxs
 ---
 
 It's presently November 3rd, 2022. Three months ago on July 25th, 2022 there was a significant event in the VRChat community: the [Security Update's](https://hello.vrchat.com/blog/vrchat-security-update) introduction of Easy Anti-Cheat (EAC). It was, and still is, very controversial within the VRChat playerbase. However, this post is not about my opinion of EAC: it's about the effect of EAC on VRChat's concurrent users. I believe that three months is long enough to give the numbers time to settle down, and now it's time to do some analysis.

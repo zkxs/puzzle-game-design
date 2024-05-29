@@ -3,6 +3,7 @@ layout: post
 title: "DRAFT: Client IDs"
 date: 2023-02-25 02:44:43 -0600
 tags: [security]
+author: zkxs
 ---
 
 It's time for a short story from Space Station 13, a very niche game I've played quite a bit:

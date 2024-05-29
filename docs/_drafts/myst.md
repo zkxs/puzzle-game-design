@@ -3,6 +3,7 @@ layout: post
 title: "DRAFT: Myst"
 date: 2022-03-02 10:21:52 -0600
 tags: [adventure puzzle games, myst]
+author: zkxs
 ---
 
 Some quick and dirty Myst notes.

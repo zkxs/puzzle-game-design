@@ -1,4 +1,4 @@
-# Mich's Mystery Blog
+# zkxs' Blog
 This repo houses the source for my [blog](https://www.zkxs.dev/).
 
 ## Running locally

@@ -4,7 +4,7 @@ title: "The Structure of Adventure Puzzle Games"
 date: 2022-03-02 10:21:52 -0600
 modified_date: 2023-02-21 14:21:50 -0600
 tags: [adventure puzzle games, graphing, myst, riven, outer wilds]
-author: Michael Ripley
+author: zkxs
 ---
 
 Is "adventure puzzle game" the right name for this subgenre? I'm not sure, but I love it. I'm talking about the type of game where you're cast into a new, immersive world. The rules of this world aren't quite like our own. You have to figure out what's going on and how to manipulate the world to progress. Puzzles must be solved, new areas must be explored.

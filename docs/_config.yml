@@ -5,9 +5,9 @@ minima:
     github: zkxs
   # Minima date format. refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
   date_format: "%Y-%m-%d"
-title: MichBlog
+title: zkxsBlog
 author:
-  name: Michael Ripley
+  name: zkxs
   email: "zkxs00@gmail.com"
 header_pages:
   - tags.html

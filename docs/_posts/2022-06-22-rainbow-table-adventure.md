@@ -4,7 +4,7 @@ title: "Rainbow Table Adventure"
 date: 2022-06-22 14:39:42 -0500
 modified_date: 2022-07-09 15:04:25 -0500
 tags: [security, neos]
-author: Michael Ripley
+author: zkxs
 ---
 
 This is a story about an adventure I took into video game reverse engineering, Discord user IDs, and rainbow tables. If you don't know what a rainbow table is, don't worry. All the technical terminology in this post will be explained as we go, and I'll include Wikipedia links in case you want more detail than my brief definitions.

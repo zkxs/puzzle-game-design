@@ -3,6 +3,7 @@ layout: post
 title: "DRAFT: Outer Wilds"
 date: 2022-03-09 07:01:37 -0600
 tags: [adventure puzzle games, outer wilds]
+author: zkxs
 ---
 
 Some quick and dirty outer wilds notes.
