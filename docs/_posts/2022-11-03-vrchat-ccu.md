@@ -3,7 +3,7 @@ layout: post
 title: "Effect of Anti-Cheat on VRChat Concurrent Users"
 date: 2022-11-03 02:08:33 -0500
 modified_date: 2023-02-21 15:18:30 -0600
-tags: [vrchat]
+tags: [vr, vrchat]
 author: zkxs
 ---
 
