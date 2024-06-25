@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
+Disallow: /vr/
+Disallow: /vrc/
+Disallow: /svg/
+Disallow: /js/
 
 Sitemap: https://www.zkxs.dev/sitemap.xml

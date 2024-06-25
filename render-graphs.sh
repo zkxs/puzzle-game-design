@@ -9,6 +9,7 @@ function generate {
 layout: svg
 title: $FILENAME.svg
 svg: $FILENAME
+sitemap: false
 ---" > "docs/svg/$FILENAME.html"
     echo "  Generating PNG $1..."
     inkscape $PNG_OPTIONS -o "docs/img/$FILENAME.png" "docs/svg/$FILENAME.svg"
