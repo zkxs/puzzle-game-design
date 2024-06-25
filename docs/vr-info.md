@@ -44,6 +44,6 @@ This page lists my specific hardware and software setup for running VR. This is 
 - [VRCFaceTracking](https://docs.vrcft.io/) for face tracking
 - [OpenVR Space Calibrator (hyblocker fork)](https://github.com/hyblocker/OpenVR-SpaceCalibrator) for Meta/SteamVR playspace alignment
 - [OVR Lighthouse Manager](https://github.com/kurotu/OVR-Lighthouse-Manager) for base station power management
-- [OpenVR Advanced Settings](https://store.steampowered.com/app/1009850/OVR_Advanced_Settings/) for adjusting playspace offsets. This is paid on Steam but free on [GitHub](https://github.com/OpenVR-Advanced-Settings/OpenVR-AdvancedSettings), so you're essentially paying to get auto updates and support the Developers.
+- [OpenVR Advanced Settings](https://store.steampowered.com/app/1009850/OVR_Advanced_Settings/) for adjusting playspace offsets. This is paid on Steam but free on [GitHub](https://github.com/OpenVR-Advanced-Settings/OpenVR-AdvancedSettings), so you're essentially paying to get auto updates and support the developers.
 - [OVR Toolkit](https://store.steampowered.com/app/1068820/OVR_Toolkit/) for desktop overlay
 - [fpsVR](https://store.steampowered.com/app/908520/fpsVR/) for performance monitoring
