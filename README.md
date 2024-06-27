@@ -36,4 +36,5 @@ bundle exec jekyll serve --drafts
 ## Credits
 - Uses [Graphviz](https://graphviz.org/) for graph layout and rendering - Common Public License Version 1.0
 - Uses [svg-pan-zoom](https://github.com/bumbu/svg-pan-zoom) for SVG decoration - BSD-2-Clause License
+- Uses [hammer.js](https://github.com/hammerjs/hammer.js) for touch support on SVG images - MIT License
 - Uses the [minima](https://github.com/jekyll/minima) theme for Jekyll - MIT License
