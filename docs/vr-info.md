@@ -14,11 +14,11 @@ This page lists my specific hardware and software setup for running VR. This is 
 | Part Type   | Part Model                         | Noteworthy Specs                      |
 | ----------- | ---------------------------------- | ------------------------------------- |
 | CPU         | AMD Ryzen 7 7800X3D                | 8 core 16 thread 4.2 GHz (5GHz boost) |
-| GPU         | Nvidia RTX 3090 FE                 | GDDR6X 24GB                           |
+| GPU         | Nvidia RTX 4090 (Gigabyte OC)      | GDDR6X 24GB                           |
 | RAM         | G-Skill F5-6400J3239F24GX2-RS5K    | DDR5 48GB (2x24GB) 5200 Mhz           |
 | SSD         | Western Digital WDBRPG0010BNC-WRSN | 1TB, 3470 MB/s read, 3000 MB/s write  |
 | Motherboard | ASRock X670E PG Lightning          |                                       |
-| PSU         | Corsair RM1000x                    | 1000W                                 |
+| PSU         | EVGA 1300 GT                       | 1300W                                 |
 | CPU Cooler  | Thermalright Phantom Spirit 120    |                                       |
 
 ### VR
